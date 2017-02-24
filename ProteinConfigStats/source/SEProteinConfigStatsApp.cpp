@@ -31,7 +31,7 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 
 	for (int s = 1; s < step + 1; s++){
 
-		for (int offset = 0; offset < nodeIndexer.size() - numberOfResidues*s; offset++){
+		for (int offset = 0; offset <= nodeIndexer.size() - numberOfResidues*s; offset++){
 
 			std::string n = (wpath + "\\step" + QString::number(s).toStdString() + "_offset" + QString::number(offset).toStdString() + ".txt");
 			ofstream fichier(n, ios::out | ios::trunc);
