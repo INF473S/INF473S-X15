@@ -24,8 +24,8 @@ void SEProteinConfigStatsAppGUI::loadSettings( SBGSettings *settings ) {
 	
 	ui.spinBox_NR->setValue(settings->loadIntValue("numberOfResidues", 10));
 	ui.spinBox_S->setValue(settings->loadIntValue("step", 1));
-	ui.lineEdit->setText(settings->loadQStringValue("path"));
-
+	ui.lineEdit_w->setText(settings->loadQStringValue("w_path"));
+	ui.lineEdit_r->setText(settings->loadQStringValue("r_path"));
 }
 
 void SEProteinConfigStatsAppGUI::saveSettings( SBGSettings *settings ) {
@@ -36,8 +36,8 @@ void SEProteinConfigStatsAppGUI::saveSettings( SBGSettings *settings ) {
 
 	settings->saveValue("numberOfResidues", ui.spinBox_NR->value());
 	settings->saveValue("step", ui.spinBox_S->value());
-	settings->saveValue("path", ui.lineEdit->text());
-
+	settings->saveValue("r_path", ui.lineEdit_r->text());
+	settings->saveValue("w_path", ui.lineEdit_w->text());
 }
 
 SBCContainerUUID SEProteinConfigStatsAppGUI::getUUID() const { return SBCContainerUUID( "EB7333E9-4BFE-2CE1-1EFA-674BD48BFE02" );}
@@ -69,10 +69,15 @@ int SEProteinConfigStatsAppGUI::getFormat() const {
 }
 
 void SEProteinConfigStatsAppGUI::onAnalyse(){
-	getApp()->analyse(ui.spinBox_NR->value(), ui.spinBox_S->value(), ui.lineEdit->text().toStdString());
+	getApp()->analyse(ui.spinBox_NR->value(), ui.spinBox_S->value(), ui.lineEdit_w->text().toStdString(), ui.lineEdit_r->text().toStdString());
 }
 
-void SEProteinConfigStatsAppGUI::onBrowse(){
+void SEProteinConfigStatsAppGUI::on_w_Browse(){
 	QString dossier = QFileDialog::getExistingDirectory(this);
-	ui.lineEdit->setText(dossier);
+	ui.lineEdit_w->setText(dossier);
+}
+
+void SEProteinConfigStatsAppGUI::on_r_Browse(){
+	QString dossier = QFileDialog::getExistingDirectory(this);
+	ui.lineEdit_r->setText(dossier);
 }

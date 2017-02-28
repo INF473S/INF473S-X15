@@ -29,7 +29,7 @@ public :
 
 	//@}
 
-	void analyse(int numberOfResidues, int step, std::string wpath);
+	void analyse(int numberOfResidues, int step, std::string wpath, std::string rpath);
 
 };
 

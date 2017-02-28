@@ -1,6 +1,5 @@
 #pragma once
 
-
 #include "SBGApp.hpp" 
 #include "ui_SEProteinConfigStatsAppGUI.h"
 
@@ -53,7 +52,8 @@ public slots:
 
 	// SAMSON Element generator pro tip: add slots here to interact with your app
 void onAnalyse();
-void onBrowse();
+void on_w_Browse();
+void on_r_Browse();
 private:
 
 	Ui::SEProteinConfigStatsAppGUIClass									ui;

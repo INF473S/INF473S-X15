@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>300</width>
-    <height>183</height>
+    <height>182</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -65,10 +65,38 @@
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout_3">
      <item>
-      <widget class="QLineEdit" name="lineEdit"/>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Reading path</string>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_B">
+      <widget class="QLineEdit" name="lineEdit_r"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="r_pushButton">
+       <property name="text">
+        <string>Browse...</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Writing path</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_w"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="w_pushButton">
        <property name="text">
         <string>Browse...</string>
        </property>
@@ -104,14 +132,30 @@
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_B</sender>
+   <sender>r_pushButton</sender>
    <signal>clicked()</signal>
    <receiver>SEProteinConfigStatsAppGUIClass</receiver>
-   <slot>onBrowse()</slot>
+   <slot>on_r_Browse()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>289</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>149</x>
+     <y>91</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>w_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>SEProteinConfigStatsAppGUIClass</receiver>
+   <slot>on_w_Browse()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>252</x>
-     <y>124</y>
+     <y>130</y>
     </hint>
     <hint type="destinationlabel">
      <x>149</x>
@@ -122,6 +166,7 @@
  </connections>
  <slots>
   <slot>onAnalyse()</slot>
-  <slot>onBrowse()</slot>
+  <slot>on_r_Browse()</slot>
+  <slot>on_w_Browse()</slot>
  </slots>
 </ui>

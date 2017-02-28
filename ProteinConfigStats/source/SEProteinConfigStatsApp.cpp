@@ -7,6 +7,7 @@
 #include <fstream>
 #include "SBResidue.hpp"
 #include "SBBackbone.hpp"
+#include "SBDocument.hpp"
 
 SEProteinConfigStatsApp::SEProteinConfigStatsApp() {
 
@@ -24,45 +25,70 @@ SEProteinConfigStatsApp::~SEProteinConfigStatsApp() {
 
 SEProteinConfigStatsAppGUI* SEProteinConfigStatsApp::getGUI() const { return static_cast<SEProteinConfigStatsAppGUI*>(SBDApp::getGUI()); }
 
-void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::string wpath){
+void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::string wpath, std::string rpath){
 
-	SBNodeIndexer nodeIndexer;
-	SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Residue));
+	for (int num = 1; num < 2; num++){
 
-	for (int s = 1; s < step + 1; s++){
+		std::string proteinName = (QString::number(num).toStdString() + "YRF");
+		std::string fileName = (rpath + "\\" + proteinName + ".pdb");
 
-		for (int offset = 0; offset <= nodeIndexer.size() - numberOfResidues*s; offset++){
+		// creation of a new layer
 
-			std::string n = (wpath + "\\step" + QString::number(s).toStdString() + "_offset" + QString::number(offset).toStdString() + ".txt");
-			ofstream fichier(n, ios::out | ios::trunc);
+		SBPointer<SBLayer> newLayer = new SBDDocumentLayer();
+		newLayer->create(); // on reparlera de la creation de noeuds
+		// create parameters for the pdb importer
 
-			fichier << "step " << s << endl;
-			fichier << "offset " << offset << endl;
+		SBList<std::string>* parameters = new SBList<std::string>;
+		parameters->push_back("1"); parameters->push_back("1");
+		parameters->push_back("0"); parameters->push_back("1");
+		parameters->push_back("0"); parameters->push_back("0"); parameters->push_back("0");
 
-			for (int A1 = offset; A1 < offset + numberOfResidues*s; A1 = A1 + s){
-				fichier << static_cast<SBResidue*>(nodeIndexer[A1])->getResidueType() << " ";
-			}
+		// import in created layer
+		SAMSON::importFromFile(fileName, parameters, newLayer());
 
-			fichier << endl; 
+		SBNodeIndexer nodeIndexer;
+		newLayer->getNodes(nodeIndexer, SBNode::IsType(SBNode::Residue));
 
-			for (int A1 = offset; A1 < offset + numberOfResidues*s; A1 = A1 + s){
-				SBAtom* carb1 = static_cast<SBResidue*>(nodeIndexer[A1])->getBackbone()->getAlphaCarbon();
+		QString title = "Information";
+		QString text = QString::number(nodeIndexer.size());
+		SAMSON::informUser(title, text);
 
-				SBPosition3 pos1 = carb1->getPosition();
+		for (int s = 1; s < step + 1; s++){
 
-				for (int A2 = A1 + s; A2 < offset + numberOfResidues*s; A2 = A2 + s){
-					SBAtom* carb2 = static_cast<SBResidue*>(nodeIndexer[A2])->getBackbone()->getAlphaCarbon();
+			for (int offset = 0; offset <= nodeIndexer.size() - numberOfResidues*s; offset++){
 
-					SBPosition3 pos2 = carb2->getPosition();
+				std::string n = (wpath + "\\" + proteinName + "_step" + QString::number(s).toStdString() + "_offset" + QString::number(offset).toStdString() + ".txt");
+				ofstream fichier(n, ios::out | ios::trunc);
 
-					SBQuantity::angstrom distance = (pos1 - pos2).norm();
-					fichier << distance.getValue() << " ";
+				fichier << "protein " << proteinName << endl;
+				fichier << "step " << s << endl;
+				fichier << "offset " << offset << endl;
+
+				for (int A1 = offset; A1 < offset + numberOfResidues*s; A1 = A1 + s){
+					fichier << static_cast<SBResidue*>(nodeIndexer[A1])->getResidueType() << " ";
 				}
-				fichier << endl;
-			}
-			fichier.close();
-		}
 
+				fichier << endl;
+
+				for (int A1 = offset; A1 < offset + numberOfResidues*s; A1 = A1 + s){
+					SBAtom* carb1 = static_cast<SBResidue*>(nodeIndexer[A1])->getBackbone()->getAlphaCarbon();
+
+					SBPosition3 pos1 = carb1->getPosition();
+
+					for (int A2 = A1 + s; A2 < offset + numberOfResidues*s; A2 = A2 + s){
+						SBAtom* carb2 = static_cast<SBResidue*>(nodeIndexer[A2])->getBackbone()->getAlphaCarbon();
+
+						SBPosition3 pos2 = carb2->getPosition();
+
+						SBQuantity::angstrom distance = (pos1 - pos2).norm();
+						fichier << distance.getValue() << " ";
+					}
+					fichier << endl;
+				}
+				fichier.close();
+			}
+		}
+		delete newLayer();
 	}
 
 	QString title = "Information";
