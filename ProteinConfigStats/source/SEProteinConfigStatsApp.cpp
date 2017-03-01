@@ -34,24 +34,24 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 
 		// creation of a new layer
 
-		SBPointer<SBLayer> newLayer = new SBDDocumentLayer();
+		SBLayer* newLayer = new SBDDocumentLayer();
 		newLayer->create(); // on reparlera de la creation de noeuds
 		// create parameters for the pdb importer
 
 		SBList<std::string>* parameters = new SBList<std::string>;
-		parameters->push_back("1"); parameters->push_back("1");
+		parameters->push_back("1"); parameters->push_back("0");
 		parameters->push_back("0"); parameters->push_back("1");
-		parameters->push_back("0"); parameters->push_back("0"); parameters->push_back("0");
+		parameters->push_back("1"); parameters->push_back("0"); parameters->push_back("0");
 
 		// import in created layer
-		SAMSON::importFromFile(fileName, parameters, newLayer());
+		SAMSON::importFromFile(fileName, parameters, newLayer);
 
 		SBNodeIndexer nodeIndexer;
 		newLayer->getNodes(nodeIndexer, SBNode::IsType(SBNode::Residue));
 
-		QString title = "Information";
-		QString text = QString::number(nodeIndexer.size());
-		SAMSON::informUser(title, text);
+		//QString title = "Information";
+		//QString text = QString::number(nodeIndexer.size());
+		//SAMSON::informUser(title, text);
 
 		for (int s = 1; s < step + 1; s++){
 
@@ -88,7 +88,7 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 				fichier.close();
 			}
 		}
-		delete newLayer();
+
 	}
 
 	QString title = "Information";
