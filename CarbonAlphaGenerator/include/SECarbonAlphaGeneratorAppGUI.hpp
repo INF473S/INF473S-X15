@@ -1,15 +1,16 @@
 #pragma once
 
-#include "SBGApp.hpp" 
-#include "ui_SEProteinConfigStatsAppGUI.h"
 
-class SEProteinConfigStatsApp;
+#include "SBGApp.hpp" 
+#include "ui_SECarbonAlphaGeneratorAppGUI.h"
+
+class SECarbonAlphaGeneratorApp;
 
 /// This class implements the GUI of the app
 
-// SAMSON Element generator pro tip: add GUI functionality in this class. The non-GUI functionality should go in the SEProteinConfigStatsApp class
+// SAMSON Element generator pro tip: add GUI functionality in this class. The non-GUI functionality should go in the SECarbonAlphaGeneratorApp class
 
-class SEProteinConfigStatsAppGUI : public SBGApp {
+class SECarbonAlphaGeneratorAppGUI : public SBGApp {
 
 	Q_OBJECT
 
@@ -18,15 +19,15 @@ public:
 	/// \name Constructors and destructors
 	//@{
 
-	SEProteinConfigStatsAppGUI(SEProteinConfigStatsApp* t);																			///< Constructs a GUI for the app
-	virtual ~SEProteinConfigStatsAppGUI();																										///< Destructs the GUI of the app
+	SECarbonAlphaGeneratorAppGUI(SECarbonAlphaGeneratorApp* t);																			///< Constructs a GUI for the app
+	virtual ~SECarbonAlphaGeneratorAppGUI();																										///< Destructs the GUI of the app
 
 	//@}
 
 	/// \name App
 	//@{
 
-	SEProteinConfigStatsApp*												getApp() const;															///< Returns a pointer to the app
+	SECarbonAlphaGeneratorApp*												getApp() const;															///< Returns a pointer to the app
 
 	//@}
 
@@ -51,12 +52,12 @@ public:
 public slots:
 
 	// SAMSON Element generator pro tip: add slots here to interact with your app
-void onAnalyse();
-void on_w_Browse();
-void on_r_Browse();
+
+void onGenerate();
+
 private:
 
-	Ui::SEProteinConfigStatsAppGUIClass									ui;
+	Ui::SECarbonAlphaGeneratorAppGUIClass									ui;
 
 };
 

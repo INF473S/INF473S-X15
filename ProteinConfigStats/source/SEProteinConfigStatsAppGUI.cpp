@@ -84,38 +84,3 @@ void SEProteinConfigStatsAppGUI::on_r_Browse() {
 	QString dossier = QFileDialog::getExistingDirectory(this);
 	ui.lineEdit_r->setText(dossier);
 }
-
-void SEProteinConfigStatsAppGUI::onGenerateModel() {
-
-	SBStructuralModel* model = new SBStructuralModel();
-	model->setName("Alpha carbon chain");
-
-	unsigned int numberOfAlphaCarbons = 35;
-	SBAtom** atomArray = new SBAtom*[numberOfAlphaCarbons];
-	SBBond** bondArray = new SBBond*[numberOfAlphaCarbons - 1];
-
-	for (unsigned int i = 0; i < numberOfAlphaCarbons; i++) {
-
-		atomArray[i] = new SBAtom(SBElement::Carbon, SBPosition3(SBQuantity::angstrom(3 * i), SBQuantity::angstrom::zero, SBQuantity::angstrom::zero));
-		atomArray[i]->setName("CA");
-
-		model->getStructuralRoot()->addChild(atomArray[i]);
-
-	}
-
-	for (unsigned int i = 1; i < numberOfAlphaCarbons; i++) {
-
-		bondArray[i - 1] = new SBBond(atomArray[i - 1], atomArray[i], SBQuantity::dimensionless(1.0));
-		model->getStructuralRoot()->addChild(bondArray[i - 1]);
-
-	}
-
-	delete[] atomArray;
-	delete[] bondArray;
-
-	SAMSON::beginHolding("Add alpha carbon chain");
-	model->create();
-	SAMSON::getActiveLayer()->addChild(model);
-	SAMSON::endHolding();
-
-}

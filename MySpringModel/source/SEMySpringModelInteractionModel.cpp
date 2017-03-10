@@ -62,40 +62,45 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 	springAtomIVector = new SBVector<SBAtom*>;
 	springAtomJVector = new SBVector<SBAtom*>;
 
-	//get the list of bonds in the model
-	SBNodePredicate* nodePredicate = SAMSON::makeNodePredicate("node.type bond");
+	////get the list of bonds in the model
+	//SBNodePredicate* nodePredicate = SAMSON::makeNodePredicate("node.type bond");
 	SBNodeIndexer nodeIndexer;
-	SAMSON::getActiveDocument()->getNodes(nodeIndexer, *nodePredicate);
+	//SAMSON::getActiveDocument()->getNodes(nodeIndexer, *nodePredicate);
 
-	SAMSON::setStatusMessage(QString::number(nodeIndexer.size()),0);
+	//SAMSON::setStatusMessage(QString::number(nodeIndexer.size()),0);
 
-	SB_FOR(SBNode* node, nodeIndexer) {
+	//SB_FOR(SBNode* node, nodeIndexer) {
 
-		SBBond* bond = static_cast<SBBond*>(node);
+	//	SBBond* bond = static_cast<SBBond*>(node);
 
-		SBAtom* atomI = bond->getLeftAtom();
-		SBAtom* atomJ = bond->getRightAtom();
+	//	SBAtom* atomI = bond->getLeftAtom();
+	//	SBAtom* atomJ = bond->getRightAtom();
 
-		unsigned int atomIIndex = particleIndex->getIndex(atomI);
-		unsigned int atomJIndex = particleIndex->getIndex(atomJ);
-		
-		//add the atoms to the atoms Vectors
-		springAtomIVector->push_back(atomI);
-		springAtomJVector->push_back(atomJ);
+	//	unsigned int atomIIndex = particleIndex->getIndex(atomI);
+	//	unsigned int atomJIndex = particleIndex->getIndex(atomJ);
+	//	
+	//	//add the atoms to the atoms Vectors
+	//	springAtomIVector->push_back(atomI);
+	//	springAtomJVector->push_back(atomJ);
 
-		//SBQuantity::length 	distance = bond->getLength();
-		//add the equilibrium lengthd to the springLength vector
-		SBQuantity::length distance = ((*particleSystem)->getPosition(atomIIndex) -
-			(*particleSystem)->getPosition(atomJIndex)).norm();
-		springLengthVector->push_back(distance);
-	}
+	//	//SBQuantity::length 	distance = bond->getLength();
+	//	//add the equilibrium lengthd to the springLength vector
+	//	SBQuantity::length distance = ((*particleSystem)->getPosition(atomIIndex) -
+	//		(*particleSystem)->getPosition(atomJIndex)).norm();
+	//	springLengthVector->push_back(distance);
+	//}
 
 	//MODIFS ROMAIN
 	nodeIndexer.clear();
 	SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Atom) && SBAtom::HasName() && (SBAtom::GetName() == std::string("CA")));
 
-	QDir dir("C:\\Stephane\\Enseignement\\Polytechnique\\2016-2017\\INF473S\\Git\\Tests\\DISTANCES");
-	//QDir dir("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\TESTS\\DISTANCES");
+	//QDir dir("C:\\Stephane\\Enseignement\\Polytechnique\\2016-2017\\INF473S\\Git\\Tests\\DISTANCES");
+	QDir dir("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\TESTS\\DISTANCES");
+
+	QString title = "/!\\ Attention /!\\";
+	QString text = "Bien verifier que le \"QDir\" a la ligne 98 du SEMySpringModelInteractionModel.cpp est le bon. C'est le repertoire ou on doit aller chercher les images de distances.";
+	SAMSON::informUser(title, text);
+
 	QFileInfoList files = dir.entryInfoList();
 	foreach(QFileInfo file, files){
 		if (!file.isDir()){
