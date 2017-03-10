@@ -88,6 +88,7 @@ INCLUDE ( SBPublicDefinitions )
 INCLUDE ( SDKDeveloperDefinitions )
 INCLUDE ( SDKFunctions )
 INCLUDE ( SBVersion )
+INCLUDE ( SDKVersion )
 
 MESSAGE( " " )
 MESSAGE( "====================================  CMAKE REGISTER THESE PATHS  ====================================" )

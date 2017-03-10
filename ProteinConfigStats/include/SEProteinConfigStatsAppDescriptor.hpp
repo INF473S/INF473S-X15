@@ -12,7 +12,11 @@
 SB_CLASS_BEGIN(SEProteinConfigStatsApp);
 
 	SB_CLASS_TYPE(SBCClass::App);
-        SB_CLASS_DESCRIPTION("SEProteinConfigStatsApp : SAMSON Element generator pro tip: modify me");
+	SB_CLASS_DESCRIPTION("SEProteinConfigStatsApp : SAMSON Element generator pro tip: modify me");
+
+#ifdef SB_CLASS_VERSION_NUMBER
+	SB_CLASS_VERSION_NUMBER("1.0.0");
+#endif
 
 	SB_FACTORY_BEGIN;
 
