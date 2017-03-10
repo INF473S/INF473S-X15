@@ -52,6 +52,7 @@ public slots:
 
 	// SAMSON Element generator pro tip: add slots here to interact with your app
 void onAnalyse();
+void onGenerateModel();
 void on_w_Browse();
 void on_r_Browse();
 private:

@@ -92,9 +92,10 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 
 	//MODIFS ROMAIN
 	nodeIndexer.clear();
-	SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Residue));
+	SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Atom) && SBAtom::HasName() && (SBAtom::GetName() == std::string("CA")));
 
-	QDir dir("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\TESTS\\DISTANCES");
+	QDir dir("C:\\Stephane\\Enseignement\\Polytechnique\\2016-2017\\INF473S\\Git\\Tests\\DISTANCES");
+	//QDir dir("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\TESTS\\DISTANCES");
 	QFileInfoList files = dir.entryInfoList();
 	foreach(QFileInfo file, files){
 		if (!file.isDir()){
@@ -102,17 +103,17 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 
 			int size = image.width();
 
-			QString name = file.fileName();
+			QString name = file.fileName().split(".")[0];
 			int step = (name.split("_")[2]).toInt();
 			int offset = (name.split("_")[4]).toInt();
 
 			for (int i = 0; i < size-1; i++){
 
-				SBAtom* carbi = static_cast<SBResidue*>(nodeIndexer[offset + i*step])->getBackbone()->getAlphaCarbon();
+				SBAtom* carbi = static_cast<SBAtom*>(nodeIndexer[offset + i*step]);
 
 				for (int j = i+1; j < size; j++){
 
-					SBAtom* carbj = static_cast<SBResidue*>(nodeIndexer[offset + j*step])->getBackbone()->getAlphaCarbon();
+					SBAtom* carbj = static_cast<SBAtom*>(nodeIndexer[offset + j*step]);
 
 					SBQuantity::length distance = SBQuantity::angstrom(image.pixelColor(QPoint(i, j)).red());
 

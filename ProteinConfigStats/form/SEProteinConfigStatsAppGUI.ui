@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>300</width>
-    <height>182</height>
+    <height>251</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -111,6 +111,13 @@
      </property>
     </widget>
    </item>
+   <item>
+    <widget class="QPushButton" name="pushButtonGenerateModel">
+     <property name="text">
+      <string>Generate model</string>
+     </property>
+    </widget>
+   </item>
   </layout>
  </widget>
  <resources/>
@@ -122,8 +129,8 @@
    <slot>onAnalyse()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>149</x>
-     <y>162</y>
+     <x>160</x>
+     <y>204</y>
     </hint>
     <hint type="destinationlabel">
      <x>149</x>
@@ -138,8 +145,8 @@
    <slot>on_r_Browse()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>289</x>
-     <y>105</y>
+     <x>287</x>
+     <y>124</y>
     </hint>
     <hint type="destinationlabel">
      <x>149</x>
@@ -154,12 +161,28 @@
    <slot>on_w_Browse()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>252</x>
-     <y>130</y>
+     <x>287</x>
+     <y>166</y>
     </hint>
     <hint type="destinationlabel">
      <x>149</x>
      <y>91</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonGenerateModel</sender>
+   <signal>pressed()</signal>
+   <receiver>SEProteinConfigStatsAppGUIClass</receiver>
+   <slot>onGenerateModel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>221</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>231</y>
     </hint>
    </hints>
   </connection>
@@ -168,5 +191,6 @@
   <slot>onAnalyse()</slot>
   <slot>on_r_Browse()</slot>
   <slot>on_w_Browse()</slot>
+  <slot>onGenerateModel()</slot>
  </slots>
 </ui>
