@@ -31,7 +31,7 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 
 	for (int num = 1; num < 2; num++){
 
-		std::string proteinName = (QString::number(num).toStdString() + "AF6");
+		std::string proteinName = (QString::number(num).toStdString() + "YRF");
 		std::string fileName = (rpath + "\\" + proteinName + ".pdb");
 
 		// creation of a new layer
@@ -54,17 +54,17 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 		for (int s = 1; s < step + 1; s++){
 
 			for (int offset = 0; offset <= nodeIndexer.size() - numberOfResidues*s; offset++){
+				
+				int size = numberOfResidues;
 
 				std::string path_chain = (wpath + "\\"+"CHAINES" + "\\" + proteinName + "_step" + QString::number(s).toStdString() + "_offset" + QString::number(offset).toStdString() + ".png");
-				std::string path_dist = (wpath + "\\" + "IMAGES" + "\\" + proteinName + "_step" + QString::number(s).toStdString() + "_offset" + QString::number(offset).toStdString() + ".png");
-				
-				QString nom_dist = QString::fromStdString(path_dist);
 				QString nom_chain = QString::fromStdString(path_chain);
-
-				int size = numberOfResidues;
-				QImage image_dist = QImage(size, size, QImage::Format_RGB32);
 				QImage image_chain = QImage(size, size, QImage::Format_RGB32);
 
+				std::string path_dist = (wpath + "\\" + "DISTANCES" + "\\" + proteinName + "_step" + QString::number(s).toStdString() + "_offset" + QString::number(offset).toStdString() + ".png");
+				QString nom_dist = QString::fromStdString(path_dist);
+				QImage image_dist = QImage(size, size, QImage::Format_RGB32);
+				
 				//ofstream fichier(path_chain, ios::out | ios::trunc);
 				//fichier << "protein " << proteinName << endl;
 				//fichier << "step " << s << endl;
@@ -90,10 +90,12 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 						SBQuantity::angstrom distance = (pos1 - pos2).norm();
 						//fichier << distance.getValue() << " ";
 
-						int c_dist = (int)distance.getValue();
+						int c_dist = (int) distance.getValue();
+						image_dist.setPixel(px, py, qRgb(c_dist, c_dist, c_dist));
+
 						int c_chain = (int) ((static_cast<SBResidue*>(nodeIndexer[A1])->getResidueType())*255/26);
-						image_dist.setPixel(px, py, qRgb(c_dist,c_dist,c_dist));
-						image_dist.setPixel(px, py, qRgb(c_chain, c_chain, c_chain));
+						image_chain.setPixel(px, py, qRgb(c_chain, c_chain, c_chain));
+
 						py++;
 					}
 					//fichier << endl;

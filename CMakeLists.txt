@@ -158,3 +158,6 @@ FIND_PACKAGE ( OpenGL )
 
 ADD_SUBDIRECTORY( ProteinConfigStats )
 
+ADD_SUBDIRECTORY( MySpringModel )
+
+ADD_SUBDIRECTORY( SpringProt )
