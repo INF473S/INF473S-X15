@@ -1,5 +1,8 @@
 #include "SEMySpringModelInteractionModel.hpp"
 #include "SAMSON.hpp"
+#include "SBResidue.hpp"
+#include "SBBackbone.hpp"
+#include <qdir.h>
 
 
 SEMySpringModelInteractionModel::SEMySpringModelInteractionModel() : SBMInteractionModelParticleSystem(0) {
@@ -87,6 +90,41 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 		springLengthVector->push_back(distance);
 	}
 
+	//MODIFS ROMAIN
+	nodeIndexer.clear();
+	SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Residue));
+
+	QDir dir("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\TESTS\\DISTANCES");
+	QFileInfoList files = dir.entryInfoList();
+	foreach(QFileInfo file, files){
+		if (!file.isDir()){
+			QImage image(file.filePath());
+
+			int size = image.width();
+
+			QString name = file.fileName();
+			int step = (name.split("_")[2]).toInt();
+			int offset = (name.split("_")[4]).toInt();
+
+			for (int i = 0; i < size-1; i++){
+
+				SBAtom* carbi = static_cast<SBResidue*>(nodeIndexer[offset + i*step])->getBackbone()->getAlphaCarbon();
+
+				for (int j = i+1; j < size; j++){
+
+					SBAtom* carbj = static_cast<SBResidue*>(nodeIndexer[offset + j*step])->getBackbone()->getAlphaCarbon();
+
+					SBQuantity::length distance = SBQuantity::angstrom(image.pixelColor(QPoint(i, j)).red());
+
+					springAtomIVector->push_back(carbi);
+					springAtomJVector->push_back(carbj);
+					springLengthVector->push_back(distance);
+				}
+			}
+		}
+	}
+	//FIN MODIFS ROMAIN
+
 	//initialize energy and forces
 	*energy = SBQuantity::energy(0.0);
 	for (unsigned int i = 0; i < nParticles; ++i) 
@@ -121,6 +159,8 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 		setForce(rightAtomIndex, forceJ);
 	}
 
+
+	
 	changed();
 }
 

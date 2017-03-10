@@ -51,74 +51,74 @@ void SESpringProtInteractionModel::eraseImplementation() {
 
 void SESpringProtInteractionModel::initializeInteractions() {
 
-	//particleIndex = (*particleSystem)->getStructuralParticleIndex();
-	//unsigned int nParticles = particleIndex->size();
+	//particleindex = (*particlesystem)->getstructuralparticleindex();
+	//unsigned int nparticles = particleindex->size();
 
 	////initialize vectors
-	//springLengthVector = new SBVector<SBQuantity::length>;
-	//springAtomIVector = new SBVector<SBAtom*>;
-	//springAtomJVector = new SBVector<SBAtom*>;
+	//springlengthvector = new sbvector<sbquantity::length>;
+	//springatomivector = new sbvector<sbatom*>;
+	//springatomjvector = new sbvector<sbatom*>;
 
 	////get the list of bonds in the model
-	//SBNodePredicate* nodePredicate = SAMSON::makeNodePredicate("node.type bond");
-	//SBNodeIndexer nodeIndexer;
-	//SAMSON::getActiveDocument()->getNodes(nodeIndexer, *nodePredicate);
+	//sbnodepredicate* nodepredicate = samson::makenodepredicate("node.type bond");
+	//sbnodeindexer nodeindexer;
+	//samson::getactivedocument()->getnodes(nodeindexer, *nodepredicate);
 
-	//SAMSON::setStatusMessage(QString::number(nodeIndexer.size()), 0);
+	//samson::setstatusmessage(qstring::number(nodeindexer.size()), 0);
 
-	//SB_FOR(SBNode* node, nodeIndexer) {
+	//sb_for(sbnode* node, nodeindexer) {
 
-	//	SBBond* bond = static_cast<SBBond*>(node);
+	//	sbbond* bond = static_cast<sbbond*>(node);
 
-	//	SBAtom* atomI = bond->getLeftAtom();
-	//	SBAtom* atomJ = bond->getRightAtom();
+	//	sbatom* atomi = bond->getleftatom();
+	//	sbatom* atomj = bond->getrightatom();
 
-	//	unsigned int atomIIndex = particleIndex->getIndex(atomI);
-	//	unsigned int atomJIndex = particleIndex->getIndex(atomJ);
+	//	unsigned int atomiindex = particleindex->getindex(atomi);
+	//	unsigned int atomjindex = particleindex->getindex(atomj);
 
-	//	//add the atoms to the atoms Vectors
-	//	springAtomIVector->push_back(atomI);
-	//	springAtomJVector->push_back(atomJ);
+	//	//add the atoms to the atoms vectors
+	//	springatomivector->push_back(atomi);
+	//	springatomjvector->push_back(atomj);
 
-	//	//SBQuantity::length 	distance = bond->getLength();
-	//	//add the equilibrium lengthd to the springLength vector
-	//	SBQuantity::length distance = ((*particleSystem)->getPosition(atomIIndex) -
-	//		(*particleSystem)->getPosition(atomJIndex)).norm();
-	//	springLengthVector->push_back(distance);
+	//	//sbquantity::length 	distance = bond->getlength();
+	//	//add the equilibrium lengthd to the springlength vector
+	//	sbquantity::length distance = ((*particlesystem)->getposition(atomiindex) -
+	//		(*particlesystem)->getposition(atomjindex)).norm();
+	//	springlengthvector->push_back(distance);
 	//}
 
 	////initialize energy and forces
-	//*energy = SBQuantity::energy(0.0);
-	//for (unsigned int i = 0; i < nParticles; ++i)
-	//	setForce(i, SBForce3(SBQuantity::force(0)));
+	//*energy = sbquantity::energy(0.0);
+	//for (unsigned int i = 0; i < nparticles; ++i)
+	//	setforce(i, sbforce3(sbquantity::force(0)));
 
-	//unsigned int nSprings = springLengthVector->size();
-	//for (unsigned int i = 0; i < nSprings; ++i) {
+	//unsigned int nsprings = springlengthvector->size();
+	//for (unsigned int i = 0; i < nsprings; ++i) {
 
-	//	SBAtom* leftAtom = (*springAtomIVector)[i];
-	//	SBAtom* rightAtom = (*springAtomJVector)[i];
+	//	sbatom* leftatom = (*springatomivector)[i];
+	//	sbatom* rightatom = (*springatomjvector)[i];
 
-	//	unsigned int  leftAtomIndex = particleIndex->getIndex(leftAtom);
-	//	unsigned int rightAtomIndex = particleIndex->getIndex(rightAtom);
+	//	unsigned int  leftatomindex = particleindex->getindex(leftatom);
+	//	unsigned int rightatomindex = particleindex->getindex(rightatom);
 
-	//	const SBPosition3& leftAtomPosition =
-	//		(*particleSystem)->getPosition(leftAtomIndex);
-	//	const SBPosition3& rightAtomPosition =
-	//		(*particleSystem)->getPosition(rightAtomIndex);
+	//	const sbposition3& leftatomposition =
+	//		(*particlesystem)->getposition(leftatomindex);
+	//	const sbposition3& rightatomposition =
+	//		(*particlesystem)->getposition(rightatomindex);
 
 	//	//the force intensity depends on the shift respect to the equilibrium
-	//	SBQuantity::length forceIntensity = (rightAtomPosition - leftAtomPosition).norm()
-	//		- (*springLengthVector)[i];
-	//	SBQuantity::forcePerLength forceFactor(100);
+	//	sbquantity::length forceintensity = (rightatomposition - leftatomposition).norm()
+	//		- (*springlengthvector)[i];
+	//	sbquantity::forceperlength forcefactor(100);
 
-	//	SBForce3  force = forceFactor * forceIntensity *
-	//		(rightAtomPosition - leftAtomPosition).normalizedVersion();
+	//	sbforce3  force = forcefactor * forceintensity *
+	//		(rightatomposition - leftatomposition).normalizedversion();
 
-	//	SBForce3 forceI = getForce(leftAtomIndex) + force;
-	//	SBForce3 forceJ = getForce(rightAtomIndex) - force;
+	//	sbforce3 forcei = getforce(leftatomindex) + force;
+	//	sbforce3 forcej = getforce(rightatomindex) - force;
 
-	//	setForce(leftAtomIndex, forceI);
-	//	setForce(rightAtomIndex, forceJ);
+	//	setforce(leftatomindex, forcei);
+	//	setforce(rightatomindex, forcej);
 	//}
 
 	//changed();

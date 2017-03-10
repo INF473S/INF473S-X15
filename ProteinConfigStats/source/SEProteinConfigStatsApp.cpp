@@ -33,11 +33,16 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 	if (!QFileInfo(QString::fromStdString(wpath + "\\" + "CHAINES" + "\\")).exists()) QDir().mkpath(QString::fromStdString(wpath + "\\" + "CHAINES" + "\\"));
 	if (!QFileInfo(QString::fromStdString(wpath + "\\" + "DISTANCES" + "\\")).exists()) QDir().mkpath(QString::fromStdString(wpath + "\\" + "DISTANCES" + "\\"));
 
-	for (int num = 1; num < 2; num++){
+	QDir dir(QString::fromStdString(rpath));
+	QFileInfoList files = dir.entryInfoList();
+	foreach(QFileInfo file, files){
+	//for (int num = 1; num < 2; num++){
 
-		std::string proteinName = (QString::number(num).toStdString() + "AF6");
-		std::string fileName = (rpath + "\\" + proteinName + ".pdb");
+		//std::string proteinName = (QString::number(num).toStdString() + "YRF");
+		//std::string fileName = (rpath + "\\" + proteinName + ".pdb");
 
+		std::string proteinName = (file.fileName().split(".")[0]).toStdString();
+		std::string fileName = (file.filePath()).toStdString();
 		// creation of a new layer
 
 		SBLayer* newLayer = new SBDDocumentLayer();
@@ -63,11 +68,11 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 				
 				int size = numberOfResidues;
 
-				std::string path_chain = (wpath + "\\"+"CHAINES" + "\\" + proteinName + "_step" + QString::number(s).toStdString() + "_offset" + QString::number(offset).toStdString() + ".png");
+				std::string path_chain = (wpath + "\\"+"CHAINES" + "\\" + proteinName + "_step_" + QString::number(s).toStdString() + "_offset_" + QString::number(offset).toStdString() + ".png");
 				QString nom_chain = QString::fromStdString(path_chain);
 				QImage image_chain = QImage(size, size, QImage::Format_RGB32);
 
-				std::string path_dist = (wpath + "\\" + "DISTANCES" + "\\" + proteinName + "_step" + QString::number(s).toStdString() + "_offset" + QString::number(offset).toStdString() + ".png");
+				std::string path_dist = (wpath + "\\" + "DISTANCES" + "\\" + proteinName + "_step_" + QString::number(s).toStdString() + "_offset_" + QString::number(offset).toStdString() + ".png");
 				QString nom_dist = QString::fromStdString(path_dist);
 				QImage image_dist = QImage(size, size, QImage::Format_RGB32);
 				
