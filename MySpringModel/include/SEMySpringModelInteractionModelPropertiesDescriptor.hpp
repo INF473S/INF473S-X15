@@ -13,6 +13,9 @@ SB_CLASS_BEGIN(SEMySpringModelInteractionModelProperties);
 
 	SB_CLASS_TYPE(SBCClass::Properties);
 	SB_CLASS_DESCRIPTION("My Spring Model");
+#ifdef SB_CLASS_VERSION_NUMBER
+	SB_CLASS_VERSION_NUMBER("1.0.0");
+#endif
 
 	SB_FACTORY_BEGIN;
 

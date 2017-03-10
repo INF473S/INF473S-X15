@@ -9,7 +9,8 @@
 #include "SBBackbone.hpp"
 #include "SBDocument.hpp"
 #include <qimage.h>
-
+#include <QFileInfo>
+#include <QDir>
 
 SEProteinConfigStatsApp::SEProteinConfigStatsApp() {
 
@@ -29,9 +30,12 @@ SEProteinConfigStatsAppGUI* SEProteinConfigStatsApp::getGUI() const { return sta
 
 void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::string wpath, std::string rpath){
 
+	if (!QFileInfo(QString::fromStdString(wpath + "\\" + "CHAINES" + "\\")).exists()) QDir().mkpath(QString::fromStdString(wpath + "\\" + "CHAINES" + "\\"));
+	if (!QFileInfo(QString::fromStdString(wpath + "\\" + "DISTANCES" + "\\")).exists()) QDir().mkpath(QString::fromStdString(wpath + "\\" + "DISTANCES" + "\\"));
+
 	for (int num = 1; num < 2; num++){
 
-		std::string proteinName = (QString::number(num).toStdString() + "YRF");
+		std::string proteinName = (QString::number(num).toStdString() + "AF6");
 		std::string fileName = (rpath + "\\" + proteinName + ".pdb");
 
 		// creation of a new layer
@@ -46,14 +50,16 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 		parameters->push_back("1"); parameters->push_back("0"); parameters->push_back("0");
 
 		// import in created layer
+		SAMSON::disableHolding();
 		SAMSON::importFromFile(fileName, parameters, newLayer);
+		SAMSON::enableHolding();
 
 		SBNodeIndexer nodeIndexer;
 		newLayer->getNodes(nodeIndexer, SBNode::IsType(SBNode::Residue));
 
 		for (int s = 1; s < step + 1; s++){
 
-			for (int offset = 0; offset <= nodeIndexer.size() - numberOfResidues*s; offset++){
+			for (int offset = 0; offset <= (int)nodeIndexer.size() - numberOfResidues*s; offset++){
 				
 				int size = numberOfResidues;
 

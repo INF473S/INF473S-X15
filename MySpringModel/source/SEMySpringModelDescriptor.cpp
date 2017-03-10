@@ -13,7 +13,14 @@
 
 SB_ELEMENT_DESCRIPTION("A Force field where all the atoms connected by bonds interact with a spring like behavior");
 SB_ELEMENT_DOCUMENTATION("Resource/Documentation/doc.html");
+
+#ifdef SB_ELEMENT_VERSION
 SB_ELEMENT_VERSION("0.5.0");
+#endif
+
+#ifdef SB_ELEMENT_VERSION_NUMBER
+SB_ELEMENT_VERSION_NUMBER("0.6.0");
+#endif
 
 SB_ELEMENT_CLASSES_BEGIN;
 
