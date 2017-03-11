@@ -221,6 +221,36 @@ void SEMySpringModelInteractionModel::display() {
 	// SAMSON Element generator pro tip: this function is called by SAMSON during the main rendering loop. 
 	// Implement this function to display things in SAMSON, for example thanks to the utility functions provided by SAMSON (e.g. displaySpheres, displayTriangles, etc.)
 
+	unsigned int nSprings = springLengthVector->size();
+
+	float* positionData = new float[6*nSprings];
+	unsigned int* indexData = new  unsigned int[2*nSprings];
+	float* colorData = new float[4*nSprings];
+
+	for (unsigned int i = 0; i < nSprings; ++i) {
+
+		SBAtom* carbi = (*springAtomIVector)[i];
+		SBAtom* carbj = (*springAtomJVector)[i];
+
+		indexData[2*i+0] = carbi->getNodeIndex();
+		indexData[2 * i + 1] = carbj->getNodeIndex();
+
+		colorData[4 * i + 0] = 1.0f;
+		colorData[4 * i + 1] = 1.0f;
+		colorData[4 * i + 2] = 1.0f;
+		colorData[4 * i + 3] = 1.0f;
+
+		SBPosition3 positioni = carbi->getPosition();
+		positionData[6 * i + 0] = (float)positioni.v[0].getValue();
+		positionData[6 * i + 1] = (float)positioni.v[1].getValue();
+		positionData[6 * i + 2] = (float)positioni.v[2].getValue();
+		SBPosition3 positionj = carbj->getPosition();
+		positionData[6 * i + 3] = (float)positionj.v[0].getValue();
+		positionData[6 * i + 4] = (float)positionj.v[1].getValue();
+		positionData[6 * i + 5] = (float)positionj.v[2].getValue();
+
+	}
+	SAMSON::displayLines(nSprings, 2*nSprings, indexData, positionData, colorData);
 }
 
 void SEMySpringModelInteractionModel::displayForShadow() {

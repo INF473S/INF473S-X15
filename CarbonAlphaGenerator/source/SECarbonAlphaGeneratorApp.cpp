@@ -27,15 +27,14 @@ void SECarbonAlphaGeneratorApp::generate(int numberOfCarbons){
 	SBStructuralModel* model = new SBStructuralModel();
 	model->setName("Alpha carbon chain");
 
-	unsigned int numberOfAlphaCarbons = numberOfCarbons;
-	SBAtom** atomArray = new SBAtom*[numberOfAlphaCarbons];
-	SBBond** bondArray = new SBBond*[numberOfAlphaCarbons - 1];
+	SBAtom** atomArray = new SBAtom*[numberOfCarbons];
+	SBBond** bondArray = new SBBond*[numberOfCarbons - 1];
 
 	static SBRandom r;
-	double x = 0;
-	double y = 0;
-	double z = 0;
-	for (unsigned int i = 0; i < numberOfAlphaCarbons; i++) {
+	double x = - numberOfCarbons;
+	double y = - numberOfCarbons;
+	double z = - numberOfCarbons;
+	for (unsigned int i = 0; i < numberOfCarbons; i++) {
 		x = x + 1+2*r.randDouble1();
 		y = y + 1+2*r.randDouble1();
 		z = z + 1+2*r.randDouble1();
@@ -46,7 +45,7 @@ void SECarbonAlphaGeneratorApp::generate(int numberOfCarbons){
 
 	}
 
-	for (unsigned int i = 1; i < numberOfAlphaCarbons; i++) {
+	for (unsigned int i = 1; i < numberOfCarbons; i++) {
 
 		bondArray[i - 1] = new SBBond(atomArray[i - 1], atomArray[i], SBQuantity::dimensionless(1.0));
 		model->getStructuralRoot()->addChild(bondArray[i - 1]);
