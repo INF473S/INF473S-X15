@@ -128,7 +128,8 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 
 	//initialize energy and forces
 	*energy = SBQuantity::energy(0.0);
-	for (unsigned int i = 0; i < nParticles; ++i) 
+	SBQuantity::energy currentEnergy(0.0);
+	for (unsigned int i = 0; i < nParticles; ++i)
 		setForce(i, SBForce3(SBQuantity::force(0)));
 	
 	unsigned int nSprings = springLengthVector->size();
@@ -148,7 +149,7 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 		//the force intensity depends on the shift respect to the equilibrium
 		SBQuantity::length forceIntensity = (rightAtomPosition - leftAtomPosition).norm()
 			- (*springLengthVector)[i];
-		SBQuantity::forcePerLength forceFactor(100);
+		SBQuantity::forcePerLength forceFactor(5);
 
 		SBForce3  force = forceFactor * forceIntensity *
 			(rightAtomPosition - leftAtomPosition).normalizedVersion();
@@ -158,7 +159,9 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 
 		setForce(leftAtomIndex, forceI);
 		setForce(rightAtomIndex, forceJ);
+		currentEnergy += 0.5 * forceFactor * forceIntensity * forceIntensity;
 	}
+	*energy = currentEnergy;
 
 
 	
@@ -193,7 +196,7 @@ void SEMySpringModelInteractionModel::updateInteractions() {
 		//the force intensity depends on the shift respect to the equilibrium
 		SBQuantity::length forceIntensity = (rightAtomPosition - leftAtomPosition).norm() 
 			- (*springLengthVector)[i];
-		SBQuantity::forcePerLength forceFactor(100);
+		SBQuantity::forcePerLength forceFactor(5);
 
 		SBForce3  force = forceFactor * forceIntensity *
 			(rightAtomPosition - leftAtomPosition).normalizedVersion();

@@ -90,7 +90,7 @@ void SEProteinConfigStatsAppGUI::onGenerateModel() {
 	SBStructuralModel* model = new SBStructuralModel();
 	model->setName("Alpha carbon chain");
 
-	unsigned int numberOfAlphaCarbons = 35;
+	unsigned int numberOfAlphaCarbons = 421;
 	SBAtom** atomArray = new SBAtom*[numberOfAlphaCarbons];
 	SBBond** bondArray = new SBBond*[numberOfAlphaCarbons - 1];
 
