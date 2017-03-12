@@ -25,7 +25,7 @@ SEMySpringModelInteractionModel::~SEMySpringModelInteractionModel() {
 
 }
 
- void SEMySpringModelInteractionModel::serialize(SBCSerializer* serializer, const SBNodeIndexer& nodeIndexer) const {
+void SEMySpringModelInteractionModel::serialize(SBCSerializer* serializer, const SBNodeIndexer& nodeIndexer) const {
 
 	SBMInteractionModelParticleSystem::serialize(serializer, nodeIndexer);
 
@@ -38,7 +38,7 @@ SEMySpringModelInteractionModel::~SEMySpringModelInteractionModel() {
 void SEMySpringModelInteractionModel::unserialize(SBCSerializer* serializer, const SBNodeIndexer& nodeIndexer) {
 
 	SBMInteractionModelParticleSystem::unserialize(serializer, nodeIndexer);
-	
+
 	// SAMSON Element generator pro tip: serialization is used in SAMSON to e.g. save documents, copy nodes, etc. 
 	// Please refer to the SDK documentation for more information.
 	// Complete this function to unserialize your interaction model.
@@ -94,16 +94,16 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 	nodeIndexer.clear();
 	SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Atom) && SBAtom::HasName() && (SBAtom::GetName() == std::string("CA")));
 
-	//QDir dir("C:\\Stephane\\Enseignement\\Polytechnique\\2016-2017\\INF473S\\Git\\Tests\\DISTANCES");
-	QDir dir("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\TESTS\\DISTANCES");
+	QDir dir("C:\\Stephane\\Enseignement\\Polytechnique\\2016-2017\\INF473S\\Git\\Tests\\DISTANCES");
+	//	QDir dir("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\TESTS\\DISTANCES");
 
 	QString title = "/!\\ Attention /!\\";
 	QString text = "Bien verifier que le \"QDir\" a la ligne 98 du SEMySpringModelInteractionModel.cpp est le bon. C'est le repertoire ou on doit aller chercher les images de distances.";
 	SAMSON::informUser(title, text);
 
 	QFileInfoList files = dir.entryInfoList();
-	foreach(QFileInfo file, files){
-		if (!file.isDir()){
+	foreach(QFileInfo file, files) {
+		if (!file.isDir()) {
 			QImage image(file.filePath());
 
 			int size = image.width();
@@ -112,11 +112,11 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 			int step = (name.split("_")[2]).toInt();
 			int offset = (name.split("_")[4]).toInt();
 
-			for (int i = 0; i < size-1; i++){
+			for (int i = 0; i < size - 1; i++) {
 
 				SBAtom* carbi = static_cast<SBAtom*>(nodeIndexer[offset + i*step]);
 
-				for (int j = i+1; j < size; j++){
+				for (int j = i + 1; j < size; j++) {
 
 					SBAtom* carbj = static_cast<SBAtom*>(nodeIndexer[offset + j*step]);
 
@@ -136,7 +136,7 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 	SBQuantity::energy currentEnergy(0.0);
 	for (unsigned int i = 0; i < nParticles; ++i)
 		setForce(i, SBForce3(SBQuantity::force(0)));
-	
+
 	unsigned int nSprings = springLengthVector->size();
 	for (unsigned int i = 0; i < nSprings; ++i) {
 
@@ -169,7 +169,7 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 	*energy = currentEnergy;
 
 
-	
+
 	changed();
 }
 
@@ -183,7 +183,7 @@ void SEMySpringModelInteractionModel::updateInteractions() {
 	SBQuantity::energy currentEnergy(0.0);
 	for (unsigned int i = 0; i < nParticles; ++i)
 		setForce(i, SBForce3(SBQuantity::force(0)));
-	
+
 	unsigned int nSprings = springLengthVector->size();
 	for (unsigned int i = 0; i < nSprings; ++i) {
 
@@ -193,13 +193,13 @@ void SEMySpringModelInteractionModel::updateInteractions() {
 		unsigned int  leftAtomIndex = particleIndex->getIndex(leftAtom);
 		unsigned int rightAtomIndex = particleIndex->getIndex(rightAtom);
 
-		const SBPosition3& leftAtomPosition = 
+		const SBPosition3& leftAtomPosition =
 			(*particleSystem)->getPosition(leftAtomIndex);
 		const SBPosition3& rightAtomPosition =
 			(*particleSystem)->getPosition(rightAtomIndex);
 
 		//the force intensity depends on the shift respect to the equilibrium
-		SBQuantity::length forceIntensity = (rightAtomPosition - leftAtomPosition).norm() 
+		SBQuantity::length forceIntensity = (rightAtomPosition - leftAtomPosition).norm()
 			- (*springLengthVector)[i];
 		SBQuantity::forcePerLength forceFactor(5);
 
@@ -208,10 +208,10 @@ void SEMySpringModelInteractionModel::updateInteractions() {
 
 		SBForce3 forceI = getForce(leftAtomIndex) + force;
 		SBForce3 forceJ = getForce(rightAtomIndex) - force;
-		
+
 		setForce(leftAtomIndex, forceI);
 		setForce(rightAtomIndex, forceJ);
-	
+
 		currentEnergy += 0.5 * forceFactor * forceIntensity * forceIntensity;
 	}
 	*energy = currentEnergy;
@@ -226,34 +226,82 @@ void SEMySpringModelInteractionModel::display() {
 
 	unsigned int nSprings = springLengthVector->size();
 
-	float* positionData = new float[6*nSprings];
-	unsigned int* indexData = new  unsigned int[2*nSprings];
-	float* colorData = new float[4*nSprings];
+	float* positionData = new float[6 * nSprings];
+	unsigned int* indexData = new  unsigned int[2 * nSprings];
+	unsigned int* flagData = new  unsigned int[2 * nSprings];
+	float* colorData = new float[8 * nSprings];
 
 	for (unsigned int i = 0; i < nSprings; ++i) {
 
 		SBAtom* carbi = (*springAtomIVector)[i];
 		SBAtom* carbj = (*springAtomJVector)[i];
 
-		indexData[2*i+0] = carbi->getNodeIndex();
-		indexData[2 * i + 1] = carbj->getNodeIndex();
+		indexData[2 * i + 0] = 2 * i + 0;
+		indexData[2 * i + 1] = 2 * i + 1;
 
-		colorData[4 * i + 0] = 1.0f;
-		colorData[4 * i + 1] = 1.0f;
-		colorData[4 * i + 2] = 1.0f;
-		colorData[4 * i + 3] = 1.0f;
+		flagData[2 * i + 0] = getInheritedFlags();
+		flagData[2 * i + 1] = getInheritedFlags();
 
 		SBPosition3 positioni = carbi->getPosition();
 		positionData[6 * i + 0] = (float)positioni.v[0].getValue();
 		positionData[6 * i + 1] = (float)positioni.v[1].getValue();
 		positionData[6 * i + 2] = (float)positioni.v[2].getValue();
+
 		SBPosition3 positionj = carbj->getPosition();
 		positionData[6 * i + 3] = (float)positionj.v[0].getValue();
 		positionData[6 * i + 4] = (float)positionj.v[1].getValue();
 		positionData[6 * i + 5] = (float)positionj.v[2].getValue();
 
+		SBQuantity::length currentLength = (positioni - positionj).norm();
+
+		if (currentLength <= (*springLengthVector)[i]) {
+
+			float lambda = (float)(currentLength / (*springLengthVector)[i]).getValue();
+
+			// from blue (too short) to green (equilibrium)
+
+			colorData[8 * i + 0] = 0.0f;
+			colorData[8 * i + 1] = lambda;
+			colorData[8 * i + 2] = 1.0f - lambda;
+			colorData[8 * i + 3] = 1.0f;
+
+			colorData[8 * i + 4] = 0.0f;
+			colorData[8 * i + 5] = lambda;
+			colorData[8 * i + 6] = 1.0f - lambda;
+			colorData[8 * i + 7] = 1.0f;
+
+		}
+		else {
+
+			float lambda = min(2.0f, (float)(currentLength / (*springLengthVector)[i]).getValue()) - 1.0f;
+
+			// from green (equilibrium) to red (too long)
+
+			colorData[8 * i + 0] = lambda;
+			colorData[8 * i + 1] = 1.0f - lambda;
+			colorData[8 * i + 2] = 0.0f;
+			colorData[8 * i + 3] = 1.0f;
+
+			colorData[8 * i + 4] = lambda;
+			colorData[8 * i + 5] = 1.0f - lambda;
+			colorData[8 * i + 6] = 0.0f;
+			colorData[8 * i + 7] = 1.0f;
+
+		}
+
 	}
-	SAMSON::displayLines(nSprings, 2*nSprings, indexData, positionData, colorData);
+
+#ifdef SB_ELEMENT_VERSION_NUMBER
+	SAMSON::displayLines(nSprings, 2 * nSprings, indexData, positionData, colorData, flagData);
+#else
+	SAMSON::displayLines(nSprings, 2 * nSprings, indexData, positionData, colorData);
+#endif
+
+	delete[] positionData;
+	delete[] indexData;
+	delete[] colorData;
+	delete[] flagData;
+
 }
 
 void SEMySpringModelInteractionModel::displayForShadow() {
@@ -321,7 +369,7 @@ void SEMySpringModelInteractionModel::onDynamicalEvent(SBDynamicalEvent* dynamic
 }
 
 void SEMySpringModelInteractionModel::onStructuralEvent(SBStructuralEvent* documentEvent) {
-	
+
 	// SAMSON Element generator pro tip: implement this function if you need to handle structural events
 
 }
