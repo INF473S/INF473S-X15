@@ -161,4 +161,4 @@ ADD_SUBDIRECTORY( ProteinConfigStats )
 
 ADD_SUBDIRECTORY( MySpringModel )
 
-ADD_SUBDIRECTORY( SpringProt )
+ADD_SUBDIRECTORY( CarbonAlphaGenerator )

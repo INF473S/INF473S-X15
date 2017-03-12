@@ -111,13 +111,6 @@
      </property>
     </widget>
    </item>
-   <item>
-    <widget class="QPushButton" name="pushButtonGenerateModel">
-     <property name="text">
-      <string>Generate model</string>
-     </property>
-    </widget>
-   </item>
   </layout>
  </widget>
  <resources/>
@@ -167,22 +160,6 @@
     <hint type="destinationlabel">
      <x>149</x>
      <y>91</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButtonGenerateModel</sender>
-   <signal>pressed()</signal>
-   <receiver>SEProteinConfigStatsAppGUIClass</receiver>
-   <slot>onGenerateModel()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>248</x>
-     <y>221</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>296</x>
-     <y>231</y>
     </hint>
    </hints>
   </connection>

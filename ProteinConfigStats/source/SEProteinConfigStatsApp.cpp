@@ -101,8 +101,10 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 						SBQuantity::angstrom distance = (pos1 - pos2).norm();
 						//fichier << distance.getValue() << " ";
 
-						int c_dist = (int) distance.getValue();
-						image_dist.setPixel(px, py, qRgb(c_dist, c_dist, c_dist));
+						int c_dist1 = (int) distance.getValue();
+						int c_dist2 = (int) (10 * (distance.getValue() - c_dist1));
+						int c_dist3 = (int) (100 * (distance.getValue() - c_dist1 - 0.1*c_dist2));
+						image_dist.setPixel(px, py, qRgb(c_dist1, c_dist2, c_dist3));
 
 						int c_chain = (int) ((static_cast<SBResidue*>(nodeIndexer[A1])->getResidueType())*255/26);
 						image_chain.setPixel(px, py, qRgb(c_chain, c_chain, c_chain));
