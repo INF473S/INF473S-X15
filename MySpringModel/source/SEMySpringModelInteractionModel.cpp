@@ -2,6 +2,7 @@
 #include "SAMSON.hpp"
 #include "SBResidue.hpp"
 #include "SBBackbone.hpp"
+#include "SBRandom.hpp"
 #include <qdir.h>
 
 
@@ -92,7 +93,8 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 
 	//MODIFS ROMAIN
 	nodeIndexer.clear();
-	SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Atom) && SBAtom::HasName() && (SBAtom::GetName() == std::string("CA")));
+	SB_FOR(SBStructuralParticle* particle, *particleIndex) if ((SBNode::IsType(SBNode::Atom) && SBAtom::HasName() && (SBAtom::GetName() == std::string("CA")))(particle)) nodeIndexer.addNode(particle);
+	//SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Atom) && SBAtom::HasName() && (SBAtom::GetName() == std::string("CA")));
 
 	//QDir dir("C:\\Stephane\\Enseignement\\Polytechnique\\2016-2017\\INF473S\\Git\\Tests\\DISTANCES");
 	QDir dir("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\TESTS\\DISTANCES");
@@ -100,6 +102,8 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 	QString title = "/!\\ Attention /!\\";
 	QString text = "Bien verifier que le \"QDir\" a la ligne 98 du SEMySpringModelInteractionModel.cpp est le bon. C'est le repertoire ou on doit aller chercher les images de distances.";
 	SAMSON::informUser(title, text);
+
+	SBRandom r(SAMSON::getTime());
 
 	QFileInfoList files = dir.entryInfoList();
 	foreach(QFileInfo file, files) {
@@ -115,16 +119,21 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 			for (int i = 0; i < size - 1; i++) {
 
 				SBAtom* carbi = static_cast<SBAtom*>(nodeIndexer[offset + i*step]);
+				if (!carbi) continue;
 
 				for (int j = i + 1; j < size; j++) {
 
 					SBAtom* carbj = static_cast<SBAtom*>(nodeIndexer[offset + j*step]);
+					if (!carbj) continue;
 
 					SBQuantity::length distance = SBQuantity::angstrom(image.pixelColor(QPoint(i, j)).red());
+
+					//distance *= 1.0 + 1.9*(r.randDouble1() - 0.5); // add randomness to test robustness
 
 					springAtomIVector->push_back(carbi);
 					springAtomJVector->push_back(carbj);
 					springLengthVector->push_back(distance);
+
 				}
 			}
 		}
