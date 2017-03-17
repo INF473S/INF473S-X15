@@ -31,6 +31,9 @@
      </item>
      <item>
       <widget class="QSpinBox" name="spinBox_NR">
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
        <property name="minimum">
         <number>1</number>
        </property>
@@ -52,6 +55,9 @@
      </item>
      <item>
       <widget class="QSpinBox" name="spinBox_S">
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
        <property name="minimum">
         <number>1</number>
        </property>
@@ -107,7 +113,7 @@
    <item>
     <widget class="QPushButton" name="pushButton">
      <property name="text">
-      <string>ANALYSE</string>
+      <string>Analyze</string>
      </property>
     </widget>
    </item>

@@ -162,3 +162,4 @@ ADD_SUBDIRECTORY( ProteinConfigStats )
 ADD_SUBDIRECTORY( MySpringModel )
 
 ADD_SUBDIRECTORY( CarbonAlphaGenerator )
+ADD_SUBDIRECTORY( DeepLearner )
