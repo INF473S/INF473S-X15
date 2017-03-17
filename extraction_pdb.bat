@@ -1,1 +1,1 @@
-for /r C:\photos %%X in (*.ent) do ("C:\Programmes\7-zip\7z.exe" e "C:\Dossier A\archive.zip" -o"C:\Dossier B" -r)
+for /r "C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB" %%X in (*.gz) do "C:\Program Files\7-Zip\7z.exe" e "%%X" -o"C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB_EXTR\" -r
