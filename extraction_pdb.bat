@@ -1,1 +1,32 @@
-for /r "C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB" %%X in (*.gz) do "C:\Program Files\7-Zip\7z.exe" e "%%X" -o"C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB_EXTR\" -r
+for /r "C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB\" %%X in (*.gz) do "C:\Program Files\7-Zip\7z.exe" e "%%X" -o"C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB_EXTR\" -r
+
+
+REM for /r "C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB_EXTR\" %%X in (*.ent) do (Ren "%%X" "C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB_EXTR\nouveauNom.pdb"
+
+REM Ren "C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB_EXTR\pdb100d.ent" "nouveauNom.pdb"
+setlocal enableDelayedExpansion
+
+@echo off 
+for /r "C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB_EXTR\" %%X in (*.ent) do (
+For %%A in ("%%X") do (
+	@echo off & setlocal enableextensions
+	set Name=%%~nA
+	set Name=!Name:~3!
+	call :ToUpcaseWithFor "!Name!" Name
+	echo !Name!
+  
+  
+	
+	Ren "%%X" "!Name!.pdb"
+)
+)
+
+endlocal & goto :EOF
+
+:ToUpcaseWithFor
+  setlocal enableextensions enabledelayedexpansion
+  set var_=%~1
+  for %%c in (1 2 3 4 5 6 7 8 9 0 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
+    set var_=!var_:%%c=%%c!
+    )
+  endlocal & set %2=%var_%& goto :EOF
