@@ -126,7 +126,7 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 					SBAtom* carbj = static_cast<SBAtom*>(nodeIndexer[offset + j*step]);
 					if (!carbj) continue;
 
-					SBQuantity::length distance = SBQuantity::angstrom(image.pixelColor(QPoint(i, j)).red());
+					SBQuantity::length distance = SBQuantity::angstrom(image.pixelColor(QPoint(i, j)).red() + 0.1*image.pixelColor(QPoint(i, j)).green() + 0.01*image.pixelColor(QPoint(i, j)).blue());
 
 					//distance *= 1.0 + 1.9*(r.randDouble1() - 0.5); // add randomness to test robustness
 
