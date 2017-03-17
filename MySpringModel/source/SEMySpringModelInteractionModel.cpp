@@ -94,8 +94,8 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 	nodeIndexer.clear();
 	SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Atom) && SBAtom::HasName() && (SBAtom::GetName() == std::string("CA")));
 
-	QDir dir("C:\\Stephane\\Enseignement\\Polytechnique\\2016-2017\\INF473S\\Git\\Tests\\DISTANCES");
-	//	QDir dir("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\TESTS\\DISTANCES");
+	//QDir dir("C:\\Stephane\\Enseignement\\Polytechnique\\2016-2017\\INF473S\\Git\\Tests\\DISTANCES");
+	QDir dir("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\TESTS\\DISTANCES");
 
 	QString title = "/!\\ Attention /!\\";
 	QString text = "Bien verifier que le \"QDir\" a la ligne 98 du SEMySpringModelInteractionModel.cpp est le bon. C'est le repertoire ou on doit aller chercher les images de distances.";
