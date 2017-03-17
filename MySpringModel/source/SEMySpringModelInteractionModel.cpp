@@ -96,8 +96,8 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 	SB_FOR(SBStructuralParticle* particle, *particleIndex) if ((SBNode::IsType(SBNode::Atom) && SBAtom::HasName() && (SBAtom::GetName() == std::string("CA")))(particle)) nodeIndexer.addNode(particle);
 	//SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Atom) && SBAtom::HasName() && (SBAtom::GetName() == std::string("CA")));
 
-	QDir dir("C:\\Stephane\\Enseignement\\Polytechnique\\2016-2017\\INF473S\\Git\\Tests\\DISTANCES");
-	//	QDir dir("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\TESTS\\DISTANCES");
+	//QDir dir("C:\\Stephane\\Enseignement\\Polytechnique\\2016-2017\\INF473S\\Git\\Tests\\DISTANCES");
+	QDir dir("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\TESTS\\DISTANCES");
 
 	QString title = "/!\\ Attention /!\\";
 	QString text = "Bien verifier que le \"QDir\" a la ligne 98 du SEMySpringModelInteractionModel.cpp est le bon. C'est le repertoire ou on doit aller chercher les images de distances.";
@@ -126,7 +126,7 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 					SBAtom* carbj = static_cast<SBAtom*>(nodeIndexer[offset + j*step]);
 					if (!carbj) continue;
 
-					SBQuantity::length distance = SBQuantity::angstrom(image.pixelColor(QPoint(i, j)).red());
+					SBQuantity::length distance = SBQuantity::angstrom(image.pixelColor(QPoint(i, j)).red() + 0.1*image.pixelColor(QPoint(i, j)).green() + 0.01*image.pixelColor(QPoint(i, j)).blue());
 
 					//distance *= 1.0 + 1.9*(r.randDouble1() - 0.5); // add randomness to test robustness
 
