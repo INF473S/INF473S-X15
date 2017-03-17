@@ -1,0 +1,1 @@
+for /r C:\photos %%X in (*.ent) do ("C:\Programmes\7-zip\7z.exe" e "C:\Dossier A\archive.zip" -o"C:\Dossier B" -r)
