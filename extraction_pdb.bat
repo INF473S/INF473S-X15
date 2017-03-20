@@ -1,4 +1,4 @@
-for /r "C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB\" %%X in (*.gz) do "C:\Program Files\7-Zip\7z.exe" e "%%X" -o"C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB_EXTR\" -r
+for /r "C:\Stephane\Enseignement\Polytechnique\2016-2017\INF473S\Git\INF473S-X15\PDB\" %%X in (*.gz) do "C:\Program Files\7-Zip\7z.exe" e "%%X" -o"C:\Stephane\Enseignement\Polytechnique\2016-2017\INF473S\Git\INF473S-X15\PDB_EXTR\" -r
 
 
 REM for /r "C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB_EXTR\" %%X in (*.ent) do (Ren "%%X" "C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB_EXTR\nouveauNom.pdb"
@@ -7,7 +7,7 @@ REM Ren "C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\P
 setlocal enableDelayedExpansion
 
 @echo off 
-for /r "C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\PDB_EXTR\" %%X in (*.ent) do (
+for /r "C:\Stephane\Enseignement\Polytechnique\2016-2017\INF473S\Git\INF473S-X15\PDB_EXTR\" %%X in (*.ent) do (
 For %%A in ("%%X") do (
 	@echo off & setlocal enableextensions
 	set Name=%%~nA
