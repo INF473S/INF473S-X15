@@ -116,9 +116,10 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 					// check that all residues are in the same chain, to avoid jumps in distances
 
 					bool sameChain = true;
+#if 0
 					std::string chain(static_cast<SBResidue*>(nodeIndexer[offset])->getBackbone()->getAlphaCarbon()->getChain(), static_cast<SBResidue*>(nodeIndexer[offset])->getBackbone()->getAlphaCarbon()->getChainSize());
 					for (int A1 = offset; A1 < offset + numberOfResidues*s; A1 = A1 + s) if (std::string(static_cast<SBResidue*>(nodeIndexer[A1])->getBackbone()->getAlphaCarbon()->getChain(), static_cast<SBResidue*>(nodeIndexer[A1])->getBackbone()->getAlphaCarbon()->getChainSize()) != chain) sameChain = false;
-
+#endif
 					// check that the difference between the residues indices correspond to what is expected
 
 					bool distanceOK = true;
