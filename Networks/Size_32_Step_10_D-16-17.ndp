@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by Neural Engine-->
+<NeuralDesignerProject LearningTask="Approximation">
+    <Description Id="1e8nlE"></Description>
+    <DataSet>
+        <DataFile>
+            <FileType>dat</FileType>
+            <FirstCell>No excel</FirstCell>
+            <LastCell>No excel</LastCell>
+            <SheetNumber>0</SheetNumber>
+            <LagsNumber>0</LagsNumber>
+            <StepsAhead>0</StepsAhead>
+            <ColumnsName>1</ColumnsName>
+            <RowsLabel>0</RowsLabel>
+            <Separator>Space</Separator>
+            <MissingValuesLabel>NaN</MissingValuesLabel>
+            <DataFileName>DAT/Size_32_Step_10.dat</DataFileName>
+        </DataFile>
+        <Variables>
+            <VariablesNumber>63</VariablesNumber>
+            <Item Index="1">
+                <Name>AA0</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="2">
+                <Name>AA1</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="3">
+                <Name>AA2</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="4">
+                <Name>AA3</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="5">
+                <Name>AA4</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="6">
+                <Name>AA5</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="7">
+                <Name>AA6</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="8">
+                <Name>AA7</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="9">
+                <Name>AA8</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="10">
+                <Name>AA9</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="11">
+                <Name>AA10</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="12">
+                <Name>AA11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="13">
+                <Name>AA12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="14">
+                <Name>AA13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="15">
+                <Name>AA14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="16">
+                <Name>AA15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="17">
+                <Name>AA16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="18">
+                <Name>AA17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="19">
+                <Name>AA18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="20">
+                <Name>AA19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="21">
+                <Name>AA20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="22">
+                <Name>AA21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="23">
+                <Name>AA22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="24">
+                <Name>AA23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="25">
+                <Name>AA24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="26">
+                <Name>AA25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="27">
+                <Name>AA26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="28">
+                <Name>AA27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="29">
+                <Name>AA28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="30">
+                <Name>AA29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="31">
+                <Name>AA30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="32">
+                <Name>AA31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="33">
+                <Name>D-16-0</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="34">
+                <Name>D-16-1</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="35">
+                <Name>D-16-2</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="36">
+                <Name>D-16-3</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="37">
+                <Name>D-16-4</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="38">
+                <Name>D-16-5</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="39">
+                <Name>D-16-6</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="40">
+                <Name>D-16-7</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="41">
+                <Name>D-16-8</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="42">
+                <Name>D-16-9</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="43">
+                <Name>D-16-10</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="44">
+                <Name>D-16-11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="45">
+                <Name>D-16-12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="46">
+                <Name>D-16-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="47">
+                <Name>D-16-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="48">
+                <Name>D-16-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="49">
+                <Name>D-16-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Target</Use>
+            </Item>
+            <Item Index="50">
+                <Name>D-16-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="51">
+                <Name>D-16-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="52">
+                <Name>D-16-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="53">
+                <Name>D-16-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="54">
+                <Name>D-16-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="55">
+                <Name>D-16-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="56">
+                <Name>D-16-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="57">
+                <Name>D-16-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="58">
+                <Name>D-16-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="59">
+                <Name>D-16-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="60">
+                <Name>D-16-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="61">
+                <Name>D-16-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="62">
+                <Name>D-16-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="63">
+                <Name>D-16-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+        </Variables>
+        <Instances>
+            <InstancesNumber>10161</InstancesNumber>
+            <ItemsUses>0 0 0 0 1 1 1 0 1 0 0 0 0 1 1 2 2 0 2 2 0 0 2 2 0 0 0 0 0 2 1 0 0 1 0 0 0 1 0 1 0 1 2 0 1 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 1 0 0 1 2 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 1 1 0 0 1 0 1 0 0 0 0 0 0 2 0 1 2 2 0 2 0 0 2 0 2 1 0 0 0 0 0 0 0 1 2 0 0 1 0 0 0 2 2 0 0 0 0 0 0 0 1 0 2 0 0 0 0 2 0 0 0 0 0 1 0 0 0 2 0 1 0 0 0 0 0 1 1 2 0 1 0 0 2 0 1 0 1 1 0 0 0 0 0 2 1 0 1 0 0 0 2 0 0 1 2 1 0 2 1 0 0 0 0 1 0 0 0 1 0 2 2 2 0 2 0 2 2 0 2 1 2 2 1 0 2 0 0 2 0 2 1 1 2 0 0 0 0 2 0 0 2 1 0 0 0 1 2 0 1 0 1 0 1 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 2 2 0 1 2 0 0 2 0 0 2 0 2 0 0 2 1 0 1 1 2 0 1 0 2 0 1 1 2 2 2 0 1 0 0 2 0 0 0 0 0 0 2 2 2 0 2 0 0 0 0 0 0 0 0 0 0 2 1 2 0 0 0 0 0 2 1 2 0 0 0 0 0 0 0 1 1 2 0 2 2 1 0 0 0 2 0 1 0 0 0 0 0 1 0 0 1 0 1 1 2 0 0 2 1 2 0 0 0 0 2 1 0 0 2 0 0 0 2 0 0 0 0 2 0 1 0 0 0 0 1 2 0 0 0 0 0 0 2 0 0 0 2 2 0 0 1 2 2 0 2 0 0 0 1 0 0 2 0 2 2 0 0 0 1 0 2 0 0 0 0 0 0 1 1 1 2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 2 0 0 0 1 1 1 0 1 0 2 1 2 1 0 2 1 0 1 0 1 1 0 1 2 2 0 0 1 2 0 1 0 0 0 0 1 2 1 0 2 1 0 0 2 0 0 0 0 0 0 2 2 1 0 2 0 0 0 2 1 0 0 2 0 0 0 0 0 1 1 0 2 0 0 2 0 0 0 0 0 0 0 0 0 1 2 0 0 1 0 0 1 1 0 2 1 2 2 1 0 2 0 2 0 2 1 0 0 0 0 0 0 0 1 2 0 0 2 0 2 0 0 1 0 0 0 0 0 0 1 0 0 0 1 1 2 0 2 2 0 1 1 0 0 0 2 0 0 0 0 1 0 1 0 1 0 0 0 1 0 1 0 2 0 0 2 0 2 0 0 0 0 2 0 1 0 0 0 0 2 0 0 0 2 0 0 2 2 2 1 0 2 0 0 0 0 0 0 0 2 1 0 0 1 1 1 2 0 2 2 1 1 2 2 1 0 2 1 0 0 0 2 2 1 1 0 0 1 1 0 0 0 1 1 0 0 2 1 0 0 1 0 0 0 1 0 0 0 0 2 0 0 0 0 0 0 2 0 0 0 1 2 2 0 0 2 1 2 1 0 0 1 0 0 0 0 0 0 0 2 0 2 2 1 1 0 0 0 0 2 2 1 1 0 0 1 0 1 0 0 1 0 2 2 0 0 2 2 0 0 0 0 2 0 2 1 0 0 2 0 2 0 2 0 0 0 0 0 0 0 2 2 2 1 0 0 0 0 1 0 1 0 0 0 2 0 0 1 0 1 0 2 0 2 1 0 0 0 2 0 0 0 2 0 2 0 2 0 0 1 0 1 1 0 1 0 2 0 0 0 0 1 0 0 0 0 1 1 1 2 0 0 2 0 0 2 0 2 0 0 0 1 0 2 0 1 2 0 1 0 0 0 1 2 2 0 1 0 1 0 2 0 1 2 0 0 0 1 0 0 0 0 1 0 0 2 1 0 0 1 1 0 0 0 1 1 0 0 0 0 2 1 0 0 2 0 0 2 2 2 0 0 0 2 1 1 0 2 0 0 0 0 0 0 2 2 0 0 0 0 2 0 0 2 0 1 2 0 1 0 0 2 2 0 0 0 0 0 0 1 0 0 1 0 0 2 2 0 0 0 0 1 2 0 0 0 0 2 2 0 0 0 2 0 0 0 2 0 0 1 0 0 0 0 1 0 0 0 1 0 1 2 0 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 2 2 1 0 2 2 0 1 0 2 0 1 2 1 2 0 0 0 2 0 1 0 0 0 0 1 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 0 0 1 0 2 2 0 0 2 1 0 0 0 2 0 2 1 0 2 0 1 0 2 2 2 0 0 0 0 0 0 1 0 0 1 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 2 1 2 0 0 0 0 0 1 1 0 0 0 0 0 2 0 0 1 0 0 1 0 0 1 2 1 1 0 2 1 2 1 0 1 1 0 1 1 0 0 0 0 0 0 2 1 0 0 2 2 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 2 0 1 0 2 1 2 1 0 1 0 0 0 2 0 0 2 0 0 0 1 2 0 2 1 2 0 0 0 0 0 0 0 1 0 0 0 2 0 2 2 0 0 1 0 0 2 2 1 0 0 2 0 0 0 0 0 0 0 2 0 0 0 0 2 2 1 0 0 0 0 0 2 0 0 1 0 0 0 0 0 2 2 0 0 1 2 0 0 0 2 0 1 0 0 1 0 0 0 1 0 0 0 0 2 2 1 0 0 2 1 2 1 0 0 1 2 0 0 1 1 1 1 2 0 0 0 1 2 0 1 0 2 2 0 0 0 2 0 0 0 0 0 2 0 0 0 1 0 0 0 0 2 2 0 0 0 0 0 2 2 1 0 0 2 0 0 0 1 0 2 0 0 2 0 0 0 0 2 0 0 1 1 0 0 1 0 0 2 1 2 1 2 0 0 0 2 0 1 1 0 0 2 2 2 0 1 0 1 2 0 1 1 2 0 0 0 1 0 0 0 1 1 0 0 0 2 0 0 2 2 0 0 0 0 1 0 2 0 2 1 1 0 2 0 0 0 0 0 0 2 0 1 0 0 0 0 1 2 1 0 1 0 0 0 2 0 2 0 0 1 0 0 0 0 0 0 0 0 1 1 0 2 0 1 2 1 2 2 2 0 0 1 0 0 0 0 0 0 1 1 0 0 1 0 1 0 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 2 2 0 0 1 0 0 1 2 1 0 0 0 0 0 1 2 2 0 0 1 0 0 2 0 2 2 1 1 0 2 0 0 0 0 2 0 0 2 0 2 2 0 1 0 1 0 2 2 1 0 1 2 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 2 0 1 0 0 0 2 0 2 2 0 2 0 2 1 0 2 0 0 0 1 0 1 0 0 0 0 2 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 1 2 2 0 0 2 0 0 1 0 0 2 0 0 0 2 1 2 0 1 1 0 0 2 0 0 0 2 0 2 1 2 0 1 1 1 2 1 0 0 0 1 0 1 2 0 2 1 0 0 0 0 0 0 0 0 2 0 2 1 1 0 0 2 2 0 1 0 0 0 1 0 0 0 0 0 0 2 0 0 2 1 2 0 0 1 2 0 2 0 0 0 1 0 0 2 1 0 0 0 2 1 1 1 0 0 2 2 2 0 0 1 1 0 1 0 0 0 0 2 1 0 1 0 1 1 2 1 0 0 1 0 2 2 0 1 0 0 0 1 0 1 0 1 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 1 0 0 0 1 2 1 2 2 0 0 0 2 2 0 0 0 1 1 0 2 2 0 2 0 0 0 0 0 1 2 0 1 2 1 0 0 2 0 0 1 0 0 0 0 2 2 0 0 1 0 2 0 0 1 0 2 1 2 1 0 0 0 0 1 0 2 0 2 0 1 0 0 2 0 0 1 1 1 0 2 0 0 1 1 0 0 1 0 0 1 2 0 0 2 1 0 0 0 1 2 1 0 2 0 0 1 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 2 1 0 0 0 1 1 1 0 0 1 0 0 0 0 0 0 2 2 0 0 0 1 0 0 0 2 1 0 2 0 0 0 0 0 0 0 0 0 2 0 0 0 0 1 0 1 1 2 0 2 2 2 0 2 0 0 0 0 0 0 0 2 0 0 0 2 0 2 0 2 1 0 0 2 0 0 2 0 0 0 0 2 1 0 1 2 2 0 0 0 1 0 0 0 0 1 0 1 0 1 1 0 0 1 0 0 2 0 1 1 1 0 0 0 0 1 0 0 1 1 1 0 0 0 0 0 0 2 1 0 2 0 2 1 1 0 0 0 0 0 1 0 0 0 2 0 0 0 1 0 1 0 0 2 2 1 0 0 0 0 0 2 0 2 0 1 0 2 2 0 2 0 0 0 1 1 0 0 1 0 2 0 0 0 1 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 2 0 0 1 0 0 1 0 2 0 2 2 2 1 0 1 0 0 2 2 2 0 0 0 2 1 0 0 0 0 0 0 0 2 1 2 0 1 0 0 0 0 1 0 0 1 0 0 0 0 2 0 0 1 1 1 0 1 0 0 0 0 0 0 0 1 1 0 0 2 1 1 0 0 0 0 1 0 0 0 1 1 0 2 0 0 0 1 1 0 0 0 0 0 2 0 0 0 2 0 1 1 0 2 0 0 0 0 0 0 2 0 0 0 0 0 1 0 0 0 1 1 1 1 0 2 1 0 1 2 1 0 0 0 2 0 1 0 2 0 1 0 1 0 2 0 0 2 1 1 0 0 0 0 2 1 2 2 1 0 2 1 0 0 0 0 0 0 1 2 1 0 2 0 0 1 0 1 0 0 1 2 0 0 0 2 2 0 0 1 0 1 0 0 0 0 0 2 2 0 0 0 0 0 0 2 2 0 1 2 0 2 2 2 0 2 0 0 0 0 0 0 0 0 2 0 1 0 0 1 2 1 0 0 0 0 2 0 0 0 1 0 0 1 0 0 1 0 0 0 2 0 0 0 1 0 2 0 0 0 2 2 0 0 1 0 0 2 0 0 0 1 2 1 0 0 0 2 2 0 0 2 0 0 0 1 0 0 2 1 1 1 0 0 2 0 1 0 0 2 1 0 0 0 0 0 0 2 1 0 2 0 1 0 2 0 0 1 0 0 0 0 2 2 0 0 1 2 0 0 0 1 0 0 0 0 2 1 2 0 0 1 2 2 2 2 2 0 1 0 1 0 0 1 0 0 2 0 1 1 1 0 0 0 2 1 0 0 0 2 1 0 0 0 2 0 0 1 0 1 0 0 2 2 0 1 0 0 0 2 1 1 0 0 0 1 0 1 1 1 1 2 1 1 2 2 2 0 0 0 0 2 0 0 0 0 1 0 2 0 1 2 0 0 0 0 2 2 0 0 2 1 2 0 1 1 0 0 0 1 0 0 1 1 0 0 1 1 2 2 0 1 0 0 0 0 2 0 2 0 0 0 0 2 0 0 2 0 2 0 0 2 0 0 0 0 1 0 0 0 1 1 1 0 2 2 2 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 2 1 0 1 0 0 0 2 0 0 1 2 0 0 0 0 0 0 0 1 2 0 1 0 2 1 0 1 0 2 0 2 0 0 0 0 0 1 1 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 1 2 1 0 2 0 0 0 2 0 2 1 0 2 1 0 0 0 2 0 2 2 0 0 0 0 2 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 2 0 0 2 2 2 0 1 2 0 0 0 0 0 2 1 1 0 0 0 0 2 0 0 0 0 0 0 0 0 1 2 0 0 0 0 0 0 1 0 1 0 0 0 0 1 1 2 0 0 2 0 2 0 0 0 2 1 0 0 2 2 0 0 2 0 0 0 0 1 0 1 0 0 1 0 2 0 1 2 1 0 2 1 1 0 0 0 2 2 0 0 0 0 1 1 1 0 0 1 0 1 2 0 1 0 1 1 1 1 2 1 2 0 1 1 0 0 0 0 1 0 0 2 1 2 1 0 0 0 1 0 0 0 0 1 1 2 2 0 0 2 0 2 1 0 0 1 1 0 0 1 0 0 0 2 0 0 0 0 0 1 2 0 0 0 1 1 0 0 1 0 2 0 0 0 0 0 0 0 2 1 2 0 0 1 1 2 0 2 0 2 0 0 2 0 0 0 1 1 1 0 0 1 0 0 1 0 0 0 0 1 0 2 1 1 1 2 1 0 0 0 1 2 0 1 2 0 1 1 2 0 0 0 0 1 0 0 1 0 0 0 0 0 1 0 0 2 1 0 0 0 0 0 2 0 2 2 0 0 0 2 2 2 0 0 0 0 0 1 2 2 2 2 0 0 0 0 0 0 1 1 0 0 0 0 1 1 2 0 0 0 2 1 0 1 0 0 1 0 1 0 0 2 0 0 0 0 0 0 0 2 2 0 0 1 0 0 0 0 1 0 0 1 0 1 0 0 2 1 0 0 0 1 0 2 2 0 0 2 0 2 0 0 1 0 2 2 1 0 1 0 2 2 0 0 0 0 0 0 2 1 0 0 0 0 0 0 2 2 2 1 1 0 0 2 0 0 2 0 1 0 0 0 0 1 0 2 0 0 0 0 1 0 1 1 0 0 2 2 0 0 0 2 0 0 1 0 0 1 2 0 0 0 2 2 2 1 0 0 1 0 0 1 0 2 0 0 0 0 0 2 2 0 2 0 2 0 1 0 2 2 0 0 2 0 0 0 0 0 0 0 0 1 2 0 2 2 0 1 2 0 2 0 0 0 0 2 1 0 0 2 0 0 1 2 2 0 0 0 0 0 0 0 2 2 0 1 1 0 1 1 1 0 0 0 1 0 0 2 2 0 0 1 1 0 0 0 2 0 0 2 0 0 2 0 2 1 0 1 2 0 1 1 0 1 0 0 0 0 1 2 0 1 0 0 0 1 0 2 2 0 2 0 0 0 2 0 0 0 0 1 0 1 1 0 0 2 1 2 0 2 0 1 2 0 0 0 0 1 2 0 0 1 2 0 2 0 0 0 0 2 0 0 0 1 0 1 1 0 0 0 1 0 1 0 0 0 0 1 0 2 0 0 1 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0 1 2 0 2 0 0 1 0 2 0 2 1 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 2 0 2 0 2 0 2 0 0 1 0 0 0 2 0 0 0 0 2 1 0 2 2 0 2 0 1 1 0 0 1 1 0 0 0 0 1 0 0 0 2 0 0 0 2 0 1 1 0 0 1 0 2 1 1 1 2 0 0 1 0 0 0 0 1 0 0 0 1 0 0 1 1 0 1 0 1 1 1 1 0 1 0 0 0 0 2 2 1 1 1 0 0 1 0 0 2 0 2 2 0 0 0 1 1 0 2 1 1 1 0 0 2 1 0 2 2 0 2 0 2 2 0 0 1 0 1 0 0 2 0 1 0 0 0 0 0 0 1 0 2 1 2 0 0 1 1 1 0 0 2 0 1 0 2 0 2 0 2 0 0 0 0 0 1 2 0 2 0 2 0 0 0 1 0 0 0 0 0 0 0 2 0 0 2 0 0 1 0 0 0 2 0 0 0 0 2 0 0 1 0 0 1 0 2 0 1 0 1 1 0 0 0 2 0 0 2 0 1 0 1 0 1 0 2 1 0 0 1 1 0 0 0 1 1 0 0 0 2 0 0 2 0 0 0 0 0 0 0 0 2 0 1 1 0 1 2 1 0 1 2 0 0 2 0 1 0 0 0 0 2 0 0 0 0 0 1 0 1 0 1 0 1 0 2 0 0 0 0 0 0 0 0 2 0 2 2 1 0 0 0 0 1 0 2 0 0 0 2 0 0 0 1 0 1 0 2 0 0 2 0 2 0 2 1 1 2 0 0 1 0 0 0 1 0 0 0 0 2 0 0 0 0 0 1 1 0 2 0 0 0 1 1 0 1 1 0 0 2 2 0 1 2 0 0 0 2 0 2 0 0 0 1 0 0 0 0 1 0 0 0 0 0 2 2 0 0 0 2 1 0 0 2 0 2 1 0 0 0 0 0 2 0 0 0 1 2 1 0 0 0 1 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 1 2 1 1 0 2 0 1 1 0 0 2 1 1 0 1 0 2 0 0 0 0 0 0 1 0 0 2 2 0 0 2 0 0 0 0 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0 2 0 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 1 1 0 2 0 0 1 0 0 1 2 2 1 2 0 0 0 2 2 1 0 0 1 0 2 0 0 0 0 0 0 0 1 0 0 2 0 0 0 0 0 0 0 0 0 0 2 1 1 0 2 0 2 1 0 0 0 2 0 1 1 1 1 2 0 0 1 0 0 0 0 0 0 2 2 0 0 0 2 0 0 0 0 2 0 0 0 0 0 1 2 0 2 1 1 0 0 0 1 2 2 2 1 1 0 0 0 0 0 0 1 0 2 1 1 0 0 0 1 0 0 1 2 0 0 0 0 1 0 2 0 2 0 2 0 0 0 0 1 1 1 0 1 0 2 1 0 1 2 0 0 2 0 0 0 0 0 0 2 0 0 0 1 1 0 0 2 0 0 2 2 0 0 0 2 2 2 1 0 2 0 0 1 1 1 0 2 0 1 0 0 0 0 2 0 0 1 2 0 2 0 1 2 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 2 0 1 2 0 0 2 0 0 1 2 2 0 0 0 0 0 2 0 0 1 2 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 1 2 0 0 1 0 0 0 0 0 2 2 0 0 0 0 2 1 0 0 0 1 2 0 1 1 0 0 0 0 0 0 0 0 0 0 0 2 0 1 2 0 2 0 2 0 0 0 1 0 0 0 0 0 0 1 0 1 2 1 0 2 1 1 0 0 0 2 1 1 2 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 1 2 2 0 0 2 0 0 1 0 2 1 0 1 0 0 2 1 0 1 0 0 0 0 0 1 0 0 0 0 2 1 0 2 0 1 2 0 0 2 1 1 2 1 1 1 0 0 0 1 0 1 0 0 0 1 0 0 2 0 0 0 0 1 2 2 0 1 1 1 0 0 0 1 2 1 0 0 0 2 0 1 0 0 0 0 1 0 0 2 0 2 0 0 0 1 0 1 0 0 1 2 0 2 2 2 0 1 2 0 1 2 2 0 0 0 0 0 0 0 0 2 1 1 0 2 1 1 2 2 0 2 0 0 0 0 0 0 0 0 0 2 2 1 0 0 0 2 2 0 0 1 2 2 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 0 2 2 0 0 0 0 2 1 1 0 1 2 0 0 0 1 0 0 0 1 1 1 1 0 2 1 0 1 0 2 0 0 0 2 0 2 2 0 0 2 0 0 0 1 0 2 0 1 1 0 2 1 1 0 0 1 0 2 1 1 0 2 2 0 0 1 2 1 0 0 2 0 0 0 0 2 2 1 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 2 0 0 0 0 0 0 1 2 0 1 1 0 1 0 0 0 0 0 0 1 1 0 0 2 0 2 1 0 0 0 2 0 0 0 0 0 1 0 0 0 1 0 0 1 1 0 2 0 2 0 0 2 0 1 1 0 0 0 1 2 2 0 0 0 0 2 0 0 0 1 0 2 2 0 0 2 1 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0 1 2 0 2 0 0 0 0 2 0 2 0 0 2 2 1 0 0 0 2 2 0 0 2 0 0 1 0 2 2 0 0 1 0 0 1 2 0 2 0 0 0 0 0 0 2 0 2 0 1 1 0 0 0 0 0 2 0 2 2 0 0 0 0 1 0 0 0 0 0 0 0 2 0 1 0 0 2 0 0 1 0 0 0 1 0 0 1 2 1 0 2 0 0 2 2 0 0 2 0 0 0 0 0 0 1 2 0 0 0 0 0 1 1 0 0 0 2 1 0 0 0 2 2 0 0 0 1 0 0 0 0 1 0 1 0 2 0 0 0 0 0 0 0 0 2 2 0 0 1 2 1 0 0 0 0 0 0 2 0 2 0 1 0 0 2 0 1 0 2 1 2 0 0 0 2 0 1 2 1 2 0 1 1 0 2 0 0 0 1 0 0 0 0 0 0 0 2 1 1 1 0 0 2 1 1 0 0 0 0 0 0 0 0 2 2 1 2 0 0 1 0 0 0 0 0 0 1 1 2 1 0 0 0 1 0 1 1 2 2 0 2 1 0 0 0 0 0 2 1 2 2 0 0 2 2 0 2 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 0 2 0 0 1 1 2 1 2 2 0 0 0 0 0 1 0 0 1 2 0 1 2 1 2 1 1 0 0 2 0 0 0 0 0 1 2 1 0 2 2 0 1 2 2 0 0 0 0 1 2 0 0 0 0 0 0 2 1 2 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 2 2 0 1 0 0 2 0 0 0 0 2 0 0 0 1 0 0 0 1 1 2 0 0 0 2 2 0 0 0 0 0 1 1 0 1 1 2 2 0 0 0 0 0 2 0 0 0 0 1 1 2 0 0 0 0 2 0 0 0 0 1 0 1 1 1 0 2 0 0 0 0 2 2 0 0 2 0 2 2 0 0 0 2 0 1 1 2 2 0 0 0 1 1 0 0 0 2 0 1 2 0 0 1 2 0 0 0 0 2 0 0 0 2 2 1 1 0 0 0 2 0 0 0 2 0 0 0 2 0 0 2 0 0 0 1 0 0 2 0 0 2 1 2 0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 2 1 0 2 0 0 2 0 0 2 2 0 0 0 2 0 2 0 1 0 0 1 1 1 1 0 0 1 1 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 0 2 0 0 2 0 1 1 0 0 2 1 0 0 0 0 1 1 2 1 0 1 0 2 1 0 0 0 0 0 2 1 0 1 1 0 0 2 2 1 0 2 2 1 0 2 2 0 0 0 0 0 0 0 0 0 1 0 1 2 0 0 0 0 0 2 0 0 0 1 1 0 0 2 0 2 2 1 0 1 1 0 1 0 0 0 0 0 0 0 0 2 0 1 0 1 0 1 2 1 1 0 0 0 2 1 1 0 0 0 0 2 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 1 0 0 0 1 0 0 2 0 0 2 1 0 0 0 1 2 0 0 0 0 0 2 0 0 2 0 1 2 0 0 0 2 2 0 2 0 1 0 2 2 0 2 2 0 1 1 0 2 1 0 0 0 0 0 1 1 0 2 1 0 0 0 2 1 1 0 1 2 0 1 0 0 2 2 2 0 0 0 0 1 0 0 0 0 0 2 2 1 0 0 2 0 0 0 0 0 0 1 1 0 0 0 2 0 0 0 1 0 2 2 0 0 2 2 1 0 0 1 2 1 0 2 0 0 0 0 0 1 2 0 0 1 1 0 0 2 1 0 0 0 2 1 0 0 1 0 0 0 0 2 2 0 2 0 0 2 0 0 0 1 2 0 0 1 2 0 1 1 0 1 0 1 0 0 2 0 1 0 1 1 0 1 0 0 0 0 1 0 0 1 2 0 1 0 0 2 2 1 0 0 2 0 0 1 0 0 0 2 2 1 2 1 0 1 0 0 0 0 1 2 0 0 1 0 0 0 2 1 1 2 0 1 2 0 1 0 0 1 2 1 1 2 2 0 0 0 1 0 0 2 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 2 2 0 0 0 2 2 1 0 2 0 1 0 0 0 0 0 0 0 2 1 2 0 1 2 2 2 0 0 0 0 0 0 1 1 0 1 0 1 1 0 1 2 1 0 0 2 2 0 0 0 1 1 0 1 0 2 2 0 2 0 0 0 2 0 0 1 0 0 2 0 2 2 0 1 0 0 0 0 0 1 0 1 2 0 1 1 0 0 2 0 0 0 1 0 2 1 0 0 0 0 2 1 0 0 0 1 0 1 0 0 0 0 2 0 2 0 0 0 2 0 0 1 0 1 0 0 1 0 0 2 0 0 0 1 0 0 1 1 2 0 2 1 0 1 1 0 0 1 0 2 0 2 2 0 0 0 1 0 2 0 1 0 1 2 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 2 1 0 1 1 0 1 0 0 2 0 0 0 2 0 0 0 0 1 2 1 1 1 0 0 0 0 0 0 2 0 0 1 2 1 2 0 0 0 2 1 2 2 0 0 1 2 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 2 1 0 2 0 0 0 0 0 2 0 2 0 2 0 0 0 0 0 0 0 0 0 0 0 1 0 2 0 0 1 2 2 2 0 2 0 0 0 0 2 0 0 2 0 0 1 0 0 0 2 0 0 2 2 0 2 0 2 0 2 2 0 0 2 0 0 0 0 0 1 0 0 1 2 0 0 1 1 0 0 2 0 0 0 1 0 0 1 0 1 1 1 1 0 0 0 0 0 0 2 1 0 0 2 0 2 0 0 0 2 2 2 0 0 0 1 0 0 0 0 1 0 0 2 0 1 2 0 0 0 0 2 0 0 0 0 2 0 0 2 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 1 0 2 1 2 2 0 0 0 2 2 1 0 0 2 2 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 0 2 0 0 0 0 0 2 0 0 1 0 1 0 1 2 0 1 0 2 2 0 0 1 0 0 0 0 2 2 1 2 0 1 0 0 0 1 2 0 0 0 0 0 0 2 2 0 0 2 0 1 0 1 0 2 0 1 0 0 1 2 0 0 0 1 0 0 1 0 0 2 2 1 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 0 0 0 0 1 2 0 0 0 0 0 0 0 1 0 0 0 2 1 0 1 0 0 0 0 1 0 0 1 0 0 1 0 1 0 1 0 0 0 0 1 1 0 1 0 2 0 1 2 1 0 0 0 1 1 0 1 2 0 1 1 0 1 2 1 0 0 1 1 0 1 0 0 1 0 0 0 0 2 2 0 0 0 0 0 0 2 2 2 0 2 0 2 2 2 2 2 0 0 0 1 1 0 0 0 0 1 0 2 0 2 0 0 0 1 1 0 0 1 0 1 2 1 0 1 2 1 0 0 1 1 0 1 0 0 0 0 1 0 0 2 0 0 2 0 1 0 2 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 2 0 0 2 0 0 0 0 0 2 1 1 1 0 0 0 0 2 2 0 0 0 1 0 0 0 0 0 2 2 0 2 0 0 0 2 2 2 0 0 0 0 1 0 0 1 0 0 0 2 2 0 0 0 2 1 1 0 1 0 1 2 0 0 2 0 2 0 0 0 1 0 0 0 0 2 2 2 1 0 0 0 1 0 0 0 0 0 1 1 1 0 0 0 0 0 1 0 0 0 1 1 0 0 1 0 0 0 2 0 0 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 2 0 0 2 0 0 0 0 0 0 1 0 0 2 2 0 1 2 2 2 0 1 2 0 2 2 0 0 0 0 0 1 0 0 2 2 2 0 1 0 1 0 1 2 0 1 2 1 2 2 0 0 0 0 0 2 0 0 0 0 2 2 2 0 0 0 0 1 0 1 0 0 1 1 0 0 2 2 0 1 2 2 2 0 0 0 2 1 0 2 0 0 1 1 2 0 2 2 0 0 0 2 2 0 0 1 0 1 0 0 0 0 1 1 0 0 2 1 0 0 2 1 1 1 0 0 0 0 2 0 0 0 1 2 0 1 0 1 1 1 0 2 2 0 2 2 0 0 0 2 0 0 0 1 2 2 2 0 2 0 0 2 1 2 2 0 2 0 2 0 0 1 2 0 2 0 0 0 2 1 2 1 0 0 0 1 0 2 0 2 0 0 2 2 0 0 1 2 2 2 0 0 1 1 0 0 0 2 0 0 0 0 2 0 2 0 1 0 0 0 1 1 0 0 0 0 0 1 0 0 0 2 0 0 2 2 0 0 2 0 0 0 2 0 0 2 0 0 1 0 0 2 1 0 0 1 0 2 0 2 1 1 0 1 0 0 1 0 2 0 1 2 2 1 2 2 0 0 0 0 0 0 2 2 0 0 0 0 0 0 1 1 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 2 0 0 1 0 0 0 2 0 2 1 2 2 0 2 2 0 0 0 0 0 0 2 0 1 1 0 0 0 1 0 0 0 0 0 2 0 2 0 0 0 0 0 1 0 2 0 0 0 0 0 2 0 2 1 1 0 0 0 0 2 0 1 2 1 0 0 1 0 2 2 0 0 0 0 1 0 2 0 0 0 0 1 0 2 2 0 1 1 2 0 1 0 0 2 0 0 0 0 1 0 0 0 1 0 0 1 1 0 1 1 0 2 0 0 0 1 2 0 0 1 2 2 0 2 0 0 0 0 0 1 0 0 0 0 2 1 2 0 2 1 0 2 2 0 0 0 2 0 0 0 0 0 0 0 0 0 0 2 2 0 2 1 0 1 2 1 0 0 2 1 0 2 0 0 0 0 2 1 0 0 2 0 0 0 2 0 0 2 1 2 2 0 2 0 0 0 1 2 0 2 0 0 0 0 2 0 1 0 2 1 1 0 0 2 0 0 0 1 2 2 0 2 2 2 0 0 2 0 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 2 0 0 0 1 0 1 0 1 1 0 1 2 0 0 2 0 2 1 0 0 2 2 0 1 2 2 0 0 0 1 0 0 0 2 0 0 0 0 2 0 0 2 0 2 1 0 0 0 1 0 0 0 1 2 0 0 2 1 0 2 1 0 0 0 1 1 0 0 0 0 0 2 1 0 2 2 0 0 0 2 2 0 2 1 0 0 0 0 0 1 0 0 0 0 2 0 0 0 1 1 0 0 1 0 0 0 0 0 1 0 2 0 1 1 0 0 0 0 1 0 2 0 0 1 0 0 0 2 1 0 1 0 2 2 0 0 0 0 0 0 2 1 2 1 0 2 2 0 0 0 1 0 0 2 1 2 0 0 0 2 0 2 0 0 2 0 2 0 2 1 0 0 0 0 0 2 1 0 1 0 0 2 0 0 1 0 1 2 2 0 0 0 2 0 2 0 2 2 2 0 0 0 0 0 1 0 0 1 1 1 1 0 0 1 0 0 0 1 1 2 1 0 0 1 0 1 2 0 0 0 0 0 0 1 0 0 0 2 2 1 0 1 0 0 0 0 2 1 0 0 0 2 1 0 0 2 0 0 1 0 0 2 1 0 0 0 1 0 2 1 0 0 2 2 1 0 2 0 0 0 0 2 0 0 1 2 0 0 0 2 0 0 0 2 1 2 1 0 1 2 0 2 1 2 0 0 2 1 0 2 2 0 2 1 2 1 0 0 0 2 0 0 0 0 2 0 2 0 0 0 0 0 1 0 1 2 1 1 0 0 0 0 2 0 2 2 0 1 0 1 0 1 0 1 1 2 0 1 0 0 2 0 0 0 0 2 0 1 0 1 2 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 2 0 2 0 0 1 1 0 2 1 1 0 0 1 0 2 2 0 1 0 0 2 2 0 0 1 0 0 0 0 2 1 1 2 0 0 2 0 2 0 1 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 2 2 2 0 0 0 1 0 2 0 0 2 0 1 0 0 0 2 1 2 0 0 1 2 2 0 0 2 1 2 0 2 2 0 2 2 0 0 0 0 0 0 2 0 0 2 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 2 0 2 0 0 0 0 0 0 2 1 1 2 0 0 0 0 2 0 0 2 0 2 2 0 1 2 0 2 0 1 0 0 0 0 2 0 2 1 0 0 1 2 2 1 1 0 1 0 1 2 0 0 0 2 0 0 0 0 2 2 0 0 1 0 2 0 2 2 2 2 0 0 2 0 0 2 1 1 0 0 0 1 0 0 2 0 2 0 0 0 2 0 0 1 2 0 2 2 0 2 0 0 2 0 2 2 1 0 0 0 2 0 0 0 0 1 1 0 1 0 0 1 0 0 0 0 0 1 0 1 0 0 2 0 0 0 0 2 0 0 0 2 0 0 0 0 0 1 0 2 2 0 0 0 2 2 2 0 0 0 1 0 0 0 1 2 0 0 0 0 2 0 2 0 0 0 0 0 0 1 0 2 0 2 0 0 0 0 1 0 0 1 0 0 1 0 1 1 0 0 0 0 0 1 0 0 0 0 2 0 0 0 1 0 0 0 2 0 0 0 2 0 0 2 2 0 0 1 0 2 1 0 1 2 0 2 0 2 0 1 0 2 0 0 2 0 0 2 0 0 1 1 1 1 0 0 0 1 1 0 0 0 1 0 1 1 0 1 0 0 1 2 0 0 0 2 2 1 0 0 0 0 0 2 0 1 2 0 0 0 2 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 0 0 0 2 1 2 0 2 0 2 0 2 2 0 0 1 1 0 2 0 2 2 0 1 0 0 2 2 1 1 0 2 0 0 1 2 0 0 2 2 0 1 0 2 2 2 0 0 0 2 1 1 1 0 1 0 0 0 0 0 0 0 0 2 0 0 1 1 0 0 0 0 0 0 2 2 0 1 2 2 0 0 0 2 0 0 2 1 0 0 2 2 2 0 1 1 1 0 2 0 0 0 2 1 0 0 1 0 0 2 2 0 0 0 0 2 0 2 0 0 2 1 0 1 1 0 1 0 0 0 2 0 2 2 0 0 1 0 2 2 2 0 1 1 0 1 2 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 2 2 0 2 0 0 1 0 1 0 1 2 2 0 0 0 2 0 2 1 1 0 0 1 1 1 0 0 2 0 0 0 2 1 2 0 1 0 1 1 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 0 0 2 0 0 2 1 2 0 0 0 1 0 1 1 0 0 1 2 0 0 1 0 0 1 0 0 2 2 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 2 0 2 2 1 0 1 0 0 0 1 0 2 0 0 0 0 0 1 0 2 0 0 2 0 0 0 0 0 2 0 0 0 2 2 0 0 2 0 1 1 0 0 0 0 1 2 0 2 1 1 0 1 0 0 2 0 0 0 2 1 0 1 0 0 1 2 0 0 1 0 0 2 1 2 0 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 0 0 2 2 1 0 2 0 0 0 0 0 0 0 0 2 2 2 1 0 0 1 2 0 0 2 0 0 2 0 0 0 0 0 0 0 0 2 2 0 0 0 1 0 0 0 1 0 1 0 2 0 0 0 2 0 0 1 0 0 2 0 2 2 0 1 0 1 0 2 0 0 2 0 0 0 2 0 2 0 1 2 2 0 0 0 0 2 2 0 0 0 0 1 2 2 1 0 0 2 0 0 0 0 1 0 0 0 2 0 0 2 0 1 2 2 2 0 0 2 0 2 0 0 1 0 0 2 0 1 2 2 2 2 0 1 0 0 1 1 0 2 1 2 1 1 1 2 0 2 1 1 0 1 1 0 0 0 1 2 1 0 0 2 1 0 1 0 0 0 0 0 0 0 2 1 1 1 2 0 0 0 0 0 0 0 0 1 0 2 1 0 0 0 0 0 0 0 1 2 0 0 1 0 0 1 1 1 2 0 1 0 2 0 1 2 0 0 0 1 2 0 2 0 0 0 1 2 1 0 0 0 2 0 0 0 0 2 0 0 2 2 0 1 0 1 2 2 2 1 0 2 2 0 0 2 2 0 0 0 2 0 1 1 0 0 0 1 2 0 0 0 0 0 2 0 0 0 2 0 2 0 0 0 0 0 1 0 0 0 1 2 0 0 1 2 0 0 0 0 0 2 2 1 2 0 1 1 2 0 2 0 0 0 0 2 1 0 2 0 0 0 2 0 1 0 0 1 2 0 0 0 0 1 1 0 0 2 0 0 0 0 0 2 0 1 1 1 0 0 1 0 1 1 0 2 0 0 0 2 0 0 1 0 0 1 0 0 1 0 0 0 0 0 1 0 1 1 1 0 0 0 1 0 0 1 2 0 1 0 0 2 0 2 0 0 0 0 0 0 1 0 2 2 2 0 2 0 0 2 0 1 1 0 2 2 1 2 0 0 1 1 0 2 0 2 0 0 1 0 1 0 0 2 1 1 2 0 0 1 0 2 1 0 2 1 1 2 0 0 0 1 2 0 1 2 2 0 1 1 0 2 0 2 2 1 0 0 2 0 0 1 0 0 1 1 0 0 1 0 0 1 0 2 0 0 0 0 0 2 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 2 0 2 0 1 0 2 0 1 0 2 2 0 2 1 2 2 1 0 0 0 0 0 0 0 2 0 0 0 2 0 2 0 1 0 2 0 1 0 1 1 0 2 0 0 2 0 0 0 2 0 0 0 0 2 0 0 2 0 0 0 1 0 0 1 0 0 0 0 1 1 1 0 2 1 1 0 2 1 2 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 2 0 0 0 0 1 0 0 0 0 0 1 0 2 1 0 2 0 0 0 0 0 0 2 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 2 0 2 0 2 0 0 1 0 2 0 0 1 0 0 1 1 1 0 0 2 2 0 0 2 2 0 2 2 1 0 2 2 0 0 2 0 2 2 2 1 0 0 0 1 0 1 0 2 0 0 0 0 0 0 0 2 0 0 2 0 0 1 2 0 0 0 0 0 0 2 2 0 1 0 2 0 0 2 1 0 2 0 0 2 0 0 0 2 2 1 2 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 2 1 0 1 0 0 0 1 0 0 2 0 1 0 0 1 0 1 0 2 2 1 1 0 0 1 1 0 0 0 2 0 2 1 2 0 1 2 1 2 2 2 1 1 2 0 0 1 1 2 0 2 0 2 0 0 0 0 0 0 2 2 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 1 0 1 0 0 1 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 2 0 1 1 1 1 0 1 1 0 1 0 2 0 0 2 0 0 0 0 0 0 1 0 0 0 0 2 0 1 0 0 1 2 2 0 0 0 1 0 0 0 2 0 1 2 2 0 1 1 0 1 0 2 1 0 2 0 0 0 1 2 0 1 0 1 0 0 0 0 0 1 2 0 1 0 1 2 1 1 0 0 0 1 0 0 0 2 1 0 2 1 0 0 0 0 1 0 0 0 0 2 2 0 0 0 0 0 0 0 0 0 1 2 0 2 1 2 0 0 0 0 2 0 1 0 1 1 0 0 1 0 1 2 2 2 0 0 0 1 0 0 0 1 0 1 2 0 2 1 2 2 0 1 2 0 0 1 0 0 1 0 0 0 1 0 0 2 0 0 0 0 2 0 1 0 2 0 1 0 0 1 0 0 0 0 0 0 0 1 1 2 0 0 1 1 0 2 2 2 0 2 0 0 0 0 2 2 0 0 0 0 0 0 0 2 0 0 0 1 1 0 1 2 0 1 0 2 0 0 0 0 2 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 1 0 2 0 0 0 0 1 0 0 0 0 0 0 0 2 2 0 0 0 1 2 0 0 2 2 0 0 0 2 1 1 1 0 0 1 2 0 0 0 2 2 1 0 0 0 0 0 0 0 0 1 2 0 0 1 1 2 2 0 1 0 0 0 0 2 2 1 2 0 0 0 0 0 1 0 0 0 0 0 2 2 2 0 0 0 1 0 0 0 2 1 0 1 0 1 2 0 2 0 2 2 1 0 0 0 0 0 0 0 0 0 1 0 2 1 1 1 0 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 2 1 2 0 0 0 0 0 0 2 0 2 0 0 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 1 0 2 1 0 0 0 2 0 0 0 2 1 0 0 2 1 1 1 2 0 1 0 1 0 0 0 0 0 2 1 2 0 0 0 0 2 2 2 0 0 0 0 2 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 2 1 0 0 0 2 1 0 0 0 0 0 1 0 2 2 1 0 0 1 1 2 2 0 2 2 0 1 2 0 0 1 0 0 0 0 0 1 0 0 1 0 1 1 1 0 1 2 0 0 1 0 0 0 1 0 0 1 1 2 0 2 0 1 0 1 2 1 1 0 0 0 0 0 0 2 1 1 2 2 1 0 0 1 2 2 0 0 0 2 0 0 0 1 1 1 0 1 1 1 0 0 0 0 0 0 2 0 2 0 0 0 2 2 1 0 0 0 1 0 0 0 2 0 2 1 1 0 0 0 0 1 0 0 0 0 1 2 2 0 0 2 2 1 0 1 1 0 0 0 1 0 1 0 2 1 1 2 2 1 0 0 2 1 1 2 0 2 1 0 1 0 0 0 2 2 1 0 0 0 2 0 0 2 2 1 0 0 0 0 0 2 0 2 2 0 0 1 1 2 0 0 1 2 1 1 0 0 0 0 0 1 2 0 0 0 0 2 0 0 0 1 0 0 0 0 0 2 2 1 1 2 1 0 0 0 0 2 1 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 2 0 0 0 1 0 0 1 0 0 0 0 2 0 1 2 0 0 0 1 1 2 0 1 0 1 0 0 1 2 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 2 0 0 0 2 0 0 1 0 1 1 1 0 0 0 0 0 1 1 0 2 0 0 0 0 0 1 1 0 0 0 2 0 0 1 1 0 0 0 0 0 0 0 2 2 0 0 0 2 2 0 0 0 1 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 2 0 2 0 1 0 0 0 0 1 0 0 0 0 0 0 0 2 2 0 2 0 2 0 0 2 2 2 0 2 0 2 1 0 2 1 1 2 0 0 1 2 0 0 0 1 0 0 0 1 0 0 1 1 0 2 1 0 2 2 1 1 0 1 0 0 1 0 0 0 0 0 2 0 0 0 0 2 1 2 0 0 0 1 2 0 1 1 0 0 0 1 1 1 2 1 1 1 0 0 0 1 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 1 2 0 0 1 0 0 0 0 2 0 1 2 0 0 0 2 2 1 1 0 0 2 1 0 0 0 0 0 2 0 0 0 2 0 0 0 0 0 2 0 1 2 2 1 1 0 2 0 0 0 0 0 2 2 0 2 0 0 2 2 1 0 0 1 2 1 1 0 1 0 0 0 0 1 1 0 1 0 0 2 0 0 0 0 0 0 0 2 1 1 0 2 0 1 1 0 0 1 2 0 2 0 2 0 1 0 1 0 2 0 2 0 0 2 1 0 1 0 2 1 2 0 0 1 2 0 0 0 2 2 0 0 0 0 0 0 0 0 1 2 0 2 1 0 0 0 2 0 2 1 0 2 2 0</ItemsUses>
+        </Instances>
+        <MissingValues>
+            <InstancesNumber>10161</InstancesNumber>
+            <VariablesNumber>63</VariablesNumber>
+            <ScrubbingMethod>Mean</ScrubbingMethod>
+            <MissingValuesNumber>0</MissingValuesNumber>
+        </MissingValues>
+    </DataSet>
+    <NeuralNetwork>
+        <Inputs>
+            <InputsNumber>32</InputsNumber>
+            <Item Index="1">
+                <Name>AA0</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="2">
+                <Name>AA1</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="3">
+                <Name>AA2</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="4">
+                <Name>AA3</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="5">
+                <Name>AA4</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="6">
+                <Name>AA5</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="7">
+                <Name>AA6</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="8">
+                <Name>AA7</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="9">
+                <Name>AA8</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="10">
+                <Name>AA9</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="11">
+                <Name>AA10</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="12">
+                <Name>AA11</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="13">
+                <Name>AA12</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="14">
+                <Name>AA13</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="15">
+                <Name>AA14</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="16">
+                <Name>AA15</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="17">
+                <Name>AA16</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="18">
+                <Name>AA17</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="19">
+                <Name>AA18</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="20">
+                <Name>AA19</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="21">
+                <Name>AA20</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="22">
+                <Name>AA21</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="23">
+                <Name>AA22</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="24">
+                <Name>AA23</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="25">
+                <Name>AA24</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="26">
+                <Name>AA25</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="27">
+                <Name>AA26</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="28">
+                <Name>AA27</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="29">
+                <Name>AA28</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="30">
+                <Name>AA29</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="31">
+                <Name>AA30</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="32">
+                <Name>AA31</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+        </Inputs>
+        <ScalingLayer>
+            <ScalingNeuronsNumber>32</ScalingNeuronsNumber>
+            <Statistics Index="1">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.23974</Mean>
+                <StandardDeviation>5.37307</StandardDeviation>
+            </Statistics>
+            <Statistics Index="2">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.19476</Mean>
+                <StandardDeviation>5.34745</StandardDeviation>
+            </Statistics>
+            <Statistics Index="3">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.20303</Mean>
+                <StandardDeviation>5.35329</StandardDeviation>
+            </Statistics>
+            <Statistics Index="4">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.1304</Mean>
+                <StandardDeviation>5.37578</StandardDeviation>
+            </Statistics>
+            <Statistics Index="5">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.22025</Mean>
+                <StandardDeviation>5.41975</StandardDeviation>
+            </Statistics>
+            <Statistics Index="6">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.22655</Mean>
+                <StandardDeviation>5.41593</StandardDeviation>
+            </Statistics>
+            <Statistics Index="7">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.20018</Mean>
+                <StandardDeviation>5.41041</StandardDeviation>
+            </Statistics>
+            <Statistics Index="8">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.21012</Mean>
+                <StandardDeviation>5.38966</StandardDeviation>
+            </Statistics>
+            <Statistics Index="9">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.2919</Mean>
+                <StandardDeviation>5.41962</StandardDeviation>
+            </Statistics>
+            <Statistics Index="10">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.24171</Mean>
+                <StandardDeviation>5.42323</StandardDeviation>
+            </Statistics>
+            <Statistics Index="11">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.1804</Mean>
+                <StandardDeviation>5.41639</StandardDeviation>
+            </Statistics>
+            <Statistics Index="12">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.14103</Mean>
+                <StandardDeviation>5.4129</StandardDeviation>
+            </Statistics>
+            <Statistics Index="13">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.20835</Mean>
+                <StandardDeviation>5.41725</StandardDeviation>
+            </Statistics>
+            <Statistics Index="14">
+                <Minimum>1</Minimum>
+                <Maximum>25</Maximum>
+                <Mean>9.27606</Mean>
+                <StandardDeviation>5.44374</StandardDeviation>
+            </Statistics>
+            <Statistics Index="15">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.32044</Mean>
+                <StandardDeviation>5.46397</StandardDeviation>
+            </Statistics>
+            <Statistics Index="16">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.25795</Mean>
+                <StandardDeviation>5.46596</StandardDeviation>
+            </Statistics>
+            <Statistics Index="17">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.22823</Mean>
+                <StandardDeviation>5.45582</StandardDeviation>
+            </Statistics>
+            <Statistics Index="18">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.22547</Mean>
+                <StandardDeviation>5.4399</StandardDeviation>
+            </Statistics>
+            <Statistics Index="19">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.16101</Mean>
+                <StandardDeviation>5.45124</StandardDeviation>
+            </Statistics>
+            <Statistics Index="20">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.14172</Mean>
+                <StandardDeviation>5.48342</StandardDeviation>
+            </Statistics>
+            <Statistics Index="21">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.14625</Mean>
+                <StandardDeviation>5.46712</StandardDeviation>
+            </Statistics>
+            <Statistics Index="22">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.1615</Mean>
+                <StandardDeviation>5.48514</StandardDeviation>
+            </Statistics>
+            <Statistics Index="23">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.25745</Mean>
+                <StandardDeviation>5.46213</StandardDeviation>
+            </Statistics>
+            <Statistics Index="24">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.30755</Mean>
+                <StandardDeviation>5.45374</StandardDeviation>
+            </Statistics>
+            <Statistics Index="25">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.32664</Mean>
+                <StandardDeviation>5.44432</StandardDeviation>
+            </Statistics>
+            <Statistics Index="26">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.26671</Mean>
+                <StandardDeviation>5.45929</StandardDeviation>
+            </Statistics>
+            <Statistics Index="27">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.2425</Mean>
+                <StandardDeviation>5.47637</StandardDeviation>
+            </Statistics>
+            <Statistics Index="28">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.28009</Mean>
+                <StandardDeviation>5.49757</StandardDeviation>
+            </Statistics>
+            <Statistics Index="29">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.31493</Mean>
+                <StandardDeviation>5.49271</StandardDeviation>
+            </Statistics>
+            <Statistics Index="30">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.29298</Mean>
+                <StandardDeviation>5.48519</StandardDeviation>
+            </Statistics>
+            <Statistics Index="31">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.26858</Mean>
+                <StandardDeviation>5.46427</StandardDeviation>
+            </Statistics>
+            <Statistics Index="32">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.26562</Mean>
+                <StandardDeviation>5.47232</StandardDeviation>
+            </Statistics>
+            <ScalingMethod>MinimumMaximum</ScalingMethod>
+        </ScalingLayer>
+        <PrincipalComponentsLayer>
+            <InputsNumber>32</InputsNumber>
+            <PrincipalComponentsNumber>0</PrincipalComponentsNumber>
+            <PrincipalComponentsMethod>NoPrincipalComponents</PrincipalComponentsMethod>
+        </PrincipalComponentsLayer>
+        <MultilayerPerceptron>
+            <Architecture>32 40 1</Architecture>
+            <LayersActivationFunction>HyperbolicTangent Linear</LayersActivationFunction>
+            <Parameters>-0.38367 -0.924601 -2.57477 0.460334 -2.5386 -1.08321 -1.24545 -1.99591 0.216117 0.13532 1.98332 -0.0535492 -0.711181 -0.0541116 2.12953 1.26609 1.67178 0.20171 -0.876384 -1.16911 1.0733 -0.305686 -0.696599 -0.33267 0.909584 -2.19223 -0.310584 -1.23246 0.685551 0.713103 -0.925223 0.228664 -0.736128 -1.57981 1.14064 1.05282 -2.52094 -0.00670856 0.207727 -1.42357 -0.792585 -1.80976 1.02348 -0.67478 0.818449 2.01672 0.280675 -0.0552483 -0.142991 2.20591 -0.240463 -1.29935 -0.835291 0.534475 1.44157 -1.64093 0.09349 -1.15784 -0.550415 -1.16544 0.0971009 -0.455174 -0.795005 -0.317224 -0.59532 1.41016 0.587399 2.14562 1.86811 2.48591 0.431556 1.01404 1.69016 0.603131 -0.638956 -0.303118 -0.848011 -1.2121 2.39869 -0.275645 -0.0800632 0.822362 1.42579 1.0506 -0.149057 0.0725882 1.2068 0.292597 0.220894 -0.397568 -0.702097 2.99359 -0.0648737 -2.17638 -0.794631 -0.740555 0.0600667 -1.56341 0.609231 0.675907 0.593603 0.944076 -0.964342 -1.72873 -0.045172 0.0708639 -0.75061 1.08458 0.986166 1.50139 -0.793083 1.01869 -0.393448 0.562483 0.141709 0.509575 -0.413578 -0.319964 -0.697135 1.04714 -0.797962 -0.371764 1.21355 -0.154672 -1.23665 0.274124 1.03278 0.0652955 -1.21785 -0.428225 -1.3418 1.6469 -0.702418 0.0882194 -1.36627 -2.12665 1.3491 -1.45824 -0.785255 0.191153 0.539833 -0.103782 0.623289 -0.196835 -1.31104 0.153002 -0.631874 1.1097 0.0229927 1.00142 -0.88874 -1.58115 -0.484705 -0.501745 0.851471 -0.242699 0.293571 0.907861 -0.616137 0.763881 -1.35884 -1.40557 1.15204 1.17431 -0.331503 0.306036 -0.235516 -0.645451 0.418058 0.197159 -1.39046 -0.321999 0.00651898 1.75337 0.553963 0.901643 0.350106 -0.643437 -0.105598 -0.656461 0.568889 0.291627 -0.0894702 0.980243 -0.467474 -0.826546 -0.673947 -1.07797 -1.10009 0.910213 -2.07205 1.13527 0.232418 -0.0515844 0.882809 -0.0466832 -0.575343 -0.365195 1.30204 -0.405407 1.88972 -0.295887 -2.45987 1.29234 1.83854 -2.4344 0.112584 -0.0640261 -0.00798415 0.952802 0.81611 0.0479887 -0.892862 0.256779 -0.076995 -0.51576 -0.278696 -1.02929 2.75046 0.229055 1.33591 0.687591 0.402845 -1.19297 -0.223916 -0.905841 -1.55617 0.716273 2.00988 -1.02739 0.199129 0.157754 1.73969 0.197036 -0.454274 -1.07747 -1.78724 -1.35302 -0.173988 -1.79656 0.947838 0.927206 -0.80576 1.29059 -1.79408 -1.07454 -0.649633 -0.00450743 1.44878 0.61753 -1.29727 -0.110802 -0.663859 0.460542 1.00211 0.816957 -0.305934 0.404725 -0.607636 -0.528281 0.0439876 1.30458 -0.637049 -0.0108024 -0.979982 -1.1535 1.19006 -0.723918 -0.52316 1.30621 1.93537 -0.261367 -0.139701 -0.449011 -3.12295 0.486014 -0.480145 0.30783 -0.361828 2.32366 -0.579032 -0.509198 0.579386 2.15539 -0.770737 1.04425 -1.18584 0.874048 0.66949 -0.564283 -1.03959 0.117298 0.645375 0.67759 -1.2066 -1.05245 0.115484 1.84371 -0.386842 -1.31535 -1.89528 -1.28735 -0.10915 1.16111 1.77845 -0.0955927 2.43182 1.08891 3.05162 -1.86078 -0.14211 0.86512 1.6646 -1.14335 0.649746 0.733204 -0.0129794 -1.33703 1.17942 -2.20604 -0.292178 0.791061 -0.336544 0.65963 0.871384 -0.166553 -0.346617 2.28051 -0.985281 0.861253 -0.805401 1.87062 -0.341784 0.785556 -0.680056 0.585985 2.23438 0.902425 0.561691 0.621681 0.154213 -1.05434 -0.141513 0.379722 -0.00590647 -0.330465 1.07936 -1.33719 1.21791 0.671771 0.367185 -0.798256 -0.0200456 1.31865 1.36459 1.23224 1.04017 -0.0999806 0.391758 0.763726 0.0682785 1.39693 0.22537 1.22828 1.68227 0.234893 -0.890044 -0.159532 -0.411383 3.55646 -0.774145 -0.045758 0.110905 0.105504 -0.454415 -0.137397 0.395107 -0.333761 0.338306 0.309047 -0.39094 0.300845 -0.422912 -0.913508 -1.57715 -0.73896 -0.211349 0.818594 -0.98393 -0.508603 -0.908032 -0.631461 0.518581 1.06298 1.00192 0.42808 2.52975 0.670979 2.16779 -0.280982 0.525688 0.439959 -0.661242 0.46016 1.04281 -1.55556 -1.21849 0.786991 0.494911 0.242391 -0.0295633 -0.122531 0.246787 -1.13624 -1.29991 -0.84939 0.125689 -0.125041 -0.16629 -0.149577 0.387235 1.50021 -0.253915 0.364329 1.22051 1.13281 -0.301789 0.845729 -2.13357 1.7814 -1.4325 0.751002 0.183491 0.551758 -0.0826868 -1.03708 2.0651 1.55264 0.85724 -0.363697 -1.18569 1.80183 -0.00115098 1.0108 -2.70475 0.745769 0.826763 0.885942 0.64351 -1.58388 -2.11404 0.430298 -0.533825 -1.29411 -0.653186 -1.83657 0.716411 1.0538 1.67901 0.420142 1.26857 -1.42796 -0.0660131 -0.540398 0.0143006 -0.833536 -0.960968 -1.03186 0.195414 -0.919482 0.471274 0.776106 0.799401 -0.19199 -0.897965 0.671849 2.10961 -0.485644 -0.466106 0.202713 -1.15192 -0.0125904 0.299098 0.04461 -0.487826 -0.869344 -1.04697 -0.34108 0.0623663 -0.433282 0.368927 0.750425 0.114101 0.340046 0.0671671 -1.14125 -0.663256 -1.3253 -0.481399 1.07769 1.00084 -0.4355 0.0351362 -0.946771 0.517733 -0.348584 -0.423917 -0.602031 -1.1049 -0.408243 0.669634 -0.333355 0.668059 -0.948946 0.565736 -0.922853 -0.180224 -0.0502969 -0.928757 0.566961 -0.0874855 0.817171 -2.01661 1.07248 1.31252 1.54336 0.0848288 -0.786854 0.515066 -0.57659 -2.00642 -0.111378 -0.703025 -1.22214 -1.55063 -1.9258 -0.268664 1.38893 0.989087 -0.0509312 -0.264297 -0.230456 1.41108 -0.682601 1.92305 -0.58933 0.671691 0.109772 0.0841118 -0.535571 0.430213 0.272723 1.55321 -1.27824 0.198906 0.147194 0.932138 1.02706 -0.0951503 0.0772982 -1.25265 -0.296138 0.354094 0.719297 -1.42877 0.836894 0.758008 -1.84227 2.21294 -0.61111 0.482943 -1.7152 0.629847 0.744879 -0.217323 -0.865559 0.82103 0.685779 -0.358319 0.53872 1.0494 1.00117 -1.02263 -0.0607694 0.960108 2.00771 -1.41976 -0.556189 2.69764 -0.338427 -1.58599 -0.792303 0.290763 -0.189699 1.56874 0.0524635 -1.16941 0.592956 0.169462 -0.985642 -0.39375 -0.134438 -1.20469 -0.0484668 1.72952 0.44884 1.41396 -1.26035 -1.90598 1.11453 1.09465 1.49699 -1.68353 -1.89484 -1.09866 -1.53365 -0.677096 2.34367 2.19387 -0.34894 0.261921 -1.22277 1.68111 -2.02455 1.87061 -2.05997 0.20444 -0.614755 0.602754 1.41465 0.128908 0.189378 -0.426494 -0.28037 3.0255 -0.0913488 -0.430412 -0.72015 -1.67095 -1.07154 -1.2828 0.264823 -0.420374 1.05549 0.32812 -1.47345 -0.563366 1.01724 -0.0533428 1.4343 -0.403311 -2.48888 1.64254 2.18414 0.106234 -1.03562 -0.508683 0.270999 -1.03987 -1.20837 0.457027 -0.882054 -0.208906 -0.509259 1.73342 1.44033 2.75953 -0.67234 2.59642 -0.705493 -0.68462 0.682489 -0.782133 1.25906 1.17072 0.52174 -0.437364 -1.05634 -1.2292 0.495109 -0.360922 1.41576 -0.754064 0.319299 -0.792612 0.150099 -0.142619 0.157732 1.26102 0.0135477 -1.65797 1.25397 0.348309 -2.11433 -1.28431 2.11755 -0.844341 -1.27394 0.658054 1.89583 -0.502685 2.30804 -1.07306 0.442547 -0.587118 -0.57992 -0.97638 -0.489346 -2.15358 -0.239364 0.152437 -0.7131 -0.168149 -1.46776 1.24265 -0.974301 -3.13617 -1.05536 0.727415 -2.25588 -0.733387 -1.42773 0.732385 -0.187058 -0.824322 0.100755 1.63405 -0.992335 0.82463 2.06514 -0.762521 -0.022265 0.86269 0.434599 0.0923638 -0.360329 3.78934 0.0095005 0.672773 -1.31398 -0.901679 -0.546385 1.13046 -2.06428 0.775699 2.17871 1.39633 0.912038 -1.90096 0.812581 -1.96697 1.18118 -1.15739 -1.1759 1.50715 -0.146875 1.25573 0.266416 3.01748 1.48182 0.495248 1.10944 -0.320625 -1.61544 2.73073 -0.136102 -1.27566 -0.263333 -0.564363 0.127636 1.44629 0.825178 1.95175 -1.36052 0.68083 0.0713077 -0.911343 1.14754 -0.841876 1.23228 -0.178404 -0.0850459 -0.167296 -1.23871 -1.9737 0.377178 0.124122 -0.792285 -0.764675 0.923057 0.0839092 -0.185917 -1.72355 0.868459 -0.600455 -0.259065 -0.309944 0.200663 0.368486 0.412707 -1.6817 -0.380711 -0.573961 1.14258 -1.15699 1.28031 1.45962 -0.203784 0.0176344 1.03629 -0.274199 -0.842236 -0.965916 0.573961 -1.47132 0.132235 -0.531581 0.432787 -2.14609 -0.775805 -0.795462 -1.17145 0.293289 0.153667 0.248337 2.28 1.72972 0.707177 0.463595 0.896424 3.08076 -0.529889 -0.539022 -0.337041 -0.523583 -1.10451 0.862394 0.322061 -0.160353 0.122138 0.727626 -1.879 -2.06941 0.2338 -0.380944 -0.819091 1.43956 0.451204 0.8626 -0.246136 -0.81436 -2.20147 3.47853 -0.827105 -0.14487 -1.19907 -0.580629 0.657691 0.964948 1.37341 -0.952507 -1.94333 0.103642 -0.288942 -0.0893883 -1.7792 -0.556965 -1.61349 -1.5935 1.65298 -0.975349 1.35234 -4.01453 1.22782 1.07971 -0.658546 -0.556035 0.469816 0.119253 -0.251838 0.381757 2.02225 -1.81065 -0.610974 0.576075 -0.8875 -2.25273 -1.47385 1.43251 1.20647 -0.930274 -1.54001 -0.382655 -0.806673 1.3406 0.124639 -0.839301 0.481139 1.31789 0.375071 -1.27657 1.65354 -0.885083 0.432173 0.0877337 -0.174436 0.929993 -2.51801 -0.162206 -0.373694 -0.350186 0.687881 0.0581993 0.826387 1.23491 -1.42138 -0.860981 -0.2219 0.239877 -1.55656 0.528984 0.107247 0.314603 1.32737 2.97466 1.27706 0.525191 0.468008 1.27363 2.03308 0.330588 -0.0683298 -0.485581 -0.451478 -0.638752 0.360334 -0.531782 -0.0438395 1.01062 -1.27812 1.93734 0.169833 0.825077 1.00608 -0.355606 -0.00458756 -0.259484 -0.493047 1.78477 1.24203 -1.15202 0.440657 0.584465 -1.89093 0.0566401 -0.448007 0.0907209 -1.11571 -0.19277 0.0240157 -0.542775 1.21967 -0.675694 1.37805 -0.935155 1.09017 0.632971 -1.18303 1.55202 -0.574013 0.931365 0.736799 0.0986305 0.0889212 0.304599 -1.4212 -0.230676 -1.50572 2.41796 -0.133414 -0.423299 0.309392 -1.57711 -1.68131 0.960832 0.879255 -0.235791 -1.99497 -0.0223396 -0.296995 0.52819 1.13707 1.22761 -1.70042 0.19669 0.239693 -0.23538 1.95623 2.22756 -0.881823 -0.0469446 -1.211 -0.0430677 -1.58974 -0.343793 -1.92868 0.75036 -0.540318 1.54417 0.553761 -0.642154 1.70283 0.568921 0.202514 1.05694 1.41329 -0.0871563 -1.25616 -2.50994 0.408209 0.0482232 0.862203 -0.516845 -0.547057 0.561137 -1.66222 -1.32283 -1.54067 1.8379 0.932973 -1.08425 0.670916 0.947171 -1.8083 0.806627 -1.23367 0.00245888 0.237312 -1.16033 -0.652016 -0.0554361 2.2955 -0.970359 0.852221 1.07795 0.643779 0.226204 -0.138028 -0.469189 -0.769774 0.371973 2.27869 -0.03692 1.87066 0.213476 0.843197 -1.09204 0.216028 -0.518267 -0.524455 0.806723 0.352117 -0.184052 -0.196242 -1.11692 2.28921 0.66006 -0.903175 -0.696079 -0.997078 -0.677074 0.576078 -0.253976 1.20739 -2.04749 -1.14649 -0.91077 2.23672 1.70539 0.83812 1.41521 -0.814198 -0.684468 -1.27223 -0.433311 0.879679 -2.61939 0.746282 0.763296 0.874196 2.31095 0.975569 -0.792628 0.640608 0.760455 1.97479 -1.83167 0.279057 -1.34529 -1.10246 -0.231642 -2.75802 -0.0765523 0.167799 0.820181 -1.23896 0.614203 -0.65988 0.575437 -0.422005 -0.417225 0.845934 -1.59599 0.255961 -0.316813 -2.17302 -0.735466 0.474959 0.298054 0.844135 0.566882 0.680496 -0.800849 -2.03709 -0.0152054 -1.33413 0.982455 -0.64057 -1.10612 -1.04919 0.445592 0.928482 -0.204387 0.501333 2.69558 -0.246285 -2.12125 -1.35634 1.30925 0.632278 -0.384445 -1.0699 -1.47697 -0.386243 -0.154902 -0.547502 1.71979 0.892853 -0.251404 -1.59673 0.0805834 -2.06357 -0.23307 -1.3777 -0.788977 -0.506956 0.840163 0.983018 1.87751 0.252509 -0.335696 0.0653784 2.07613 -0.835671 1.20226 -1.40638 0.564115 -1.12896 -0.970246 2.10169 -1.32406 -2.2234 -1.9177 0.199272 -0.970244 -2.02345 -1.98292 -0.723396 1.46314 0.0738394 -0.0215431 -0.984345 1.14082 0.54494 -1.09077 0.142092 0.712451 2.25681 -1.18125 -1.20979 -1.99828 -1.12871 0.363756 1.01283 2.55754 -0.32782 1.56451 -1.1533 -0.751063 0.50977 -0.160936 0.0832993 0.353606 -1.19262 -0.0388728 -2.05076 -0.355603 -1.09303 1.0437 -1.42979 -0.880789 -1.86279 0.866668 1.22257 0.812896 -0.938532 0.201259 -0.111514 -0.340633 0.968314 0.244209 -0.68556 1.58326 -0.164205 0.659611 -0.455668 0.437157 1.90882 0.855802 0.597103 0.635014 -0.0287655 -1.03308 -0.0888507 0.277714 0.0182516 -0.134373 1.05456 -1.05389 1.07757 0.510181 0.284278 -0.461317 0.0572229 1.06021 1.05811 1.03325 0.936629 -0.0246648 0.335271 0.678075 0.0742623 1.19527 0.133649 -1.03814 1.57859 -0.936591 -0.770083 0.675991 2.02355 0.555844 0.361074 1.87489 1.06119 2.6129 -2.40616 -1.05911 0.387587 -0.176345 0.141653 0.551876 1.10966 -0.126615 -2.19842 -0.587398 -0.0305814 -2.12018 -1.98458 0.697893 0.136541 -1.94737 -1.23303 1.4449 -0.316712 0.424226 -2.04826 -0.0855144 -1.27876 -1.08978 -1.44663 1.49972 0.714571 -2.78323 0.218161 1.7546 1.77051 -1.111 -1.17192 2.28437 -0.671376 0.930215 -0.932835 -1.3198 0.0966387 -0.463986 -0.161386 -0.711096 0.780809 -0.0878112 0.121616 -0.889942 0.312522 0.904255 0.791388 -1.51576 -0.590789 0.869867 1.53866 0.463832 -0.0405398 -0.101198 -0.186028 -0.161543 0.14867 0.186105 0.178279 0.183183 -0.173076 0.197778 0.184199 -0.138135 1.27824 0.18822 0.17363 -0.132876 0.242522 0.191448 0.237119 0.164116 -0.171682 0.143737 0.221043 0.151261 0.14761 0.150632 0.200938 0.155015 -0.158809 0.21291 0.194386 -0.181106 -0.154366 0.175486 0.153863 -0.161259 0.187454 -0.153313 -0.16556 -1.36196 -0.168659 0.174411</Parameters>
+        </MultilayerPerceptron>
+        <UnscalingLayer>
+            <UnscalingNeuronsNumber>1</UnscalingNeuronsNumber>
+            <Statistics Index="1">
+                <Minimum>3.88</Minimum>
+                <Maximum>34.12</Maximum>
+                <Mean>17.1343</Mean>
+                <StandardDeviation>5.93612</StandardDeviation>
+            </Statistics>
+            <UnscalingMethod>MinimumMaximum</UnscalingMethod>
+        </UnscalingLayer>
+        <BoundingLayer>
+            <BoundingNeuronsNumber>1</BoundingNeuronsNumber>
+            <Item Index="1">
+                <LowerBound>3.88</LowerBound>
+                <UpperBound>34.12</UpperBound>
+            </Item>
+            <UseBoundingLayer>0</UseBoundingLayer>
+        </BoundingLayer>
+        <Outputs>
+            <OutputsNumber>1</OutputsNumber>
+            <Item Index="1">
+                <Name>D-16-17</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+        </Outputs>
+    </NeuralNetwork>
+    <PerformanceFunctional>
+        <Objective Type="ROOT_MEAN_SQUARED_ERROR"/>
+        <Regularization Type="NEURAL_PARAMETERS_NORM">
+            <NeuralParametersNormWeight>0.001</NeuralParametersNormWeight>
+        </Regularization>
+    </PerformanceFunctional>
+    <TrainingStrategy>
+        <Main Type="QUASI_NEWTON_METHOD">
+            <InverseHessianApproximationMethod>BFGS</InverseHessianApproximationMethod>
+            <TrainingRateAlgorithm>
+                <TrainingRateMethod>BrentMethod</TrainingRateMethod>
+                <TrainingRateTolerance>0.01</TrainingRateTolerance>
+            </TrainingRateAlgorithm>
+            <ReturnMinimumSelectionErrorNN>0</ReturnMinimumSelectionErrorNN>
+            <MinimumParametersIncrementNorm>0.001</MinimumParametersIncrementNorm>
+            <MinimumPerformanceIncrease>1e-012</MinimumPerformanceIncrease>
+            <PerformanceGoal>1e-012</PerformanceGoal>
+            <GradientNormGoal>0.001</GradientNormGoal>
+            <MaximumSelectionLossDecreases>500</MaximumSelectionLossDecreases>
+            <MaximumIterationsNumber>10000</MaximumIterationsNumber>
+            <MaximumTime>36000</MaximumTime>
+            <ReserveParametersNormHistory>0</ReserveParametersNormHistory>
+            <ReservePerformanceHistory>1</ReservePerformanceHistory>
+            <ReserveSelectionLossHistory>1</ReserveSelectionLossHistory>
+            <ReserveGradientNormHistory>0</ReserveGradientNormHistory>
+        </Main>
+    </TrainingStrategy>
+    <ModelSelection>
+        <InputsSelection Type="GROWING_INPUTS">
+            <TrialsNumber>3</TrialsNumber>
+            <Tolerance>0.01</Tolerance>
+            <SelectionLossGoal>0</SelectionLossGoal>
+            <MaximumSelectionFailures>6</MaximumSelectionFailures>
+            <MaximumInputsNumber>32</MaximumInputsNumber>
+            <MinimumCorrelation>0</MinimumCorrelation>
+            <MaximumCorrelation>1</MaximumCorrelation>
+            <MaximumIterationsNumber>100</MaximumIterationsNumber>
+            <MaximumTime>3600</MaximumTime>
+            <ReservePerformanceHistory>1</ReservePerformanceHistory>
+            <ReserveSelectionLossHistory>1</ReserveSelectionLossHistory>
+        </InputsSelection>
+        <OrderSelection Type="INCREMENTAL_ORDER">
+            <MinimumOrder>1</MinimumOrder>
+            <MaximumOrder>10</MaximumOrder>
+            <Step>1</Step>
+            <TrialsNumber>3</TrialsNumber>
+            <Tolerance>0.01</Tolerance>
+            <SelectionLossGoal>0</SelectionLossGoal>
+            <MaximumSelectionFailures>5</MaximumSelectionFailures>
+            <MaximumTime>3600</MaximumTime>
+            <ReservePerformanceHistory>1</ReservePerformanceHistory>
+            <ReserveSelectionLossHistory>1</ReserveSelectionLossHistory>
+        </OrderSelection>
+        <ThresholdSelection Type="YOUDEN_INDEX">
+            <MinimumThreshold>0</MinimumThreshold>
+            <MaximumThreshold>1</MaximumThreshold>
+            <Step>0.01</Step>
+            <ReserveFunctionData>1</ReserveFunctionData>
+        </ThresholdSelection>
+    </ModelSelection>
+</NeuralDesignerProject>
