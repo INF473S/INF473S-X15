@@ -27,9 +27,11 @@
 *.exe
 *.out
 *.app
+<<<<<<< HEAD
+Networks/DAT/Size_32_Step_10.bin
+Networks/DAT/Size_32_Step_10.ndr
+=======
 Networks/DAT/Size_16_Step_1.bin
 Networks/DAT/Size_16_Step_1.ndr
 Networks/Size_16_Step_1_D-8-15.ndt
-Networks/DAT/Size_32_Step_10.bin
-Networks/DAT/Size_32_Step_10.ndr
-Networks/Size_32_Step_10_D-16-18.ndo
+>>>>>>> 455548edfd0ea2f0a4b46e85ff9e6f36fb3c7de6
