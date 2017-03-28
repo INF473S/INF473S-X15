@@ -71,7 +71,13 @@ public :
 
 	//@}
 
+#ifdef SB_ELEMENT_VERSION
+	// 0.5.0
 	SBPointerIndex<SBStructuralParticle> const*					particleIndex;
+#else
+	SBPointerIndexer<SBStructuralParticle> const*				particleIndex;
+#endif
+
 	SBVector<SBQuantity::length>*								springLengthVector;
 	SBVector<SBAtom*>*											springAtomIVector;
 	SBVector<SBAtom*>*											springAtomJVector;
