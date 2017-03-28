@@ -161,4 +161,6 @@ ADD_SUBDIRECTORY( ProteinConfigStats )
 
 ADD_SUBDIRECTORY( MySpringModel )
 
+ADD_SUBDIRECTORY( MySpringModelFunctNN )
+
 ADD_SUBDIRECTORY( CarbonAlphaGenerator )

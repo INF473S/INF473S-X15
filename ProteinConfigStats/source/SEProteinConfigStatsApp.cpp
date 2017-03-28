@@ -43,7 +43,7 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 
 	for (int s = 1; s < step + 1; s++) {
 
-		std::string path_dat = (wpath + "\\" + "DAT" + "\\" + "Size_" + QString::number(numberOfResidues).toStdString() + "_Step_" + QString::number(s).toStdString() + ".dat");
+		std::string path_dat = (wpath + "\\" + "DAT" + "\\" + "Size_" + QString::number(numberOfResidues).toStdString() + "_Step_" + QString::number(s).toStdString() + "_full.dat");
 		fileArray[s - 1] = new ofstream(path_dat, ios::out | ios::app);
 		(*fileArray[s - 1]) << setprecision(2);
 
@@ -51,9 +51,11 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 
 		for (int i = 0; i < numberOfResidues; i++) {
 
-			if (i == numberOfResidues / 2) for (int j = 0; j < numberOfResidues; j++) {
+			//if (i == numberOfResidues / 2) 
+			
+			for (int j = 0; j < numberOfResidues; j++) {
 
-				if (j != i) (*fileArray[s - 1]) << "D-" << i << "-" << j << " ";
+				if (j > i) (*fileArray[s - 1]) << "D-" << i << "-" << j << " ";
 
 			}
 
@@ -116,9 +118,10 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 					// check that all residues are in the same chain, to avoid jumps in distances
 
 					bool sameChain = true;
+#if 0
 					std::string chain(static_cast<SBResidue*>(nodeIndexer[offset])->getBackbone()->getAlphaCarbon()->getChain(), static_cast<SBResidue*>(nodeIndexer[offset])->getBackbone()->getAlphaCarbon()->getChainSize());
 					for (int A1 = offset; A1 < offset + numberOfResidues*s; A1 = A1 + s) if (std::string(static_cast<SBResidue*>(nodeIndexer[A1])->getBackbone()->getAlphaCarbon()->getChain(), static_cast<SBResidue*>(nodeIndexer[A1])->getBackbone()->getAlphaCarbon()->getChainSize()) != chain) sameChain = false;
-
+#endif
 					// check that the difference between the residues indices correspond to what is expected
 
 					bool distanceOK = true;
@@ -151,7 +154,7 @@ void SEProteinConfigStatsApp::analyse(int numberOfResidues, int step, std::strin
 
 								SBQuantity::angstrom distance = (pos1 - pos2).norm();
 
-								if ((A1 == offset + numberOfResidues / 2 * s) && A2 != A1) {
+								if (/*(A1 == offset + numberOfResidues / 2 * s) && */ A2 > A1) {
 
 									// output the distance between the first and last residue
 
