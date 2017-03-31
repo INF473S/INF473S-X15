@@ -1,0 +1,406 @@
+<DataSet>
+    <DataFile>
+        <FileType>dat</FileType>
+        <FirstCell></FirstCell>
+        <LastCell></LastCell>
+        <SheetNumber>1</SheetNumber>
+        <LagsNumber>0</LagsNumber>
+        <StepsAhead>0</StepsAhead>
+        <ColumnsName>1</ColumnsName>
+        <RowsLabel>204</RowsLabel>
+        <Separator>Space</Separator>
+        <MissingValuesLabel>?</MissingValuesLabel>
+        <DataFileName>C:\Users\Romain Loiseau\Documents\Mes_documents\X\2A\Modal_SAMSON\GIT\OpenNN\examples\simple_function_regression\data\Size_32_Step_1_short.dat</DataFileName>
+    </DataFile>
+    <Variables>
+        <VariablesNumber>63</VariablesNumber>
+        <Item Index="1">
+            <Name>AA0</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="2">
+            <Name>AA1</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="3">
+            <Name>AA2</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="4">
+            <Name>AA3</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="5">
+            <Name>AA4</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="6">
+            <Name>AA5</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="7">
+            <Name>AA6</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="8">
+            <Name>AA7</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="9">
+            <Name>AA8</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="10">
+            <Name>AA9</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="11">
+            <Name>AA10</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="12">
+            <Name>AA11</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="13">
+            <Name>AA12</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="14">
+            <Name>AA13</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="15">
+            <Name>AA14</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="16">
+            <Name>AA15</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="17">
+            <Name>AA16</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="18">
+            <Name>AA17</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="19">
+            <Name>AA18</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="20">
+            <Name>AA19</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="21">
+            <Name>AA20</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="22">
+            <Name>AA21</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="23">
+            <Name>AA22</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="24">
+            <Name>AA23</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="25">
+            <Name>AA24</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="26">
+            <Name>AA25</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="27">
+            <Name>AA26</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="28">
+            <Name>AA27</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="29">
+            <Name>AA28</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="30">
+            <Name>AA29</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="31">
+            <Name>AA30</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="32">
+            <Name>AA31</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="33">
+            <Name>D-16-0</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="34">
+            <Name>D-16-1</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="35">
+            <Name>D-16-2</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="36">
+            <Name>D-16-3</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="37">
+            <Name>D-16-4</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="38">
+            <Name>D-16-5</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="39">
+            <Name>D-16-6</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="40">
+            <Name>D-16-7</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="41">
+            <Name>D-16-8</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="42">
+            <Name>D-16-9</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="43">
+            <Name>D-16-10</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Target</Use>
+        </Item>
+        <Item Index="44">
+            <Name>D-16-11</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="45">
+            <Name>D-16-12</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="46">
+            <Name>D-16-13</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="47">
+            <Name>D-16-14</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="48">
+            <Name>D-16-15</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="49">
+            <Name>D-16-17</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="50">
+            <Name>D-16-18</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="51">
+            <Name>D-16-19</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="52">
+            <Name>D-16-20</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="53">
+            <Name>D-16-21</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="54">
+            <Name>D-16-22</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="55">
+            <Name>D-16-23</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="56">
+            <Name>D-16-24</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="57">
+            <Name>D-16-25</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="58">
+            <Name>D-16-26</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="59">
+            <Name>D-16-27</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="60">
+            <Name>D-16-28</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="61">
+            <Name>D-16-29</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="62">
+            <Name>D-16-30</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="63">
+            <Name>D-16-31</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Target</Use>
+        </Item>
+    </Variables>
+    <Instances>
+        <InstancesNumber>31</InstancesNumber>
+        <ItemsUses>2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2</ItemsUses>
+    </Instances>
+    <MissingValues>
+        <InstancesNumber>31</InstancesNumber>
+        <VariablesNumber>63</VariablesNumber>
+        <ScrubbingMethod>Unuse</ScrubbingMethod>
+        <MissingValuesNumber>0</MissingValuesNumber>
+    </MissingValues>
+</DataSet>

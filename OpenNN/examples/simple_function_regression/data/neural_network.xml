@@ -1,0 +1,564 @@
+<NeuralNetwork>
+    <Inputs>
+        <InputsNumber>32</InputsNumber>
+        <Item Index="1">
+            <Name>AA0</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="2">
+            <Name>AA1</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="3">
+            <Name>AA2</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="4">
+            <Name>AA3</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="5">
+            <Name>AA4</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="6">
+            <Name>AA5</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="7">
+            <Name>AA6</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="8">
+            <Name>AA7</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="9">
+            <Name>AA8</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="10">
+            <Name>AA9</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="11">
+            <Name>AA10</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="12">
+            <Name>AA11</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="13">
+            <Name>AA12</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="14">
+            <Name>AA13</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="15">
+            <Name>AA14</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="16">
+            <Name>AA15</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="17">
+            <Name>AA16</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="18">
+            <Name>AA17</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="19">
+            <Name>AA18</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="20">
+            <Name>AA19</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="21">
+            <Name>AA20</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="22">
+            <Name>AA21</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="23">
+            <Name>AA22</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="24">
+            <Name>AA23</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="25">
+            <Name>AA24</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="26">
+            <Name>AA25</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="27">
+            <Name>AA26</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="28">
+            <Name>AA27</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="29">
+            <Name>AA28</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="30">
+            <Name>AA29</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="31">
+            <Name>AA30</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="32">
+            <Name>AA31</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+    </Inputs>
+    <ScalingLayer>
+        <ScalingNeuronsNumber>61</ScalingNeuronsNumber>
+        <Statistics Index="1">
+            <Minimum>1</Minimum>
+            <Maximum>18</Maximum>
+            <Mean>7.32258</Mean>
+            <StandardDeviation>5.28133</StandardDeviation>
+        </Statistics>
+        <Statistics Index="2">
+            <Minimum>1</Minimum>
+            <Maximum>18</Maximum>
+            <Mean>7.58065</Mean>
+            <StandardDeviation>5.35894</StandardDeviation>
+        </Statistics>
+        <Statistics Index="3">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>7.83871</Mean>
+            <StandardDeviation>5.71021</StandardDeviation>
+        </Statistics>
+        <Statistics Index="4">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>7.70968</Mean>
+            <StandardDeviation>5.58685</StandardDeviation>
+        </Statistics>
+        <Statistics Index="5">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>7.74194</Mean>
+            <StandardDeviation>5.62712</StandardDeviation>
+        </Statistics>
+        <Statistics Index="6">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>8.32258</Mean>
+            <StandardDeviation>5.83316</StandardDeviation>
+        </Statistics>
+        <Statistics Index="7">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>8.67742</Mean>
+            <StandardDeviation>5.83316</StandardDeviation>
+        </Statistics>
+        <Statistics Index="8">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>8.83871</Mean>
+            <StandardDeviation>5.99498</StandardDeviation>
+        </Statistics>
+        <Statistics Index="9">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>8.83871</Mean>
+            <StandardDeviation>5.99498</StandardDeviation>
+        </Statistics>
+        <Statistics Index="10">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>9.09677</Mean>
+            <StandardDeviation>5.95178</StandardDeviation>
+        </Statistics>
+        <Statistics Index="11">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>9.48387</Mean>
+            <StandardDeviation>6.06559</StandardDeviation>
+        </Statistics>
+        <Statistics Index="12">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>9.6129</Mean>
+            <StandardDeviation>6.16267</StandardDeviation>
+        </Statistics>
+        <Statistics Index="13">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>10.1935</Mean>
+            <StandardDeviation>6.17208</StandardDeviation>
+        </Statistics>
+        <Statistics Index="14">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>10.6129</Mean>
+            <StandardDeviation>5.96477</StandardDeviation>
+        </Statistics>
+        <Statistics Index="15">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>10.2258</Mean>
+            <StandardDeviation>5.85781</StandardDeviation>
+        </Statistics>
+        <Statistics Index="16">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>10.6129</Mean>
+            <StandardDeviation>6.03146</StandardDeviation>
+        </Statistics>
+        <Statistics Index="17">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>10.3226</Mean>
+            <StandardDeviation>6.17731</StandardDeviation>
+        </Statistics>
+        <Statistics Index="18">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>10.5161</Mean>
+            <StandardDeviation>6.09848</StandardDeviation>
+        </Statistics>
+        <Statistics Index="19">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>10.7742</Mean>
+            <StandardDeviation>6.11397</StandardDeviation>
+        </Statistics>
+        <Statistics Index="20">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>10.9355</Mean>
+            <StandardDeviation>5.91008</StandardDeviation>
+        </Statistics>
+        <Statistics Index="21">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>10.9677</Mean>
+            <StandardDeviation>5.88492</StandardDeviation>
+        </Statistics>
+        <Statistics Index="22">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>11.4194</Mean>
+            <StandardDeviation>5.62598</StandardDeviation>
+        </Statistics>
+        <Statistics Index="23">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>11.2258</Mean>
+            <StandardDeviation>5.88053</StandardDeviation>
+        </Statistics>
+        <Statistics Index="24">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>11.2581</Mean>
+            <StandardDeviation>5.86497</StandardDeviation>
+        </Statistics>
+        <Statistics Index="25">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>10.9032</Mean>
+            <StandardDeviation>5.90116</StandardDeviation>
+        </Statistics>
+        <Statistics Index="26">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>11.0645</Mean>
+            <StandardDeviation>5.8591</StandardDeviation>
+        </Statistics>
+        <Statistics Index="27">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>11.2581</Mean>
+            <StandardDeviation>5.60932</StandardDeviation>
+        </Statistics>
+        <Statistics Index="28">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>11.1935</Mean>
+            <StandardDeviation>5.65932</StandardDeviation>
+        </Statistics>
+        <Statistics Index="29">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>11.3871</Mean>
+            <StandardDeviation>5.39554</StandardDeviation>
+        </Statistics>
+        <Statistics Index="30">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>11.4194</Mean>
+            <StandardDeviation>5.39614</StandardDeviation>
+        </Statistics>
+        <Statistics Index="31">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>11.5484</Mean>
+            <StandardDeviation>5.35935</StandardDeviation>
+        </Statistics>
+        <Statistics Index="32">
+            <Minimum>1</Minimum>
+            <Maximum>19</Maximum>
+            <Mean>11.6452</Mean>
+            <StandardDeviation>5.20608</StandardDeviation>
+        </Statistics>
+        <Statistics Index="33">
+            <Minimum>12.19</Minimum>
+            <Maximum>26.12</Maximum>
+            <Mean>20.6081</Mean>
+            <StandardDeviation>3.45462</StandardDeviation>
+        </Statistics>
+        <Statistics Index="34">
+            <Minimum>14.18</Minimum>
+            <Maximum>24.93</Maximum>
+            <Mean>19.5748</Mean>
+            <StandardDeviation>3.2928</StandardDeviation>
+        </Statistics>
+        <Statistics Index="35">
+            <Minimum>11.02</Minimum>
+            <Maximum>23.77</Maximum>
+            <Mean>18.5723</Mean>
+            <StandardDeviation>3.45078</StandardDeviation>
+        </Statistics>
+        <Statistics Index="36">
+            <Minimum>11.56</Minimum>
+            <Maximum>21.81</Maximum>
+            <Mean>17.7223</Mean>
+            <StandardDeviation>2.84249</StandardDeviation>
+        </Statistics>
+        <Statistics Index="37">
+            <Minimum>13.13</Minimum>
+            <Maximum>20.11</Maximum>
+            <Mean>16.789</Mean>
+            <StandardDeviation>2.10214</StandardDeviation>
+        </Statistics>
+        <Statistics Index="38">
+            <Minimum>9.82</Minimum>
+            <Maximum>19.17</Maximum>
+            <Mean>15.6548</Mean>
+            <StandardDeviation>2.37137</StandardDeviation>
+        </Statistics>
+        <Statistics Index="39">
+            <Minimum>9.53</Minimum>
+            <Maximum>19.35</Maximum>
+            <Mean>14.7503</Mean>
+            <StandardDeviation>2.32292</StandardDeviation>
+        </Statistics>
+        <Statistics Index="40">
+            <Minimum>10.25</Minimum>
+            <Maximum>17.61</Maximum>
+            <Mean>13.9732</Mean>
+            <StandardDeviation>1.5749</StandardDeviation>
+        </Statistics>
+        <Statistics Index="41">
+            <Minimum>8.66</Minimum>
+            <Maximum>15.06</Maximum>
+            <Mean>12.6177</Mean>
+            <StandardDeviation>1.59182</StandardDeviation>
+        </Statistics>
+        <Statistics Index="42">
+            <Minimum>5.88</Minimum>
+            <Maximum>14.72</Maximum>
+            <Mean>11.1232</Mean>
+            <StandardDeviation>1.99298</StandardDeviation>
+        </Statistics>
+        <Statistics Index="43">
+            <Minimum>7.44</Minimum>
+            <Maximum>12.12</Maximum>
+            <Mean>9.25</Mean>
+            <StandardDeviation>0.951084</StandardDeviation>
+        </Statistics>
+        <Statistics Index="44">
+            <Minimum>5.17</Minimum>
+            <Maximum>9.51</Maximum>
+            <Mean>7.17903</Mean>
+            <StandardDeviation>1.35801</StandardDeviation>
+        </Statistics>
+        <Statistics Index="45">
+            <Minimum>4.77</Minimum>
+            <Maximum>9.1</Maximum>
+            <Mean>5.82516</Mean>
+            <StandardDeviation>1.16638</StandardDeviation>
+        </Statistics>
+        <Statistics Index="46">
+            <Minimum>5.16</Minimum>
+            <Maximum>6.96</Maximum>
+            <Mean>5.56323</Mean>
+            <StandardDeviation>0.374721</StandardDeviation>
+        </Statistics>
+        <Statistics Index="47">
+            <Minimum>3.72</Minimum>
+            <Maximum>3.85</Maximum>
+            <Mean>3.80355</Mean>
+            <StandardDeviation>0.0302818</StandardDeviation>
+        </Statistics>
+        <Statistics Index="48">
+            <Minimum>3.72</Minimum>
+            <Maximum>3.85</Maximum>
+            <Mean>3.80452</Mean>
+            <StandardDeviation>0.0306419</StandardDeviation>
+        </Statistics>
+        <Statistics Index="49">
+            <Minimum>5.2</Minimum>
+            <Maximum>6.96</Maximum>
+            <Mean>5.58323</Mean>
+            <StandardDeviation>0.365225</StandardDeviation>
+        </Statistics>
+        <Statistics Index="50">
+            <Minimum>4.77</Minimum>
+            <Maximum>9.1</Maximum>
+            <Mean>6.08</Mean>
+            <StandardDeviation>1.38217</StandardDeviation>
+        </Statistics>
+        <Statistics Index="51">
+            <Minimum>5.17</Minimum>
+            <Maximum>12.07</Maximum>
+            <Mean>7.53839</Mean>
+            <StandardDeviation>1.77865</StandardDeviation>
+        </Statistics>
+        <Statistics Index="52">
+            <Minimum>5.9</Minimum>
+            <Maximum>15.2</Maximum>
+            <Mean>9.44419</Mean>
+            <StandardDeviation>1.70705</StandardDeviation>
+        </Statistics>
+        <Statistics Index="53">
+            <Minimum>6.17</Minimum>
+            <Maximum>15.56</Maximum>
+            <Mean>10.5116</Mean>
+            <StandardDeviation>1.92486</StandardDeviation>
+        </Statistics>
+        <Statistics Index="54">
+            <Minimum>5.88</Minimum>
+            <Maximum>16.41</Maximum>
+            <Mean>11.2281</Mean>
+            <StandardDeviation>2.3804</StandardDeviation>
+        </Statistics>
+        <Statistics Index="55">
+            <Minimum>6.44</Minimum>
+            <Maximum>17.12</Maximum>
+            <Mean>12.379</Mean>
+            <StandardDeviation>2.42769</StandardDeviation>
+        </Statistics>
+        <Statistics Index="56">
+            <Minimum>7.64</Minimum>
+            <Maximum>18.16</Maximum>
+            <Mean>13.4761</Mean>
+            <StandardDeviation>2.42305</StandardDeviation>
+        </Statistics>
+        <Statistics Index="57">
+            <Minimum>9.53</Minimum>
+            <Maximum>19.35</Maximum>
+            <Mean>14.14</Mean>
+            <StandardDeviation>2.45489</StandardDeviation>
+        </Statistics>
+        <Statistics Index="58">
+            <Minimum>9.82</Minimum>
+            <Maximum>19.03</Maximum>
+            <Mean>14.7632</Mean>
+            <StandardDeviation>2.56756</StandardDeviation>
+        </Statistics>
+        <Statistics Index="59">
+            <Minimum>9.75</Minimum>
+            <Maximum>20.11</Maximum>
+            <Mean>15.4961</Mean>
+            <StandardDeviation>2.69924</StandardDeviation>
+        </Statistics>
+        <Statistics Index="60">
+            <Minimum>11.56</Minimum>
+            <Maximum>21.68</Maximum>
+            <Mean>16.0629</Mean>
+            <StandardDeviation>2.99306</StandardDeviation>
+        </Statistics>
+        <Statistics Index="61">
+            <Minimum>9.77</Minimum>
+            <Maximum>23.58</Maximum>
+            <Mean>16.4787</Mean>
+            <StandardDeviation>3.42356</StandardDeviation>
+        </Statistics>
+        <ScalingMethod>MinimumMaximum</ScalingMethod>
+    </ScalingLayer>
+    <MultilayerPerceptron>
+        <Architecture>32 1 1</Architecture>
+        <LayersActivationFunction>HyperbolicTangent Linear</LayersActivationFunction>
+        <Parameters>-0.609988 1.37162 -0.509521 0.528255 0.235244 -0.847485 1.11544 0.871595 0.800903 2.12644 0.246683 -0.140299 -1.03349 -1.87223 -1.33287 -0.374112 2.38335 -1.18558 -0.199763 0.483249 -0.600291 0.159666 1.63059 0.897626 -0.105435 1.71369 4.24409 -0.330299 -1.80051 -1.9092 0.773776 0.63694 -1.25441 0.157466 -0.0133124</Parameters>
+    </MultilayerPerceptron>
+    <UnscalingLayer>
+        <UnscalingNeuronsNumber>2</UnscalingNeuronsNumber>
+        <Statistics Index="1">
+            <Minimum>6.17</Minimum>
+            <Maximum>13.34</Maximum>
+            <Mean>10.3352</Mean>
+            <StandardDeviation>1.43397</StandardDeviation>
+        </Statistics>
+        <Statistics Index="2">
+            <Minimum>8.04</Minimum>
+            <Maximum>24.93</Maximum>
+            <Mean>16.9045</Mean>
+            <StandardDeviation>4.00084</StandardDeviation>
+        </Statistics>
+        <UnscalingMethod>MinimumMaximum</UnscalingMethod>
+    </UnscalingLayer>
+    <Outputs>
+        <OutputsNumber>1</OutputsNumber>
+        <Item Index="1">
+            <Name>D-16-10</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+    </Outputs>
+</NeuralNetwork>

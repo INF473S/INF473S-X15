@@ -6,6 +6,7 @@
 #include "SBDocumentEvent.hpp"
 #include "SBStructuralEvent.hpp"
 #include "SBAtom.hpp"
+#include "SBProxy.hpp"
 
 
 /// This class implements an interaction model

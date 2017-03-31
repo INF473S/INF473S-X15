@@ -21,7 +21,7 @@ void SECarbonAlphaGeneratorAppGUI::loadSettings( SBGSettings *settings ) {
 	
 	// SAMSON Element generator pro tip: complete this function so your app can save its GUI state from one session to the next
 
-	ui.spinBox->setValue(settings->loadIntValue("numberOfCarbons", 10));
+	ui.textEdit->setText(settings->loadQStringValue("chain"));
 
 }
 
@@ -31,7 +31,7 @@ void SECarbonAlphaGeneratorAppGUI::saveSettings( SBGSettings *settings ) {
 
 	// SAMSON Element generator pro tip: complete this function so your app can save its GUI state from one session to the next
 
-	settings->saveValue("numberOfCarbons", ui.spinBox->value());
+	settings->saveValue("chain", ui.textEdit->toPlainText());
 
 }
 
@@ -64,5 +64,5 @@ int SECarbonAlphaGeneratorAppGUI::getFormat() const {
 }
 
 void SECarbonAlphaGeneratorAppGUI::onGenerate() {
-	getApp()->generate(ui.spinBox->value());
+	getApp()->generate(ui.textEdit->toPlainText());
 }
