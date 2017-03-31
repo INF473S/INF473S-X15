@@ -1,384 +1,63 @@
-#include "SEMySpringModelInteractionModel.hpp"
-#include "SAMSON.hpp"
-#include "SBResidue.hpp"
-#include "SBBackbone.hpp"
-#include "SBRandom.hpp"
-#include <qdir.h>
-#include "Function.hpp"
 #include "Function_32_10_16_17.hpp"
+#include "math.h"
 
-double Size_32_Step_10_D_16_17(double AA0, double  AA1, double AA2, double AA3, double AA4, double AA5, double AA6, double AA7, double AA8, double AA9, double AA10, double  AA11, double AA12, double AA13, double AA14, double AA15, double AA16, double AA17, double AA18, double AA19, double AA20, double AA21, double AA22, double AA23, double AA24, double AA25, double AA26, double AA27, double AA28, double AA29, double AA30, double AA31);
-
-SEMySpringModelInteractionModel::SEMySpringModelInteractionModel() : SBMInteractionModelParticleSystem(0) {
-
-	// SAMSON Element generator pro tip: this default constructor is called when unserializing the node, so it should perform all default initializations.
-
+Function_32_10_16_17::Function_32_10_16_17() {
 
 }
 
-SEMySpringModelInteractionModel::SEMySpringModelInteractionModel(SBParticleSystem* particleSystem) : SBMInteractionModelParticleSystem(particleSystem) {
-
-	// SAMSON Element generator pro tip: implement this function if you want your interaction model to be applied to a particle system (the general case).
-	// You might want to connect to various signals and handle the corresponding events (for example to erase this interaction model when the dynamical model it is applied to is erased).
+Function_32_10_16_17::~Function_32_10_16_17(){
 
 }
 
-SEMySpringModelInteractionModel::~SEMySpringModelInteractionModel() {
-
-	// SAMSON Element generator pro tip: disconnect from signals you might have connected to.
-
+int Function_32_10_16_17::getSize(){
+	return 32;
 }
 
-void SEMySpringModelInteractionModel::serialize(SBCSerializer* serializer, const SBNodeIndexer& nodeIndexer) const {
-
-	SBMInteractionModelParticleSystem::serialize(serializer, nodeIndexer);
-
-	// SAMSON Element generator pro tip: serialization is used in SAMSON to e.g. save documents, copy nodes, etc. 
-	// Please refer to the SDK documentation for more information.
-	// Complete this function to serialize your interaction model.
-
+int Function_32_10_16_17::getStep(){
+	return 10;
 }
 
-void SEMySpringModelInteractionModel::unserialize(SBCSerializer* serializer, const SBNodeIndexer& nodeIndexer) {
-
-	SBMInteractionModelParticleSystem::unserialize(serializer, nodeIndexer);
-
-	// SAMSON Element generator pro tip: serialization is used in SAMSON to e.g. save documents, copy nodes, etc. 
-	// Please refer to the SDK documentation for more information.
-	// Complete this function to unserialize your interaction model.
-
+int Function_32_10_16_17::getI(){
+	return 16;
 }
 
-void SEMySpringModelInteractionModel::eraseImplementation() {
-
-	// SAMSON Element generator pro tip: modify this function when you need to perform special tasks when your interaction model is erased (e.g. disconnect from nodes you are connected to).
-	// Important: this function must be undoable (i.e. only call undoable functions or add an undo command to the undo stack)
-
+int Function_32_10_16_17::getJ(){
+	return 17;
 }
 
-void SEMySpringModelInteractionModel::initializeInteractions() {
-
-	particleIndex = (*particleSystem)->getStructuralParticleIndex();
-	unsigned int nParticles = particleIndex->size();
-
-	//initialize vectors
-	springLengthVector = new SBVector < SBQuantity::length > ;
-	springAtomIVector = new SBVector < SBAtom* > ;
-	springAtomJVector = new SBVector < SBAtom* > ;
-
-	////get the list of bonds in the model
-	//SBNodePredicate* nodePredicate = SAMSON::makeNodePredicate("node.type bond");
-	SBNodeIndexer nodeIndexer;
-
-	SB_FOR(SBStructuralParticle* particle, *particleIndex) if ((SBNode::IsType(SBNode::Atom) && SBAtom::HasName() && (SBAtom::GetName() == std::string("CA")))(particle)) nodeIndexer.addNode(particle);
-	
-	//SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Atom) && SBAtom::HasName() && (SBAtom::GetName() == std::string("CA")));
-
-	SBRandom r(SAMSON::getTime());
-
-	Function **functionArray = new Function*[1];
-	functionArray[0] = new Function_32_10_16_17();
-
-	for (int n = 0; n < 1; n++){
-		for (int i = 0; i < nodeIndexer.size() - functionArray[n]->getSize()*functionArray[n]->getStep(); i++){
-			SBAtom* carbi = static_cast<SBAtom*>(nodeIndexer[i + functionArray[n]->getI()*functionArray[n]->getStep()]);
-			SBAtom* carbj = static_cast<SBAtom*>(nodeIndexer[i + functionArray[n]->getJ()*functionArray[n]->getStep()]);
-
-			double *sequence = new double[functionArray[n]->getSize()];
-
-			for (int j = 0; j < functionArray[n]->getSize(); j++){
-				sequence[j] = static_cast<SBResidue*>(nodeIndexer[i + j*functionArray[0]->getStep()]->getParent()->getParent())->getResidueType();
-			}
-
-			SBQuantity::length distance = SBQuantity::angstrom(functionArray[0]->distance(sequence));
-
-			//distance *= 1.0 + 1.9*(r.randDouble1() - 0.5); // add randomness to test robustness
-			springAtomIVector->push_back(carbi);
-			springAtomJVector->push_back(carbj);
-			springLengthVector->push_back(distance);
-
-		}
-	}
-
-	//FIN MODIFS ROMAIN
-
-	//initialize energy and forces
-	*energy = SBQuantity::energy(0.0);
-	SBQuantity::energy currentEnergy(0.0);
-	for (unsigned int i = 0; i < nParticles; ++i)
-		setForce(i, SBForce3(SBQuantity::force(0)));
-
-	unsigned int nSprings = springLengthVector->size();
-	for (unsigned int i = 0; i < nSprings; ++i) {
-
-		SBAtom* leftAtom = (*springAtomIVector)[i];
-		SBAtom* rightAtom = (*springAtomJVector)[i];
-
-		unsigned int  leftAtomIndex = particleIndex->getIndex(leftAtom);
-		unsigned int rightAtomIndex = particleIndex->getIndex(rightAtom);
-
-		const SBPosition3& leftAtomPosition =
-			(*particleSystem)->getPosition(leftAtomIndex);
-		const SBPosition3& rightAtomPosition =
-			(*particleSystem)->getPosition(rightAtomIndex);
-
-		//the force intensity depends on the shift respect to the equilibrium
-		SBQuantity::length forceIntensity = (rightAtomPosition - leftAtomPosition).norm()
-			- (*springLengthVector)[i];
-		SBQuantity::forcePerLength forceFactor(5);
-
-		SBForce3  force = forceFactor * forceIntensity *
-			(rightAtomPosition - leftAtomPosition).normalizedVersion();
-
-		SBForce3 forceI = getForce(leftAtomIndex) + force;
-		SBForce3 forceJ = getForce(rightAtomIndex) - force;
-
-		setForce(leftAtomIndex, forceI);
-		setForce(rightAtomIndex, forceJ);
-		currentEnergy += 0.5 * forceFactor * forceIntensity * forceIntensity;
-	}
-	*energy = currentEnergy;
-
-
-
-	changed();
-}
-
-void SEMySpringModelInteractionModel::updateInteractions() {
-
-	particleIndex = (*particleSystem)->getStructuralParticleIndex();
-	unsigned int nParticles = particleIndex->size();
-
-	//initialize energy and forces
-	//*energy = SBQuantity::energy(0.0);
-	SBQuantity::energy currentEnergy(0.0);
-	for (unsigned int i = 0; i < nParticles; ++i)
-		setForce(i, SBForce3(SBQuantity::force(0)));
-
-	unsigned int nSprings = springLengthVector->size();
-	for (unsigned int i = 0; i < nSprings; ++i) {
-
-		SBAtom* leftAtom = (*springAtomIVector)[i];
-		SBAtom* rightAtom = (*springAtomJVector)[i];
-
-		unsigned int  leftAtomIndex = particleIndex->getIndex(leftAtom);
-		unsigned int rightAtomIndex = particleIndex->getIndex(rightAtom);
-
-		const SBPosition3& leftAtomPosition =
-			(*particleSystem)->getPosition(leftAtomIndex);
-		const SBPosition3& rightAtomPosition =
-			(*particleSystem)->getPosition(rightAtomIndex);
-
-		//the force intensity depends on the shift respect to the equilibrium
-		SBQuantity::length forceIntensity = (rightAtomPosition - leftAtomPosition).norm()
-			- (*springLengthVector)[i];
-		SBQuantity::forcePerLength forceFactor(5);
-
-		SBForce3  force = forceFactor * forceIntensity *
-			(rightAtomPosition - leftAtomPosition).normalizedVersion();
-
-		SBForce3 forceI = getForce(leftAtomIndex) + force;
-		SBForce3 forceJ = getForce(rightAtomIndex) - force;
-
-		setForce(leftAtomIndex, forceI);
-		setForce(rightAtomIndex, forceJ);
-
-		currentEnergy += 0.5 * forceFactor * forceIntensity * forceIntensity;
-	}
-	*energy = currentEnergy;
-
-	changed();
-}
-
-void SEMySpringModelInteractionModel::display() {
-
-	// SAMSON Element generator pro tip: this function is called by SAMSON during the main rendering loop. 
-	// Implement this function to display things in SAMSON, for example thanks to the utility functions provided by SAMSON (e.g. displaySpheres, displayTriangles, etc.)
-
-	unsigned int nSprings = springLengthVector->size();
-
-	float* positionData = new float[6 * nSprings];
-	unsigned int* indexData = new  unsigned int[2 * nSprings];
-	unsigned int* flagData = new  unsigned int[2 * nSprings];
-	float* colorData = new float[8 * nSprings];
-
-	for (unsigned int i = 0; i < nSprings; ++i) {
-
-		SBAtom* carbi = (*springAtomIVector)[i];
-		SBAtom* carbj = (*springAtomJVector)[i];
-
-		indexData[2 * i + 0] = 2 * i + 0;
-		indexData[2 * i + 1] = 2 * i + 1;
-
-		flagData[2 * i + 0] = getInheritedFlags();
-		flagData[2 * i + 1] = getInheritedFlags();
-
-		SBPosition3 positioni = carbi->getPosition();
-		positionData[6 * i + 0] = (float)positioni.v[0].getValue();
-		positionData[6 * i + 1] = (float)positioni.v[1].getValue();
-		positionData[6 * i + 2] = (float)positioni.v[2].getValue();
-
-		SBPosition3 positionj = carbj->getPosition();
-		positionData[6 * i + 3] = (float)positionj.v[0].getValue();
-		positionData[6 * i + 4] = (float)positionj.v[1].getValue();
-		positionData[6 * i + 5] = (float)positionj.v[2].getValue();
-
-		SBQuantity::length currentLength = (positioni - positionj).norm();
-
-		if (currentLength <= (*springLengthVector)[i]) {
-
-			float lambda = (float)(currentLength / (*springLengthVector)[i]).getValue();
-
-			// from blue (too short) to green (equilibrium)
-
-			colorData[8 * i + 0] = 0.0f;
-			colorData[8 * i + 1] = lambda;
-			colorData[8 * i + 2] = 1.0f - lambda;
-			colorData[8 * i + 3] = 1.0f;
-
-			colorData[8 * i + 4] = 0.0f;
-			colorData[8 * i + 5] = lambda;
-			colorData[8 * i + 6] = 1.0f - lambda;
-			colorData[8 * i + 7] = 1.0f;
-
-		}
-		else {
-
-			float lambda = min(2.0f, (float)(currentLength / (*springLengthVector)[i]).getValue()) - 1.0f;
-
-			// from green (equilibrium) to red (too long)
-
-			colorData[8 * i + 0] = lambda;
-			colorData[8 * i + 1] = 1.0f - lambda;
-			colorData[8 * i + 2] = 0.0f;
-			colorData[8 * i + 3] = 1.0f;
-
-			colorData[8 * i + 4] = lambda;
-			colorData[8 * i + 5] = 1.0f - lambda;
-			colorData[8 * i + 6] = 0.0f;
-			colorData[8 * i + 7] = 1.0f;
-
-		}
-
-	}
-
-#ifdef SB_ELEMENT_VERSION_NUMBER
-	SAMSON::displayLines(nSprings, 2 * nSprings, indexData, positionData, colorData, flagData);
-#else
-	SAMSON::displayLines(nSprings, 2 * nSprings, indexData, positionData, colorData);
-#endif
-
-	delete[] positionData;
-	delete[] indexData;
-	delete[] colorData;
-	delete[] flagData;
-
-}
-
-void SEMySpringModelInteractionModel::displayForShadow() {
-
-	// SAMSON Element generator pro tip: this function is called by SAMSON during the main rendering loop in order to compute shadows. 
-	// Implement this function if your interaction model displays things in viewports, so that your interaction model can cast shadows
-	// to other objects in SAMSON, for example thanks to the utility
-	// functions provided by SAMSON (e.g. displaySpheres, displayTriangles, etc.)
-
-}
-
-void SEMySpringModelInteractionModel::displayForSelection() {
-
-	// SAMSON Element generator pro tip: this function is called by SAMSON during the main rendering loop in order to perform object picking.
-	// Instead of rendering colors, your interaction model is expected to write the index of a data graph node (obtained with getIndex()).
-	// Implement this function so that your interaction model can be selected (if you render its own index) or can be used to select other objects (if you render 
-	// the other objects' indices), for example thanks to the utility functions provided by SAMSON (e.g. displaySpheresSelection, displayTrianglesSelection, etc.)
-	// This should be implemented if your interaction model displays something in viewports (and you want the user to be able to select your interaction model
-	// by picking its visual representation in viewports). 
-
-}
-
-void SEMySpringModelInteractionModel::expandBounds(SBIAPosition3& bounds) const {
-
-	// SAMSON Element generator pro tip: this function is called by SAMSON to determine the model's spatial bounds. 
-	// When this function returns, the bounds interval vector should contain the interaction model. 
-	// This should be implemented if your interaction model displays something in viewports. 
-
-}
-
-void SEMySpringModelInteractionModel::collectAmbientOcclusion(const SBPosition3& boxOrigin, const SBPosition3& boxSize, unsigned int nCellsX, unsigned int nCellsY, unsigned int nCellsZ, float* ambientOcclusionData) {
-
-	// SAMSON Element generator pro tip: this function is called by SAMSON to determine your model's influence on ambient occlusion (in case your interaction model displays something in viewports).
-	// Implement this function if you want your interaction model to occlude other objects in ambient occlusion calculations.
-	//
-	// The ambientOcclusionData represents a nCellsX x nCellsY x nCellsZ grid of occlusion densities over the spatial region (boxOrigin, boxSize).
-	// If your model represents geometry at position (x, y, z), then the occlusion density in corresponding grid nodes should be increased.
-	//
-	// Assuming x, y and z are given in length units (SBQuantity::length, SBQuantity::angstrom, etc.), the grid coordinates are:
-	// SBQuantity::dimensionless xGrid = nCellsX * (x - boxOrigin.v[0]) / boxSize.v[0];
-	// SBQuantity::dimensionless yGrid = nCellsY * (x - boxOrigin.v[1]) / boxSize.v[1];
-	// SBQuantity::dimensionless zGrid = nCellsZ * (x - boxOrigin.v[2]) / boxSize.v[2];
-	//
-	// The corresponding density can be found at ambientOcclusionData[((int)zGrid.getValue() + 0)*nCellsY*nCellsX + ((int)yGrid.getValue() + 0)*nCellsX + ((int)xGrid.getValue() + 0)] (beware of grid bounds).
-	// For higher-quality results, the influence of a point can be spread over neighboring grid nodes.
-
-}
-
-void SEMySpringModelInteractionModel::onBaseEvent(SBBaseEvent* baseEvent) {
-
-	// SAMSON Element generator pro tip: implement this function if you need to handle base events
-
-}
-
-void SEMySpringModelInteractionModel::onDocumentEvent(SBDocumentEvent* documentEvent) {
-
-	// SAMSON Element generator pro tip: implement this function if you need to handle document events 
-
-}
-
-void SEMySpringModelInteractionModel::onDynamicalEvent(SBDynamicalEvent* dynamicalEvent) {
-
-	// SAMSON Element generator pro tip: implement this function if you need to handle dynamical events 
-
-}
-
-void SEMySpringModelInteractionModel::onStructuralEvent(SBStructuralEvent* documentEvent) {
-
-	// SAMSON Element generator pro tip: implement this function if you need to handle structural events
-
-}
-
-
-double Size_32_Step_10_D_16_17(double AA0, double  AA1, double AA2, double AA3, double AA4, double AA5, double AA6, double AA7, double AA8, double AA9, double AA10, double  AA11, double AA12, double AA13, double AA14, double AA15, double AA16, double AA17, double AA18, double AA19, double AA20, double AA21, double AA22, double AA23, double AA24, double AA25, double AA26, double AA27, double AA28, double AA29, double AA30, double AA31){
-	double scaled_AA0 = 2 * (AA0 - 1) / (25 - 1) - 1;
-	double scaled_AA1 = 2 * (AA1 - 1) / (25 - 1) - 1;
-	double scaled_AA2 = 2 * (AA2 - 1) / (25 - 1) - 1;
-	double scaled_AA3 = 2 * (AA3 - 1) / (25 - 1) - 1;
-	double scaled_AA4 = 2 * (AA4 - 1) / (25 - 1) - 1;
-	double scaled_AA5 = 2 * (AA5 - 1) / (25 - 1) - 1;
-	double scaled_AA6 = 2 * (AA6 - 1) / (25 - 1) - 1;
-	double scaled_AA7 = 2 * (AA7 - 1) / (25 - 1) - 1;
-	double scaled_AA8 = 2 * (AA8 - 1) / (25 - 1) - 1;
-	double scaled_AA9 = 2 * (AA9 - 1) / (25 - 1) - 1;
-	double scaled_AA10 = 2 * (AA10 - 1) / (25 - 1) - 1;
-	double scaled_AA11 = 2 * (AA11 - 1) / (25 - 1) - 1;
-	double scaled_AA12 = 2 * (AA12 - 1) / (25 - 1) - 1;
-	double scaled_AA13 = 2 * (AA13 - 1) / (25 - 1) - 1;
-	double scaled_AA14 = 2 * (AA14 - 1) / (20 - 1) - 1;
-	double scaled_AA15 = 2 * (AA15 - 1) / (20 - 1) - 1;
-	double scaled_AA16 = 2 * (AA16 - 1) / (20 - 1) - 1;
-	double scaled_AA17 = 2 * (AA17 - 1) / (20 - 1) - 1;
-	double scaled_AA18 = 2 * (AA18 - 1) / (20 - 1) - 1;
-	double scaled_AA19 = 2 * (AA19 - 1) / (20 - 1) - 1;
-	double scaled_AA20 = 2 * (AA20 - 1) / (20 - 1) - 1;
-	double scaled_AA21 = 2 * (AA21 - 1) / (20 - 1) - 1;
-	double scaled_AA22 = 2 * (AA22 - 1) / (20 - 1) - 1;
-	double scaled_AA23 = 2 * (AA23 - 1) / (20 - 1) - 1;
-	double scaled_AA24 = 2 * (AA24 - 1) / (20 - 1) - 1;
-	double scaled_AA25 = 2 * (AA25 - 1) / (20 - 1) - 1;
-	double scaled_AA26 = 2 * (AA26 - 1) / (20 - 1) - 1;
-	double scaled_AA27 = 2 * (AA27 - 1) / (20 - 1) - 1;
-	double scaled_AA28 = 2 * (AA28 - 1) / (20 - 1) - 1;
-	double scaled_AA29 = 2 * (AA29 - 1) / (20 - 1) - 1;
-	double scaled_AA30 = 2 * (AA30 - 1) / (20 - 1) - 1;
-	double scaled_AA31 = 2 * (AA31 - 1) / (20 - 1) - 1;
+double Function_32_10_16_17::distance(double sequence[]){
+	double scaled_AA0 = 2 * (sequence[0] - 1) / (25 - 1) - 1;
+	double scaled_AA1 = 2 * (sequence[1] - 1) / (25 - 1) - 1;
+	double scaled_AA2 = 2 * (sequence[2] - 1) / (25 - 1) - 1;
+	double scaled_AA3 = 2 * (sequence[3] - 1) / (25 - 1) - 1;
+	double scaled_AA4 = 2 * (sequence[4] - 1) / (25 - 1) - 1;
+	double scaled_AA5 = 2 * (sequence[5] - 1) / (25 - 1) - 1;
+	double scaled_AA6 = 2 * (sequence[6] - 1) / (25 - 1) - 1;
+	double scaled_AA7 = 2 * (sequence[7] - 1) / (25 - 1) - 1;
+	double scaled_AA8 = 2 * (sequence[8] - 1) / (25 - 1) - 1;
+	double scaled_AA9 = 2 * (sequence[9] - 1) / (25 - 1) - 1;
+	double scaled_AA10 = 2 * (sequence[10] - 1) / (25 - 1) - 1;
+	double scaled_AA11 = 2 * (sequence[11] - 1) / (25 - 1) - 1;
+	double scaled_AA12 = 2 * (sequence[12] - 1) / (25 - 1) - 1;
+	double scaled_AA13 = 2 * (sequence[13] - 1) / (25 - 1) - 1;
+	double scaled_AA14 = 2 * (sequence[14] - 1) / (20 - 1) - 1;
+	double scaled_AA15 = 2 * (sequence[15] - 1) / (20 - 1) - 1;
+	double scaled_AA16 = 2 * (sequence[16] - 1) / (20 - 1) - 1;
+	double scaled_AA17 = 2 * (sequence[17] - 1) / (20 - 1) - 1;
+	double scaled_AA18 = 2 * (sequence[18] - 1) / (20 - 1) - 1;
+	double scaled_AA19 = 2 * (sequence[19] - 1) / (20 - 1) - 1;
+	double scaled_AA20 = 2 * (sequence[20] - 1) / (20 - 1) - 1;
+	double scaled_AA21 = 2 * (sequence[21] - 1) / (20 - 1) - 1;
+	double scaled_AA22 = 2 * (sequence[22] - 1) / (20 - 1) - 1;
+	double scaled_AA23 = 2 * (sequence[23] - 1) / (20 - 1) - 1;
+	double scaled_AA24 = 2 * (sequence[24] - 1) / (20 - 1) - 1;
+	double scaled_AA25 = 2 * (sequence[25] - 1) / (20 - 1) - 1;
+	double scaled_AA26 = 2 * (sequence[26] - 1) / (20 - 1) - 1;
+	double scaled_AA27 = 2 * (sequence[27] - 1) / (20 - 1) - 1;
+	double scaled_AA28 = 2 * (sequence[28] - 1) / (20 - 1) - 1;
+	double scaled_AA29 = 2 * (sequence[29] - 1) / (20 - 1) - 1;
+	double scaled_AA30 = 2 * (sequence[30] - 1) / (20 - 1) - 1;
+	double scaled_AA31 = 2 * (sequence[31] - 1) / (20 - 1) - 1;
 	double y_1_1 = tanh(-0.38367 - 0.924601*scaled_AA0 - 2.57477*scaled_AA1 + 0.460334*scaled_AA2 - 2.5386*scaled_AA3 - 1.08321*scaled_AA4 - 1.24545*scaled_AA5 - 1.99591*scaled_AA6 + 0.216117*scaled_AA7 + 0.13532*scaled_AA8 + 1.98332*scaled_AA9 - 0.0535492*scaled_AA10 - 0.711181*scaled_AA11 - 0.0541116*scaled_AA12 + 2.12953*scaled_AA13 + 1.26609*scaled_AA14 + 1.67178*scaled_AA15 + 0.20171*scaled_AA16 - 0.876384*scaled_AA17 - 1.16911*scaled_AA18 + 1.0733*scaled_AA19 - 0.305686*scaled_AA20 - 0.696599*scaled_AA21 - 0.33267*scaled_AA22 + 0.909584*scaled_AA23 - 2.19223*scaled_AA24 - 0.310584*scaled_AA25 - 1.23246*scaled_AA26 + 0.685551*scaled_AA27 + 0.713103*scaled_AA28 - 0.925223*scaled_AA29 + 0.228664*scaled_AA30 - 0.736128*scaled_AA31);
 	double y_1_2 = tanh(-1.57981 + 1.14064*scaled_AA0 + 1.05282*scaled_AA1
 		- 2.52094*scaled_AA2 - 0.00670856*scaled_AA3
