@@ -6,6 +6,9 @@
 #include <qdir.h>
 #include "Function.hpp"
 #include "Function_32_10_16_17.hpp"
+#include "Function_32_1_0_1.hpp"
+#include "Function_32_1_0_2.hpp"
+#include "Function_32_1_0_3.hpp"
 
 double Size_32_Step_10_D_16_17(double AA0, double  AA1, double AA2, double AA3, double AA4, double AA5, double AA6, double AA7, double AA8, double AA9, double AA10, double  AA11, double AA12, double AA13, double AA14, double AA15, double AA16, double AA17, double AA18, double AA19, double AA20, double AA21, double AA22, double AA23, double AA24, double AA25, double AA26, double AA27, double AA28, double AA29, double AA30, double AA31);
 
@@ -82,10 +85,15 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 
 	SBRandom r(SAMSON::getTime());
 
-	Function **functionArray = new Function*[1];
-	functionArray[0] = new Function_32_10_16_17();
+	int num = 2;
 
-	for (int n = 0; n < 1; n++){
+	Function **functionArray = new Function*[num];
+	//functionArray[0] = new Function_32_10_16_17();
+	//functionArray[1] = new Function_32_1_0_1();
+	functionArray[0] = new Function_32_1_0_2();
+	functionArray[1] = new Function_32_1_0_3();
+
+	for (int n = 0; n < num; n++){
 		for (int i = 0; i < nodeIndexer.size() - functionArray[n]->getSize()*functionArray[n]->getStep(); i++){
 			SBAtom* carbi = static_cast<SBAtom*>(nodeIndexer[i + functionArray[n]->getI()*functionArray[n]->getStep()]);
 			SBAtom* carbj = static_cast<SBAtom*>(nodeIndexer[i + functionArray[n]->getJ()*functionArray[n]->getStep()]);
@@ -93,10 +101,10 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 			double *sequence = new double[functionArray[n]->getSize()];
 
 			for (int j = 0; j < functionArray[n]->getSize(); j++){
-				sequence[j] = static_cast<SBResidue*>(nodeIndexer[i + j*functionArray[0]->getStep()]->getParent()->getParent())->getResidueType();
+				sequence[j] = static_cast<SBResidue*>(nodeIndexer[i + j*functionArray[n]->getStep()]->getParent()->getParent())->getResidueType();
 			}
 
-			SBQuantity::length distance = SBQuantity::angstrom(functionArray[0]->distance(sequence));
+			SBQuantity::length distance = SBQuantity::angstrom(functionArray[n]->distance(sequence));
 
 			//distance *= 1.0 + 1.9*(r.randDouble1() - 0.5); // add randomness to test robustness
 			springAtomIVector->push_back(carbi);
