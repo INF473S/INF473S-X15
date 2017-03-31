@@ -5,6 +5,8 @@
 #include "SBBond.hpp"
 #include "SBStructuralModel.hpp"
 #include "SBRandom.hpp"
+#include "SBResidue.hpp"
+#include "SBMStructuralModelNodeBackbone.hpp"
 
 SECarbonAlphaGeneratorApp::SECarbonAlphaGeneratorApp() {
 
@@ -22,7 +24,9 @@ SECarbonAlphaGeneratorApp::~SECarbonAlphaGeneratorApp() {
 
 SECarbonAlphaGeneratorAppGUI* SECarbonAlphaGeneratorApp::getGUI() const { return static_cast<SECarbonAlphaGeneratorAppGUI*>(SBDApp::getGUI()); }
 
-void SECarbonAlphaGeneratorApp::generate(int numberOfCarbons){
+void SECarbonAlphaGeneratorApp::generate(QString chain){
+
+	int numberOfCarbons = chain.length();
 
 	SBStructuralModel* model = new SBStructuralModel();
 	model->setName("Alpha carbon chain");
@@ -41,7 +45,14 @@ void SECarbonAlphaGeneratorApp::generate(int numberOfCarbons){
 		atomArray[i] = new SBAtom(SBElement::Carbon, SBPosition3(SBQuantity::angstrom(x), SBQuantity::angstrom(y), SBQuantity::angstrom(z)));
 		atomArray[i]->setName("CA");
 
-		model->getStructuralRoot()->addChild(atomArray[i]);
+		SBResidue* newResidue = new SBResidue();
+		newResidue->setName("A");
+		newResidue->setResidueType(SBResidue::ALA);
+		SBMStructuralModelNodeBackbone* newBackbone = new SBMStructuralModelNodeBackbone();
+		newResidue->addChild(newBackbone);
+		newBackbone->addChild(atomArray[i]);
+
+		model->getStructuralRoot()->addChild(newResidue);
 
 	}
 

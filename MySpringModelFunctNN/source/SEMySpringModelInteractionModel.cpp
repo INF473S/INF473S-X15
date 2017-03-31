@@ -9,6 +9,9 @@
 #include "Function_32_1_0_1.hpp"
 #include "Function_32_1_0_2.hpp"
 #include "Function_32_1_0_3.hpp"
+#include "Function_16_1_8_14.hpp"
+#include "Function_16_1_8_15.hpp"
+#include "Function_32_1_16_18.hpp"
 
 SEMySpringModelInteractionModel::SEMySpringModelInteractionModel() : SBMInteractionModelParticleSystem(0) {
 
@@ -86,13 +89,18 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 	int num = 2;
 
 	Function **functionArray = new Function*[num];
-	//functionArray[0] = new Function_32_10_16_17();
-	//functionArray[1] = new Function_32_1_0_1();
-	functionArray[0] = new Function_32_1_0_2();
-	functionArray[1] = new Function_32_1_0_3();
+	functionArray[0] = new Function_32_10_16_17();
+	functionArray[1] = new Function_32_1_0_1();
+	//functionArray[2] = new Function_32_1_0_2();
+	//functionArray[3] = new Function_32_1_0_3();
+	//functionArray[4] = new Function_16_1_8_14();
+	//functionArray[5] = new Function_16_1_8_15();
+	//functionArray[6] = new Function_32_1_16_18();
+
 
 	for (int n = 0; n < num; n++){
-		for (int i = 0; i < nodeIndexer.size() - functionArray[n]->getSize()*functionArray[n]->getStep(); i++){
+
+		for (int i = 0; i < ((int) nodeIndexer.size()) - functionArray[n]->getSize()*functionArray[n]->getStep(); i++){
 			SBAtom* carbi = static_cast<SBAtom*>(nodeIndexer[i + functionArray[n]->getI()*functionArray[n]->getStep()]);
 			SBAtom* carbj = static_cast<SBAtom*>(nodeIndexer[i + functionArray[n]->getJ()*functionArray[n]->getStep()]);
 

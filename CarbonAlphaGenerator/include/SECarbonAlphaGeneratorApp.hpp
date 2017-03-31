@@ -29,7 +29,7 @@ public :
 
 	//@}
 
-	void generate(int numberOfCarbons);
+	void generate(QString chain);
 };
 
 
