@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NeuralReaderProject LearningTask="Approximation">
+    <VariablesNumber>63</VariablesNumber>
+    <Item Index="1">
+        <Name>AA0</Name>
+    </Item>
+    <Item Index="2">
+        <Name>AA1</Name>
+    </Item>
+    <Item Index="3">
+        <Name>AA2</Name>
+    </Item>
+    <Item Index="4">
+        <Name>AA3</Name>
+    </Item>
+    <Item Index="5">
+        <Name>AA4</Name>
+    </Item>
+    <Item Index="6">
+        <Name>AA5</Name>
+    </Item>
+    <Item Index="7">
+        <Name>AA6</Name>
+    </Item>
+    <Item Index="8">
+        <Name>AA7</Name>
+    </Item>
+    <Item Index="9">
+        <Name>AA8</Name>
+    </Item>
+    <Item Index="10">
+        <Name>AA9</Name>
+    </Item>
+    <Item Index="11">
+        <Name>AA10</Name>
+    </Item>
+    <Item Index="12">
+        <Name>AA11</Name>
+    </Item>
+    <Item Index="13">
+        <Name>AA12</Name>
+    </Item>
+    <Item Index="14">
+        <Name>AA13</Name>
+    </Item>
+    <Item Index="15">
+        <Name>AA14</Name>
+    </Item>
+    <Item Index="16">
+        <Name>AA15</Name>
+    </Item>
+    <Item Index="17">
+        <Name>AA16</Name>
+    </Item>
+    <Item Index="18">
+        <Name>AA17</Name>
+    </Item>
+    <Item Index="19">
+        <Name>AA18</Name>
+    </Item>
+    <Item Index="20">
+        <Name>AA19</Name>
+    </Item>
+    <Item Index="21">
+        <Name>AA20</Name>
+    </Item>
+    <Item Index="22">
+        <Name>AA21</Name>
+    </Item>
+    <Item Index="23">
+        <Name>AA22</Name>
+    </Item>
+    <Item Index="24">
+        <Name>AA23</Name>
+    </Item>
+    <Item Index="25">
+        <Name>AA24</Name>
+    </Item>
+    <Item Index="26">
+        <Name>AA25</Name>
+    </Item>
+    <Item Index="27">
+        <Name>AA26</Name>
+    </Item>
+    <Item Index="28">
+        <Name>AA27</Name>
+    </Item>
+    <Item Index="29">
+        <Name>AA28</Name>
+    </Item>
+    <Item Index="30">
+        <Name>AA29</Name>
+    </Item>
+    <Item Index="31">
+        <Name>AA30</Name>
+    </Item>
+    <Item Index="32">
+        <Name>AA31</Name>
+    </Item>
+    <Item Index="33">
+        <Name>D-16-0</Name>
+    </Item>
+    <Item Index="34">
+        <Name>D-16-1</Name>
+    </Item>
+    <Item Index="35">
+        <Name>D-16-2</Name>
+    </Item>
+    <Item Index="36">
+        <Name>D-16-3</Name>
+    </Item>
+    <Item Index="37">
+        <Name>D-16-4</Name>
+    </Item>
+    <Item Index="38">
+        <Name>D-16-5</Name>
+    </Item>
+    <Item Index="39">
+        <Name>D-16-6</Name>
+    </Item>
+    <Item Index="40">
+        <Name>D-16-7</Name>
+    </Item>
+    <Item Index="41">
+        <Name>D-16-8</Name>
+    </Item>
+    <Item Index="42">
+        <Name>D-16-9</Name>
+    </Item>
+    <Item Index="43">
+        <Name>D-16-10</Name>
+    </Item>
+    <Item Index="44">
+        <Name>D-16-11</Name>
+    </Item>
+    <Item Index="45">
+        <Name>D-16-12</Name>
+    </Item>
+    <Item Index="46">
+        <Name>D-16-13</Name>
+    </Item>
+    <Item Index="47">
+        <Name>D-16-14</Name>
+    </Item>
+    <Item Index="48">
+        <Name>D-16-15</Name>
+    </Item>
+    <Item Index="49">
+        <Name>D-16-17</Name>
+    </Item>
+    <Item Index="50">
+        <Name>D-16-18</Name>
+    </Item>
+    <Item Index="51">
+        <Name>D-16-19</Name>
+    </Item>
+    <Item Index="52">
+        <Name>D-16-20</Name>
+    </Item>
+    <Item Index="53">
+        <Name>D-16-21</Name>
+    </Item>
+    <Item Index="54">
+        <Name>D-16-22</Name>
+    </Item>
+    <Item Index="55">
+        <Name>D-16-23</Name>
+    </Item>
+    <Item Index="56">
+        <Name>D-16-24</Name>
+    </Item>
+    <Item Index="57">
+        <Name>D-16-25</Name>
+    </Item>
+    <Item Index="58">
+        <Name>D-16-26</Name>
+    </Item>
+    <Item Index="59">
+        <Name>D-16-27</Name>
+    </Item>
+    <Item Index="60">
+        <Name>D-16-28</Name>
+    </Item>
+    <Item Index="61">
+        <Name>D-16-29</Name>
+    </Item>
+    <Item Index="62">
+        <Name>D-16-30</Name>
+    </Item>
+    <Item Index="63">
+        <Name>D-16-31</Name>
+    </Item>
+    <ColumnsName>
+        <ColumnsNameSize>63</ColumnsNameSize>
+        <Item Index="1" Size="1">
+            <Value>AA0</Value>
+        </Item>
+        <Item Index="2" Size="1">
+            <Value>AA1</Value>
+        </Item>
+        <Item Index="3" Size="1">
+            <Value>AA2</Value>
+        </Item>
+        <Item Index="4" Size="1">
+            <Value>AA3</Value>
+        </Item>
+        <Item Index="5" Size="1">
+            <Value>AA4</Value>
+        </Item>
+        <Item Index="6" Size="1">
+            <Value>AA5</Value>
+        </Item>
+        <Item Index="7" Size="1">
+            <Value>AA6</Value>
+        </Item>
+        <Item Index="8" Size="1">
+            <Value>AA7</Value>
+        </Item>
+        <Item Index="9" Size="1">
+            <Value>AA8</Value>
+        </Item>
+        <Item Index="10" Size="1">
+            <Value>AA9</Value>
+        </Item>
+        <Item Index="11" Size="1">
+            <Value>AA10</Value>
+        </Item>
+        <Item Index="12" Size="1">
+            <Value>AA11</Value>
+        </Item>
+        <Item Index="13" Size="1">
+            <Value>AA12</Value>
+        </Item>
+        <Item Index="14" Size="1">
+            <Value>AA13</Value>
+        </Item>
+        <Item Index="15" Size="1">
+            <Value>AA14</Value>
+        </Item>
+        <Item Index="16" Size="1">
+            <Value>AA15</Value>
+        </Item>
+        <Item Index="17" Size="1">
+            <Value>AA16</Value>
+        </Item>
+        <Item Index="18" Size="1">
+            <Value>AA17</Value>
+        </Item>
+        <Item Index="19" Size="1">
+            <Value>AA18</Value>
+        </Item>
+        <Item Index="20" Size="1">
+            <Value>AA19</Value>
+        </Item>
+        <Item Index="21" Size="1">
+            <Value>AA20</Value>
+        </Item>
+        <Item Index="22" Size="1">
+            <Value>AA21</Value>
+        </Item>
+        <Item Index="23" Size="1">
+            <Value>AA22</Value>
+        </Item>
+        <Item Index="24" Size="1">
+            <Value>AA23</Value>
+        </Item>
+        <Item Index="25" Size="1">
+            <Value>AA24</Value>
+        </Item>
+        <Item Index="26" Size="1">
+            <Value>AA25</Value>
+        </Item>
+        <Item Index="27" Size="1">
+            <Value>AA26</Value>
+        </Item>
+        <Item Index="28" Size="1">
+            <Value>AA27</Value>
+        </Item>
+        <Item Index="29" Size="1">
+            <Value>AA28</Value>
+        </Item>
+        <Item Index="30" Size="1">
+            <Value>AA29</Value>
+        </Item>
+        <Item Index="31" Size="1">
+            <Value>AA30</Value>
+        </Item>
+        <Item Index="32" Size="1">
+            <Value>AA31</Value>
+        </Item>
+        <Item Index="33" Size="1">
+            <Value>D-16-0</Value>
+        </Item>
+        <Item Index="34" Size="1">
+            <Value>D-16-1</Value>
+        </Item>
+        <Item Index="35" Size="1">
+            <Value>D-16-2</Value>
+        </Item>
+        <Item Index="36" Size="1">
+            <Value>D-16-3</Value>
+        </Item>
+        <Item Index="37" Size="1">
+            <Value>D-16-4</Value>
+        </Item>
+        <Item Index="38" Size="1">
+            <Value>D-16-5</Value>
+        </Item>
+        <Item Index="39" Size="1">
+            <Value>D-16-6</Value>
+        </Item>
+        <Item Index="40" Size="1">
+            <Value>D-16-7</Value>
+        </Item>
+        <Item Index="41" Size="1">
+            <Value>D-16-8</Value>
+        </Item>
+        <Item Index="42" Size="1">
+            <Value>D-16-9</Value>
+        </Item>
+        <Item Index="43" Size="1">
+            <Value>D-16-10</Value>
+        </Item>
+        <Item Index="44" Size="1">
+            <Value>D-16-11</Value>
+        </Item>
+        <Item Index="45" Size="1">
+            <Value>D-16-12</Value>
+        </Item>
+        <Item Index="46" Size="1">
+            <Value>D-16-13</Value>
+        </Item>
+        <Item Index="47" Size="1">
+            <Value>D-16-14</Value>
+        </Item>
+        <Item Index="48" Size="1">
+            <Value>D-16-15</Value>
+        </Item>
+        <Item Index="49" Size="1">
+            <Value>D-16-17</Value>
+        </Item>
+        <Item Index="50" Size="1">
+            <Value>D-16-18</Value>
+        </Item>
+        <Item Index="51" Size="1">
+            <Value>D-16-19</Value>
+        </Item>
+        <Item Index="52" Size="1">
+            <Value>D-16-20</Value>
+        </Item>
+        <Item Index="53" Size="1">
+            <Value>D-16-21</Value>
+        </Item>
+        <Item Index="54" Size="1">
+            <Value>D-16-22</Value>
+        </Item>
+        <Item Index="55" Size="1">
+            <Value>D-16-23</Value>
+        </Item>
+        <Item Index="56" Size="1">
+            <Value>D-16-24</Value>
+        </Item>
+        <Item Index="57" Size="1">
+            <Value>D-16-25</Value>
+        </Item>
+        <Item Index="58" Size="1">
+            <Value>D-16-26</Value>
+        </Item>
+        <Item Index="59" Size="1">
+            <Value>D-16-27</Value>
+        </Item>
+        <Item Index="60" Size="1">
+            <Value>D-16-28</Value>
+        </Item>
+        <Item Index="61" Size="1">
+            <Value>D-16-29</Value>
+        </Item>
+        <Item Index="62" Size="1">
+            <Value>D-16-30</Value>
+        </Item>
+        <Item Index="63" Size="1">
+            <Value>D-16-31</Value>
+        </Item>
+    </ColumnsName>
+    <InstancesNumber>130624</InstancesNumber>
+    <MissingValues>
+        <MissingValuesNumber>0</MissingValuesNumber>
+    </MissingValues>
+    <PreviewData>
+        <PreviewSize>4</PreviewSize>
+        <Item Index="1" Size="63">
+            <Value>AA0</Value>
+            <Value>AA1</Value>
+            <Value>AA2</Value>
+            <Value>AA3</Value>
+            <Value>AA4</Value>
+            <Value>AA5</Value>
+            <Value>AA6</Value>
+            <Value>AA7</Value>
+            <Value>AA8</Value>
+            <Value>AA9</Value>
+            <Value>AA10</Value>
+            <Value>AA11</Value>
+            <Value>AA12</Value>
+            <Value>AA13</Value>
+            <Value>AA14</Value>
+            <Value>AA15</Value>
+            <Value>AA16</Value>
+            <Value>AA17</Value>
+            <Value>AA18</Value>
+            <Value>AA19</Value>
+            <Value>AA20</Value>
+            <Value>AA21</Value>
+            <Value>AA22</Value>
+            <Value>AA23</Value>
+            <Value>AA24</Value>
+            <Value>AA25</Value>
+            <Value>AA26</Value>
+            <Value>AA27</Value>
+            <Value>AA28</Value>
+            <Value>AA29</Value>
+            <Value>AA30</Value>
+            <Value>AA31</Value>
+            <Value>D-16-0</Value>
+            <Value>D-16-1</Value>
+            <Value>D-16-2</Value>
+            <Value>D-16-3</Value>
+            <Value>D-16-4</Value>
+            <Value>D-16-5</Value>
+            <Value>D-16-6</Value>
+            <Value>D-16-7</Value>
+            <Value>D-16-8</Value>
+            <Value>D-16-9</Value>
+            <Value>D-16-10</Value>
+            <Value>D-16-11</Value>
+            <Value>D-16-12</Value>
+            <Value>D-16-13</Value>
+            <Value>D-16-14</Value>
+            <Value>D-16-15</Value>
+            <Value>D-16-17</Value>
+            <Value>D-16-18</Value>
+            <Value>D-16-19</Value>
+            <Value>D-16-20</Value>
+            <Value>D-16-21</Value>
+            <Value>D-16-22</Value>
+            <Value>D-16-23</Value>
+            <Value>D-16-24</Value>
+            <Value>D-16-25</Value>
+            <Value>D-16-26</Value>
+            <Value>D-16-27</Value>
+            <Value>D-16-28</Value>
+            <Value>D-16-29</Value>
+            <Value>D-16-30</Value>
+            <Value>D-16-31</Value>
+        </Item>
+        <Item Index="2" Size="63">
+            <Value>05</Value>
+            <Value>11</Value>
+            <Value>15</Value>
+            <Value>14</Value>
+            <Value>01</Value>
+            <Value>03</Value>
+            <Value>12</Value>
+            <Value>17</Value>
+            <Value>04</Value>
+            <Value>05</Value>
+            <Value>12</Value>
+            <Value>01</Value>
+            <Value>01</Value>
+            <Value>18</Value>
+            <Value>07</Value>
+            <Value>12</Value>
+            <Value>05</Value>
+            <Value>07</Value>
+            <Value>01</Value>
+            <Value>06</Value>
+            <Value>01</Value>
+            <Value>07</Value>
+            <Value>08</Value>
+            <Value>16</Value>
+            <Value>07</Value>
+            <Value>01</Value>
+            <Value>08</Value>
+            <Value>01</Value>
+            <Value>11</Value>
+            <Value>08</Value>
+            <Value>02</Value>
+            <Value>13</Value>
+            <Value>023.24</Value>
+            <Value>020.24</Value>
+            <Value>021.42</Value>
+            <Value>020.23</Value>
+            <Value>018.76</Value>
+            <Value>016.69</Value>
+            <Value>015.52</Value>
+            <Value>014.66</Value>
+            <Value>012.70</Value>
+            <Value>010.61</Value>
+            <Value>010.02</Value>
+            <Value>009.03</Value>
+            <Value>006.60</Value>
+            <Value>004.96</Value>
+            <Value>005.37</Value>
+            <Value>003.80</Value>
+            <Value>003.73</Value>
+            <Value>006.30</Value>
+            <Value>005.43</Value>
+            <Value>005.57</Value>
+            <Value>009.29</Value>
+            <Value>009.56</Value>
+            <Value>008.19</Value>
+            <Value>010.42</Value>
+            <Value>013.28</Value>
+            <Value>012.85</Value>
+            <Value>013.23</Value>
+            <Value>016.23</Value>
+            <Value>017.79</Value>
+            <Value>017.66</Value>
+            <Value>019.21</Value>
+        </Item>
+        <Item Index="3" Size="63">
+            <Value>11</Value>
+            <Value>15</Value>
+            <Value>14</Value>
+            <Value>01</Value>
+            <Value>03</Value>
+            <Value>12</Value>
+            <Value>17</Value>
+            <Value>04</Value>
+            <Value>05</Value>
+            <Value>12</Value>
+            <Value>01</Value>
+            <Value>01</Value>
+            <Value>18</Value>
+            <Value>07</Value>
+            <Value>12</Value>
+            <Value>05</Value>
+            <Value>07</Value>
+            <Value>01</Value>
+            <Value>06</Value>
+            <Value>01</Value>
+            <Value>07</Value>
+            <Value>08</Value>
+            <Value>16</Value>
+            <Value>07</Value>
+            <Value>01</Value>
+            <Value>08</Value>
+            <Value>01</Value>
+            <Value>11</Value>
+            <Value>08</Value>
+            <Value>02</Value>
+            <Value>13</Value>
+            <Value>19</Value>
+            <Value>021.53</Value>
+            <Value>022.66</Value>
+            <Value>021.05</Value>
+            <Value>020.11</Value>
+            <Value>018.28</Value>
+            <Value>016.40</Value>
+            <Value>015.51</Value>
+            <Value>014.41</Value>
+            <Value>012.13</Value>
+            <Value>010.42</Value>
+            <Value>010.03</Value>
+            <Value>008.86</Value>
+            <Value>006.33</Value>
+            <Value>005.12</Value>
+            <Value>005.16</Value>
+            <Value>003.73</Value>
+            <Value>003.72</Value>
+            <Value>005.37</Value>
+            <Value>005.77</Value>
+            <Value>009.15</Value>
+            <Value>010.34</Value>
+            <Value>010.18</Value>
+            <Value>011.75</Value>
+            <Value>014.49</Value>
+            <Value>014.91</Value>
+            <Value>015.59</Value>
+            <Value>018.06</Value>
+            <Value>019.80</Value>
+            <Value>020.26</Value>
+            <Value>021.63</Value>
+            <Value>024.04</Value>
+        </Item>
+        <Item Index="4" Size="63">
+            <Value>19</Value>
+            <Value>05</Value>
+            <Value>07</Value>
+            <Value>11</Value>
+            <Value>01</Value>
+            <Value>10</Value>
+            <Value>03</Value>
+            <Value>08</Value>
+            <Value>03</Value>
+            <Value>02</Value>
+            <Value>09</Value>
+            <Value>14</Value>
+            <Value>08</Value>
+            <Value>11</Value>
+            <Value>17</Value>
+            <Value>01</Value>
+            <Value>08</Value>
+            <Value>02</Value>
+            <Value>05</Value>
+            <Value>08</Value>
+            <Value>12</Value>
+            <Value>18</Value>
+            <Value>05</Value>
+            <Value>12</Value>
+            <Value>09</Value>
+            <Value>10</Value>
+            <Value>15</Value>
+            <Value>08</Value>
+            <Value>08</Value>
+            <Value>11</Value>
+            <Value>06</Value>
+            <Value>11</Value>
+            <Value>016.66</Value>
+            <Value>018.11</Value>
+            <Value>015.09</Value>
+            <Value>011.62</Value>
+            <Value>012.28</Value>
+            <Value>010.66</Value>
+            <Value>012.39</Value>
+            <Value>012.62</Value>
+            <Value>015.84</Value>
+            <Value>014.93</Value>
+            <Value>011.24</Value>
+            <Value>010.08</Value>
+            <Value>008.54</Value>
+            <Value>005.87</Value>
+            <Value>005.71</Value>
+            <Value>003.80</Value>
+            <Value>003.81</Value>
+            <Value>005.36</Value>
+            <Value>004.83</Value>
+            <Value>005.84</Value>
+            <Value>008.07</Value>
+            <Value>009.67</Value>
+            <Value>010.37</Value>
+            <Value>011.87</Value>
+            <Value>013.97</Value>
+            <Value>015.06</Value>
+            <Value>016.62</Value>
+            <Value>018.14</Value>
+            <Value>019.60</Value>
+            <Value>020.37</Value>
+            <Value>020.50</Value>
+        </Item>
+    </PreviewData>
+</NeuralReaderProject>
