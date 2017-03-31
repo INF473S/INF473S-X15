@@ -59,7 +59,7 @@ int main(void)
 		
 		Vector<int> architecture(3);
 		architecture[0] = 32;
-		architecture[1] = 10;
+		architecture[1] = 1;
 		architecture[2] = 1;
 		MultilayerPerceptron mlp = MultilayerPerceptron(architecture);
 
@@ -83,11 +83,9 @@ int main(void)
 
         if(rank == 0)
         {
-            data_set.set_data_file_name(path+"Size_32_Step_1.dat");
+            data_set.set_data_file_name(path+"Size_32_Step_1_short.dat");
 			data_set.set_header_line(true);
             data_set.load_data();
-
-			
 
             Variables* variables_pointer = data_set.get_variables_pointer();
 
@@ -124,9 +122,9 @@ int main(void)
 			variables_pointer->set_use(30, Variables::Input);
 			variables_pointer->set_use(31, Variables::Input);
 
-			for (int i = 0; i < 16*31; i++){
-					variables_pointer->set_use(32 + i, Variables::Target);
-			}
+			
+			variables_pointer->set_use(42, Variables::Target);
+		
 
             Matrix<std::string> inputs_information = variables_pointer->arrange_inputs_information();
             Matrix<std::string> targets_information = variables_pointer->arrange_targets_information();
@@ -203,7 +201,7 @@ int main(void)
 
             TestingAnalysis testing_analysis(&neural_network, &data_set);
 
-            TestingAnalysis::LinearRegressionResults linear_regression_results = testing_analysis.perform_linear_regression_analysis();
+			TestingAnalysis::LinearRegressionResults linear_regression_results = testing_analysis.perform_linear_regression_analysis();
 
             // Save results
 
@@ -223,7 +221,7 @@ int main(void)
             training_strategy.save("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\GIT\\OpenNN\\examples\\simple_function_regression\\data\\training_strategy.xml");
             training_strategy_results.save("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\GIT\\OpenNN\\examples\\simple_function_regression\\data\\training_strategy_results.dat");
 
-            linear_regression_results.save("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\GIT\\OpenNN\\examples\\simple_function_regression\\data\\linear_regression_analysis_results.dat");
+			linear_regression_results.save("C:\\Users\\Romain Loiseau\\Documents\\Mes_documents\\X\\2A\\Modal_SAMSON\\GIT\\OpenNN\\examples\\simple_function_regression\\data\\linear_regression_analysis_results.dat");
         }
 
 #ifdef __OPENNN_MPI__
