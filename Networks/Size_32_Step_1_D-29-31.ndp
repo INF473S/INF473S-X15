@@ -1,0 +1,3658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by Neural Engine-->
+<NeuralDesignerProject LearningTask="Approximation">
+    <Description Id="htZznV"></Description>
+    <DataSet>
+        <DataFile>
+            <FileType>dat</FileType>
+            <FirstCell>No excel</FirstCell>
+            <LastCell>No excel</LastCell>
+            <SheetNumber>0</SheetNumber>
+            <LagsNumber>0</LagsNumber>
+            <StepsAhead>0</StepsAhead>
+            <ColumnsName>1</ColumnsName>
+            <RowsLabel>0</RowsLabel>
+            <Separator>Space</Separator>
+            <MissingValuesLabel>NaN</MissingValuesLabel>
+            <DataFileName>DAT/Size_32_Step_1_full-short.dat</DataFileName>
+        </DataFile>
+        <Variables>
+            <VariablesNumber>528</VariablesNumber>
+            <Item Index="1">
+                <Name>AA0</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="2">
+                <Name>AA1</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="3">
+                <Name>AA2</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="4">
+                <Name>AA3</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="5">
+                <Name>AA4</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="6">
+                <Name>AA5</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="7">
+                <Name>AA6</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="8">
+                <Name>AA7</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="9">
+                <Name>AA8</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="10">
+                <Name>AA9</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="11">
+                <Name>AA10</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="12">
+                <Name>AA11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="13">
+                <Name>AA12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="14">
+                <Name>AA13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="15">
+                <Name>AA14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="16">
+                <Name>AA15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="17">
+                <Name>AA16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="18">
+                <Name>AA17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="19">
+                <Name>AA18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="20">
+                <Name>AA19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="21">
+                <Name>AA20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="22">
+                <Name>AA21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="23">
+                <Name>AA22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="24">
+                <Name>AA23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="25">
+                <Name>AA24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="26">
+                <Name>AA25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="27">
+                <Name>AA26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="28">
+                <Name>AA27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="29">
+                <Name>AA28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="30">
+                <Name>AA29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="31">
+                <Name>AA30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="32">
+                <Name>AA31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Input</Use>
+            </Item>
+            <Item Index="33">
+                <Name>D-0-1</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="34">
+                <Name>D-0-2</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="35">
+                <Name>D-0-3</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="36">
+                <Name>D-0-4</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="37">
+                <Name>D-0-5</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="38">
+                <Name>D-0-6</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="39">
+                <Name>D-0-7</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="40">
+                <Name>D-0-8</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="41">
+                <Name>D-0-9</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="42">
+                <Name>D-0-10</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="43">
+                <Name>D-0-11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="44">
+                <Name>D-0-12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="45">
+                <Name>D-0-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="46">
+                <Name>D-0-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="47">
+                <Name>D-0-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="48">
+                <Name>D-0-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="49">
+                <Name>D-0-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="50">
+                <Name>D-0-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="51">
+                <Name>D-0-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="52">
+                <Name>D-0-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="53">
+                <Name>D-0-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="54">
+                <Name>D-0-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="55">
+                <Name>D-0-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="56">
+                <Name>D-0-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="57">
+                <Name>D-0-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="58">
+                <Name>D-0-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="59">
+                <Name>D-0-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="60">
+                <Name>D-0-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="61">
+                <Name>D-0-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="62">
+                <Name>D-0-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="63">
+                <Name>D-0-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="64">
+                <Name>D-1-2</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="65">
+                <Name>D-1-3</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="66">
+                <Name>D-1-4</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="67">
+                <Name>D-1-5</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="68">
+                <Name>D-1-6</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="69">
+                <Name>D-1-7</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="70">
+                <Name>D-1-8</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="71">
+                <Name>D-1-9</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="72">
+                <Name>D-1-10</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="73">
+                <Name>D-1-11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="74">
+                <Name>D-1-12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="75">
+                <Name>D-1-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="76">
+                <Name>D-1-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="77">
+                <Name>D-1-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="78">
+                <Name>D-1-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="79">
+                <Name>D-1-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="80">
+                <Name>D-1-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="81">
+                <Name>D-1-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="82">
+                <Name>D-1-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="83">
+                <Name>D-1-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="84">
+                <Name>D-1-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="85">
+                <Name>D-1-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="86">
+                <Name>D-1-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="87">
+                <Name>D-1-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="88">
+                <Name>D-1-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="89">
+                <Name>D-1-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="90">
+                <Name>D-1-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="91">
+                <Name>D-1-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="92">
+                <Name>D-1-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="93">
+                <Name>D-1-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="94">
+                <Name>D-2-3</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="95">
+                <Name>D-2-4</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="96">
+                <Name>D-2-5</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="97">
+                <Name>D-2-6</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="98">
+                <Name>D-2-7</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="99">
+                <Name>D-2-8</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="100">
+                <Name>D-2-9</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="101">
+                <Name>D-2-10</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="102">
+                <Name>D-2-11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="103">
+                <Name>D-2-12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="104">
+                <Name>D-2-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="105">
+                <Name>D-2-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="106">
+                <Name>D-2-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="107">
+                <Name>D-2-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="108">
+                <Name>D-2-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="109">
+                <Name>D-2-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="110">
+                <Name>D-2-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="111">
+                <Name>D-2-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="112">
+                <Name>D-2-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="113">
+                <Name>D-2-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="114">
+                <Name>D-2-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="115">
+                <Name>D-2-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="116">
+                <Name>D-2-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="117">
+                <Name>D-2-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="118">
+                <Name>D-2-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="119">
+                <Name>D-2-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="120">
+                <Name>D-2-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="121">
+                <Name>D-2-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="122">
+                <Name>D-2-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="123">
+                <Name>D-3-4</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="124">
+                <Name>D-3-5</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="125">
+                <Name>D-3-6</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="126">
+                <Name>D-3-7</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="127">
+                <Name>D-3-8</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="128">
+                <Name>D-3-9</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="129">
+                <Name>D-3-10</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="130">
+                <Name>D-3-11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="131">
+                <Name>D-3-12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="132">
+                <Name>D-3-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="133">
+                <Name>D-3-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="134">
+                <Name>D-3-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="135">
+                <Name>D-3-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="136">
+                <Name>D-3-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="137">
+                <Name>D-3-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="138">
+                <Name>D-3-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="139">
+                <Name>D-3-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="140">
+                <Name>D-3-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="141">
+                <Name>D-3-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="142">
+                <Name>D-3-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="143">
+                <Name>D-3-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="144">
+                <Name>D-3-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="145">
+                <Name>D-3-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="146">
+                <Name>D-3-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="147">
+                <Name>D-3-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="148">
+                <Name>D-3-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="149">
+                <Name>D-3-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="150">
+                <Name>D-3-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="151">
+                <Name>D-4-5</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="152">
+                <Name>D-4-6</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="153">
+                <Name>D-4-7</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="154">
+                <Name>D-4-8</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="155">
+                <Name>D-4-9</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="156">
+                <Name>D-4-10</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="157">
+                <Name>D-4-11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="158">
+                <Name>D-4-12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="159">
+                <Name>D-4-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="160">
+                <Name>D-4-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="161">
+                <Name>D-4-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="162">
+                <Name>D-4-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="163">
+                <Name>D-4-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="164">
+                <Name>D-4-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="165">
+                <Name>D-4-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="166">
+                <Name>D-4-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="167">
+                <Name>D-4-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="168">
+                <Name>D-4-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="169">
+                <Name>D-4-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="170">
+                <Name>D-4-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="171">
+                <Name>D-4-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="172">
+                <Name>D-4-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="173">
+                <Name>D-4-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="174">
+                <Name>D-4-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="175">
+                <Name>D-4-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="176">
+                <Name>D-4-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="177">
+                <Name>D-4-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="178">
+                <Name>D-5-6</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="179">
+                <Name>D-5-7</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="180">
+                <Name>D-5-8</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="181">
+                <Name>D-5-9</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="182">
+                <Name>D-5-10</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="183">
+                <Name>D-5-11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="184">
+                <Name>D-5-12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="185">
+                <Name>D-5-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="186">
+                <Name>D-5-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="187">
+                <Name>D-5-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="188">
+                <Name>D-5-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="189">
+                <Name>D-5-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="190">
+                <Name>D-5-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="191">
+                <Name>D-5-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="192">
+                <Name>D-5-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="193">
+                <Name>D-5-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="194">
+                <Name>D-5-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="195">
+                <Name>D-5-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="196">
+                <Name>D-5-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="197">
+                <Name>D-5-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="198">
+                <Name>D-5-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="199">
+                <Name>D-5-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="200">
+                <Name>D-5-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="201">
+                <Name>D-5-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="202">
+                <Name>D-5-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="203">
+                <Name>D-5-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="204">
+                <Name>D-6-7</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="205">
+                <Name>D-6-8</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="206">
+                <Name>D-6-9</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="207">
+                <Name>D-6-10</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="208">
+                <Name>D-6-11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="209">
+                <Name>D-6-12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="210">
+                <Name>D-6-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="211">
+                <Name>D-6-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="212">
+                <Name>D-6-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="213">
+                <Name>D-6-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="214">
+                <Name>D-6-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="215">
+                <Name>D-6-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="216">
+                <Name>D-6-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="217">
+                <Name>D-6-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="218">
+                <Name>D-6-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="219">
+                <Name>D-6-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="220">
+                <Name>D-6-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="221">
+                <Name>D-6-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="222">
+                <Name>D-6-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="223">
+                <Name>D-6-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="224">
+                <Name>D-6-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="225">
+                <Name>D-6-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="226">
+                <Name>D-6-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="227">
+                <Name>D-6-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="228">
+                <Name>D-6-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="229">
+                <Name>D-7-8</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="230">
+                <Name>D-7-9</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="231">
+                <Name>D-7-10</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="232">
+                <Name>D-7-11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="233">
+                <Name>D-7-12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="234">
+                <Name>D-7-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="235">
+                <Name>D-7-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="236">
+                <Name>D-7-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="237">
+                <Name>D-7-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="238">
+                <Name>D-7-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="239">
+                <Name>D-7-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="240">
+                <Name>D-7-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="241">
+                <Name>D-7-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="242">
+                <Name>D-7-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="243">
+                <Name>D-7-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="244">
+                <Name>D-7-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="245">
+                <Name>D-7-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="246">
+                <Name>D-7-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="247">
+                <Name>D-7-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="248">
+                <Name>D-7-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="249">
+                <Name>D-7-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="250">
+                <Name>D-7-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="251">
+                <Name>D-7-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="252">
+                <Name>D-7-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="253">
+                <Name>D-8-9</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="254">
+                <Name>D-8-10</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="255">
+                <Name>D-8-11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="256">
+                <Name>D-8-12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="257">
+                <Name>D-8-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="258">
+                <Name>D-8-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="259">
+                <Name>D-8-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="260">
+                <Name>D-8-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="261">
+                <Name>D-8-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="262">
+                <Name>D-8-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="263">
+                <Name>D-8-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="264">
+                <Name>D-8-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="265">
+                <Name>D-8-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="266">
+                <Name>D-8-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="267">
+                <Name>D-8-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="268">
+                <Name>D-8-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="269">
+                <Name>D-8-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="270">
+                <Name>D-8-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="271">
+                <Name>D-8-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="272">
+                <Name>D-8-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="273">
+                <Name>D-8-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="274">
+                <Name>D-8-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="275">
+                <Name>D-8-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="276">
+                <Name>D-9-10</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="277">
+                <Name>D-9-11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="278">
+                <Name>D-9-12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="279">
+                <Name>D-9-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="280">
+                <Name>D-9-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="281">
+                <Name>D-9-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="282">
+                <Name>D-9-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="283">
+                <Name>D-9-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="284">
+                <Name>D-9-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="285">
+                <Name>D-9-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="286">
+                <Name>D-9-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="287">
+                <Name>D-9-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="288">
+                <Name>D-9-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="289">
+                <Name>D-9-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="290">
+                <Name>D-9-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="291">
+                <Name>D-9-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="292">
+                <Name>D-9-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="293">
+                <Name>D-9-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="294">
+                <Name>D-9-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="295">
+                <Name>D-9-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="296">
+                <Name>D-9-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="297">
+                <Name>D-9-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="298">
+                <Name>D-10-11</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="299">
+                <Name>D-10-12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="300">
+                <Name>D-10-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="301">
+                <Name>D-10-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="302">
+                <Name>D-10-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="303">
+                <Name>D-10-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="304">
+                <Name>D-10-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="305">
+                <Name>D-10-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="306">
+                <Name>D-10-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="307">
+                <Name>D-10-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="308">
+                <Name>D-10-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="309">
+                <Name>D-10-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="310">
+                <Name>D-10-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="311">
+                <Name>D-10-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="312">
+                <Name>D-10-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="313">
+                <Name>D-10-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="314">
+                <Name>D-10-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="315">
+                <Name>D-10-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="316">
+                <Name>D-10-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="317">
+                <Name>D-10-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="318">
+                <Name>D-10-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="319">
+                <Name>D-11-12</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="320">
+                <Name>D-11-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="321">
+                <Name>D-11-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="322">
+                <Name>D-11-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="323">
+                <Name>D-11-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="324">
+                <Name>D-11-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="325">
+                <Name>D-11-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="326">
+                <Name>D-11-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="327">
+                <Name>D-11-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="328">
+                <Name>D-11-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="329">
+                <Name>D-11-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="330">
+                <Name>D-11-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="331">
+                <Name>D-11-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="332">
+                <Name>D-11-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="333">
+                <Name>D-11-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="334">
+                <Name>D-11-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="335">
+                <Name>D-11-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="336">
+                <Name>D-11-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="337">
+                <Name>D-11-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="338">
+                <Name>D-11-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="339">
+                <Name>D-12-13</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="340">
+                <Name>D-12-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="341">
+                <Name>D-12-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="342">
+                <Name>D-12-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="343">
+                <Name>D-12-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="344">
+                <Name>D-12-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="345">
+                <Name>D-12-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="346">
+                <Name>D-12-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="347">
+                <Name>D-12-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="348">
+                <Name>D-12-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="349">
+                <Name>D-12-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="350">
+                <Name>D-12-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="351">
+                <Name>D-12-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="352">
+                <Name>D-12-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="353">
+                <Name>D-12-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="354">
+                <Name>D-12-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="355">
+                <Name>D-12-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="356">
+                <Name>D-12-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="357">
+                <Name>D-12-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="358">
+                <Name>D-13-14</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="359">
+                <Name>D-13-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="360">
+                <Name>D-13-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="361">
+                <Name>D-13-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="362">
+                <Name>D-13-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="363">
+                <Name>D-13-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="364">
+                <Name>D-13-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="365">
+                <Name>D-13-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="366">
+                <Name>D-13-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="367">
+                <Name>D-13-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="368">
+                <Name>D-13-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="369">
+                <Name>D-13-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="370">
+                <Name>D-13-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="371">
+                <Name>D-13-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="372">
+                <Name>D-13-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="373">
+                <Name>D-13-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="374">
+                <Name>D-13-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="375">
+                <Name>D-13-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="376">
+                <Name>D-14-15</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="377">
+                <Name>D-14-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="378">
+                <Name>D-14-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="379">
+                <Name>D-14-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="380">
+                <Name>D-14-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="381">
+                <Name>D-14-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="382">
+                <Name>D-14-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="383">
+                <Name>D-14-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="384">
+                <Name>D-14-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="385">
+                <Name>D-14-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="386">
+                <Name>D-14-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="387">
+                <Name>D-14-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="388">
+                <Name>D-14-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="389">
+                <Name>D-14-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="390">
+                <Name>D-14-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="391">
+                <Name>D-14-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="392">
+                <Name>D-14-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="393">
+                <Name>D-15-16</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="394">
+                <Name>D-15-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="395">
+                <Name>D-15-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="396">
+                <Name>D-15-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="397">
+                <Name>D-15-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="398">
+                <Name>D-15-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="399">
+                <Name>D-15-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="400">
+                <Name>D-15-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="401">
+                <Name>D-15-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="402">
+                <Name>D-15-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="403">
+                <Name>D-15-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="404">
+                <Name>D-15-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="405">
+                <Name>D-15-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="406">
+                <Name>D-15-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="407">
+                <Name>D-15-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="408">
+                <Name>D-15-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="409">
+                <Name>D-16-17</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="410">
+                <Name>D-16-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="411">
+                <Name>D-16-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="412">
+                <Name>D-16-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="413">
+                <Name>D-16-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="414">
+                <Name>D-16-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="415">
+                <Name>D-16-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="416">
+                <Name>D-16-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="417">
+                <Name>D-16-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="418">
+                <Name>D-16-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="419">
+                <Name>D-16-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="420">
+                <Name>D-16-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="421">
+                <Name>D-16-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="422">
+                <Name>D-16-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="423">
+                <Name>D-16-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="424">
+                <Name>D-17-18</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="425">
+                <Name>D-17-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="426">
+                <Name>D-17-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="427">
+                <Name>D-17-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="428">
+                <Name>D-17-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="429">
+                <Name>D-17-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="430">
+                <Name>D-17-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="431">
+                <Name>D-17-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="432">
+                <Name>D-17-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="433">
+                <Name>D-17-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="434">
+                <Name>D-17-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="435">
+                <Name>D-17-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="436">
+                <Name>D-17-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="437">
+                <Name>D-17-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="438">
+                <Name>D-18-19</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="439">
+                <Name>D-18-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="440">
+                <Name>D-18-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="441">
+                <Name>D-18-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="442">
+                <Name>D-18-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="443">
+                <Name>D-18-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="444">
+                <Name>D-18-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="445">
+                <Name>D-18-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="446">
+                <Name>D-18-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="447">
+                <Name>D-18-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="448">
+                <Name>D-18-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="449">
+                <Name>D-18-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="450">
+                <Name>D-18-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="451">
+                <Name>D-19-20</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="452">
+                <Name>D-19-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="453">
+                <Name>D-19-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="454">
+                <Name>D-19-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="455">
+                <Name>D-19-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="456">
+                <Name>D-19-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="457">
+                <Name>D-19-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="458">
+                <Name>D-19-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="459">
+                <Name>D-19-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="460">
+                <Name>D-19-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="461">
+                <Name>D-19-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="462">
+                <Name>D-19-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="463">
+                <Name>D-20-21</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="464">
+                <Name>D-20-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="465">
+                <Name>D-20-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="466">
+                <Name>D-20-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="467">
+                <Name>D-20-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="468">
+                <Name>D-20-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="469">
+                <Name>D-20-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="470">
+                <Name>D-20-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="471">
+                <Name>D-20-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="472">
+                <Name>D-20-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="473">
+                <Name>D-20-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="474">
+                <Name>D-21-22</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="475">
+                <Name>D-21-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="476">
+                <Name>D-21-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="477">
+                <Name>D-21-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="478">
+                <Name>D-21-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="479">
+                <Name>D-21-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="480">
+                <Name>D-21-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="481">
+                <Name>D-21-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="482">
+                <Name>D-21-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="483">
+                <Name>D-21-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="484">
+                <Name>D-22-23</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="485">
+                <Name>D-22-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="486">
+                <Name>D-22-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="487">
+                <Name>D-22-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="488">
+                <Name>D-22-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="489">
+                <Name>D-22-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="490">
+                <Name>D-22-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="491">
+                <Name>D-22-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="492">
+                <Name>D-22-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="493">
+                <Name>D-23-24</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="494">
+                <Name>D-23-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="495">
+                <Name>D-23-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="496">
+                <Name>D-23-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="497">
+                <Name>D-23-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="498">
+                <Name>D-23-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="499">
+                <Name>D-23-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="500">
+                <Name>D-23-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="501">
+                <Name>D-24-25</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="502">
+                <Name>D-24-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="503">
+                <Name>D-24-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="504">
+                <Name>D-24-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="505">
+                <Name>D-24-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="506">
+                <Name>D-24-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="507">
+                <Name>D-24-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="508">
+                <Name>D-25-26</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="509">
+                <Name>D-25-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="510">
+                <Name>D-25-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="511">
+                <Name>D-25-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="512">
+                <Name>D-25-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="513">
+                <Name>D-25-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="514">
+                <Name>D-26-27</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="515">
+                <Name>D-26-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="516">
+                <Name>D-26-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="517">
+                <Name>D-26-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="518">
+                <Name>D-26-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="519">
+                <Name>D-27-28</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="520">
+                <Name>D-27-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="521">
+                <Name>D-27-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="522">
+                <Name>D-27-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="523">
+                <Name>D-28-29</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="524">
+                <Name>D-28-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="525">
+                <Name>D-28-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="526">
+                <Name>D-29-30</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+            <Item Index="527">
+                <Name>D-29-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Target</Use>
+            </Item>
+            <Item Index="528">
+                <Name>D-30-31</Name>
+                <Units></Units>
+                <Description></Description>
+                <Use>Unused</Use>
+            </Item>
+        </Variables>
+        <Instances>
+            <InstancesNumber>19998</InstancesNumber>
+            <ItemsUses>0 2 0 0 1 0 1 0 2 1 0 0 1 0 2 2 2 0 0 2 0 2 0 0 0 2 2 2 2 1 1 0 0 0 1 1 0 0 0 1 0 0 2 0 0 1 0 0 1 0 0 0 0 0 0 1 0 2 0 0 1 1 1 0 1 2 0 1 0 1 0 2 2 0 0 2 0 0 1 1 0 0 0 2 0 0 2 0 0 0 0 0 1 1 2 0 0 0 1 1 2 0 0 2 2 0 0 0 1 0 2 2 0 2 1 2 0 0 0 0 0 2 0 0 0 0 0 0 1 1 0 0 0 1 2 0 0 0 1 0 0 1 0 0 1 0 0 0 0 2 1 0 2 1 1 0 0 0 0 1 2 0 2 1 0 2 0 1 2 0 0 0 1 0 0 1 2 2 2 0 0 0 0 0 0 0 2 0 2 2 0 0 0 1 2 0 0 0 2 1 0 1 2 1 2 0 0 1 1 2 1 0 0 0 1 0 0 0 2 2 0 0 2 1 0 0 2 0 0 0 0 1 1 0 2 1 0 0 0 1 0 0 0 1 0 0 0 1 2 2 1 0 0 1 1 2 1 0 0 0 0 0 1 2 1 2 2 0 0 0 2 1 2 0 0 0 0 0 1 0 0 0 0 2 1 1 2 0 2 0 0 0 0 0 0 0 0 0 2 0 0 0 0 2 0 0 2 2 0 0 0 2 0 1 2 1 0 0 0 0 0 1 0 2 0 0 0 0 2 0 0 1 0 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 2 0 0 0 0 0 2 2 0 0 0 0 0 2 0 2 2 2 0 0 1 0 0 2 0 2 1 0 0 0 0 0 0 2 2 2 0 0 0 2 1 0 0 2 0 1 0 2 1 2 0 0 0 0 0 0 0 0 2 0 0 2 1 2 0 1 2 0 1 0 1 0 1 1 2 0 0 2 1 2 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 2 1 0 2 0 2 2 2 2 0 2 0 0 0 0 0 2 0 1 0 1 0 2 0 0 0 0 2 0 0 2 0 2 0 2 0 0 0 1 0 2 0 0 0 2 1 0 0 0 0 0 0 0 0 1 0 0 2 1 0 0 0 1 2 1 0 0 0 0 1 1 0 2 0 0 2 0 0 2 2 0 0 1 0 1 0 0 0 1 0 1 0 2 0 0 0 2 0 0 0 1 0 2 1 2 2 2 2 2 0 0 1 0 0 1 0 2 2 0 2 0 0 0 1 0 2 2 1 0 2 2 0 0 0 0 0 0 1 0 0 0 2 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 2 1 0 1 1 0 2 0 2 2 0 2 0 1 1 0 0 2 0 1 0 0 0 0 0 0 2 0 1 0 0 1 0 0 0 1 0 1 0 1 2 0 0 0 0 0 1 0 0 0 0 1 0 0 0 2 1 2 0 0 2 1 2 0 1 1 1 0 0 0 0 0 0 0 1 1 1 0 2 0 0 1 0 1 0 0 1 2 0 2 0 0 0 2 0 0 1 2 0 0 2 0 0 0 0 2 0 0 1 2 0 0 0 0 1 0 0 2 0 1 0 0 0 1 0 0 0 0 0 2 2 2 1 0 0 0 1 0 0 0 0 0 2 2 0 1 0 0 1 0 0 0 1 1 0 2 0 2 2 0 2 0 0 1 0 0 2 0 0 2 0 0 0 0 1 0 0 2 0 2 2 0 0 1 0 0 0 0 1 0 1 2 1 1 2 1 0 0 2 1 0 2 0 0 2 0 2 1 0 2 0 0 0 1 2 2 0 1 0 0 2 0 0 1 2 0 2 1 2 0 0 0 1 1 2 2 0 0 0 2 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 2 0 1 0 2 0 0 0 2 0 0 0 0 0 2 1 2 1 0 0 1 0 1 0 0 1 0 1 2 2 1 0 1 1 0 2 2 0 0 1 0 0 0 0 2 0 0 1 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 2 2 0 0 0 0 0 0 2 0 0 2 2 0 0 2 0 0 2 0 2 0 1 2 1 0 0 1 0 0 2 1 1 0 0 1 0 0 0 0 2 1 2 0 0 0 2 0 2 0 0 2 0 2 0 0 0 0 0 0 0 0 2 0 0 0 0 0 2 1 2 0 0 2 2 0 0 2 0 2 0 0 2 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 2 0 1 0 0 0 1 0 0 2 0 0 0 0 0 2 0 0 0 1 0 1 2 0 2 0 2 1 0 0 0 2 0 0 0 2 0 2 0 1 0 0 2 0 0 1 0 0 0 0 2 2 1 0 1 0 0 0 0 2 1 2 0 2 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 2 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 2 2 1 1 0 2 0 1 1 1 0 2 1 0 0 1 1 2 2 2 1 0 0 0 0 0 0 2 1 0 0 0 0 0 0 2 0 0 0 2 0 1 2 1 0 0 1 0 1 2 0 1 0 0 1 1 0 0 2 0 0 0 0 0 2 2 0 2 1 0 0 0 0 1 0 0 1 0 0 2 1 2 1 1 0 0 2 2 2 0 1 0 0 1 0 2 0 0 0 0 2 1 1 1 0 0 0 0 2 1 0 1 0 0 2 1 2 0 0 0 0 2 0 0 0 1 2 0 2 0 0 0 0 0 0 0 0 0 2 1 0 0 2 0 0 1 1 0 1 0 0 2 1 0 0 0 1 0 0 2 0 1 1 1 0 1 1 0 1 0 1 0 1 0 0 2 1 1 2 0 0 2 0 2 1 0 0 0 0 0 2 1 0 0 0 1 1 2 2 2 1 1 2 2 0 0 0 2 0 1 0 0 0 1 0 0 1 0 1 2 0 1 0 0 0 1 1 1 2 0 0 1 0 2 1 0 2 0 2 0 1 1 2 0 0 0 0 2 0 0 2 2 2 2 2 0 0 0 1 0 0 0 2 0 0 0 1 2 2 0 0 2 0 0 2 2 0 0 0 0 2 0 0 2 2 0 0 0 1 1 0 0 0 0 2 0 0 0 0 0 0 0 0 2 0 0 0 1 0 0 2 2 2 2 2 2 0 1 0 0 0 0 0 1 0 0 0 0 2 1 0 0 1 0 1 1 0 0 1 0 0 1 0 0 0 2 0 0 2 1 2 1 1 2 0 0 0 0 1 0 0 1 0 1 0 0 2 2 1 2 1 0 0 0 0 0 2 0 1 1 0 2 0 0 0 1 0 2 2 0 1 0 2 0 2 0 0 0 0 0 0 2 1 1 2 0 2 0 0 0 0 2 0 0 2 2 0 0 0 0 0 2 0 2 2 0 1 0 0 0 1 0 2 0 0 0 0 0 2 2 0 0 2 1 1 0 1 0 0 1 2 0 0 0 2 2 1 2 0 0 0 2 2 0 0 0 1 0 0 0 1 0 2 0 2 0 2 0 0 0 1 0 2 2 0 0 2 0 1 0 1 0 0 1 0 1 1 2 0 0 1 1 0 1 0 2 0 0 0 0 1 1 0 1 2 1 0 0 0 1 2 0 1 0 0 2 0 2 0 2 0 0 1 0 0 2 0 2 0 0 0 0 2 0 1 1 2 1 1 0 0 0 2 0 0 2 0 2 2 0 0 2 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 2 1 0 1 1 0 0 0 0 0 1 0 2 2 2 0 1 0 0 0 0 2 0 0 0 0 0 1 0 0 0 2 0 1 2 2 1 0 0 0 1 1 2 0 1 2 0 2 1 0 0 0 0 2 0 2 0 0 0 0 1 0 0 0 0 1 2 1 1 0 0 0 0 0 2 0 0 0 0 0 1 1 0 0 0 0 0 2 0 2 0 1 2 0 1 0 0 0 2 2 0 0 2 2 0 1 2 1 0 0 2 0 2 2 2 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 1 0 0 0 2 2 2 1 0 0 1 0 0 1 1 1 2 0 1 0 1 0 2 0 0 0 0 0 0 2 0 0 0 0 1 2 0 2 2 0 0 1 0 0 0 2 0 2 0 2 2 1 1 0 0 1 1 0 0 2 2 0 0 2 0 0 2 0 2 0 2 1 1 0 0 2 1 0 0 0 0 1 0 2 0 0 0 1 1 0 1 0 0 0 0 2 0 2 0 1 2 1 2 0 0 0 0 0 1 0 0 1 1 0 0 0 0 2 0 2 2 2 0 2 0 0 0 2 0 1 2 0 0 0 0 0 0 2 1 1 0 1 1 0 0 0 0 2 1 0 2 1 0 0 0 2 0 0 0 0 0 0 1 1 2 0 0 0 1 0 1 1 0 2 1 0 1 2 0 1 0 0 0 0 0 1 0 0 2 0 1 1 0 0 1 2 0 2 1 2 1 0 1 0 0 0 0 0 1 2 2 0 1 0 0 0 0 0 2 0 0 0 0 0 1 2 0 2 0 2 1 0 0 1 2 0 2 0 0 0 2 1 0 1 0 0 1 0 1 1 0 0 2 0 1 2 1 1 0 2 0 0 1 0 1 2 0 0 0 1 0 1 2 1 0 2 2 0 0 2 2 0 0 0 0 1 0 0 1 1 2 0 0 0 2 0 0 0 1 0 0 2 0 0 0 1 1 2 0 2 1 1 2 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 0 2 0 0 1 0 0 1 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 0 0 2 0 2 0 0 0 0 2 0 0 0 0 1 2 2 2 1 0 1 2 0 0 1 0 1 2 2 0 1 0 0 0 0 2 0 0 2 1 0 0 2 0 0 0 2 0 0 0 0 2 1 2 0 1 0 0 0 0 1 2 1 1 2 2 1 0 2 0 0 2 0 0 2 1 0 1 0 0 1 1 0 2 0 0 2 1 0 2 0 0 0 0 0 1 0 0 0 1 0 0 0 2 0 0 0 2 0 2 0 1 0 0 1 0 2 0 0 0 0 0 1 2 0 0 2 2 1 0 0 1 0 1 0 0 2 0 1 0 0 0 0 1 1 2 2 0 2 0 0 1 2 2 0 0 0 0 0 1 0 0 2 1 0 2 2 1 1 2 2 0 0 1 0 2 1 0 0 0 0 0 1 1 2 1 0 1 2 1 0 0 2 0 0 2 0 2 1 1 1 1 0 0 1 0 0 0 1 1 0 2 1 0 0 2 0 1 0 2 0 0 0 0 0 2 2 2 0 1 2 0 2 0 0 0 0 1 0 0 0 1 2 0 2 1 0 0 2 1 0 2 0 1 0 2 1 0 2 2 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 2 1 0 0 1 0 1 0 2 2 1 0 0 2 1 1 0 1 0 1 0 0 1 0 1 2 1 1 0 0 0 1 0 0 0 0 0 0 2 0 0 1 0 1 2 0 0 2 1 0 0 0 0 2 2 2 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 2 2 0 2 1 1 0 0 0 0 0 2 0 2 0 0 2 2 0 1 0 0 0 0 0 0 0 0 2 2 0 0 1 0 1 0 2 0 2 0 2 0 0 1 0 0 0 1 0 0 1 1 1 1 2 1 0 0 0 2 0 1 1 1 1 2 0 2 1 0 0 0 2 1 2 0 0 0 0 0 0 0 0 2 0 0 2 0 0 2 2 2 1 2 2 0 0 0 2 0 0 1 2 0 2 0 2 2 2 2 2 0 2 0 0 1 1 0 2 1 0 0 0 0 2 0 0 0 0 1 0 0 1 2 0 2 2 1 2 0 0 0 0 0 0 2 0 1 1 1 0 1 1 0 0 0 0 1 0 0 0 0 2 1 2 1 1 0 0 2 2 0 0 0 0 0 0 2 2 0 2 0 0 2 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 2 0 1 0 0 0 2 0 2 1 1 1 2 0 1 1 0 2 2 0 0 1 0 0 0 1 0 2 1 1 0 0 1 2 0 1 2 0 0 0 0 0 0 0 1 0 0 1 0 2 1 1 2 0 0 0 0 0 0 2 0 1 0 0 0 0 2 2 0 0 2 2 0 0 0 2 0 0 2 2 0 0 0 2 0 0 0 2 1 2 0 0 1 2 0 0 2 0 1 1 0 0 2 1 1 1 1 2 0 0 0 2 1 2 0 0 1 0 0 0 0 0 2 2 2 2 2 2 1 0 1 0 2 0 0 0 2 1 0 0 0 0 0 0 0 2 0 0 0 1 0 0 0 2 0 0 0 0 2 0 0 0 2 0 1 0 0 0 1 2 0 2 0 1 2 0 0 0 0 0 1 0 0 2 0 0 0 1 1 0 0 0 1 0 0 1 1 0 2 1 0 0 0 2 0 0 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 1 0 2 0 1 2 2 2 0 2 0 2 2 0 0 0 0 0 0 0 0 0 0 0 1 2 0 0 0 0 1 0 0 1 0 1 0 1 0 0 2 1 0 0 0 0 0 0 1 0 2 1 2 1 0 0 0 1 0 0 1 1 1 0 2 0 1 0 2 0 2 0 1 0 1 0 0 1 2 1 2 0 0 0 0 1 0 1 0 0 0 0 0 0 1 1 2 0 0 2 1 0 0 0 0 0 0 2 1 0 0 0 0 0 2 1 2 1 0 0 0 1 2 0 2 0 2 0 2 1 0 0 1 2 0 0 2 0 0 0 1 1 0 0 0 0 0 0 0 0 2 0 1 2 0 1 0 0 0 1 1 2 2 1 2 0 1 0 0 0 0 1 0 2 1 2 0 0 0 0 2 1 0 1 0 0 0 1 1 0 0 0 0 1 1 0 2 0 1 2 0 0 0 0 2 0 0 0 2 0 0 1 2 0 0 0 1 0 0 1 0 0 0 0 2 0 0 0 1 1 0 0 2 0 1 1 0 0 0 0 0 2 0 0 0 0 1 0 1 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 1 0 0 2 0 0 1 0 0 2 1 0 0 0 0 1 2 2 2 0 0 1 0 0 0 2 1 0 2 2 1 0 1 1 2 2 1 0 0 2 2 2 1 2 0 1 1 0 0 0 0 0 0 1 2 0 2 2 0 1 0 0 2 0 0 2 2 1 0 0 1 1 0 0 0 0 1 1 1 0 0 2 2 0 0 0 0 0 1 1 1 0 0 1 0 2 2 1 2 0 0 0 0 0 1 1 0 1 2 0 0 2 0 1 2 1 0 0 1 0 1 0 1 2 0 2 2 0 0 1 0 2 0 0 0 0 0 1 0 0 1 0 1 0 1 0 0 0 1 0 0 2 0 0 0 0 1 2 0 2 1 0 1 2 1 0 2 0 1 0 0 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 0 2 0 1 1 1 0 0 0 1 0 0 0 0 2 0 0 1 0 0 1 0 1 2 2 1 2 0 0 1 0 1 0 2 0 0 0 1 0 1 0 0 0 1 0 2 0 2 0 0 1 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 2 0 1 0 0 2 2 1 0 2 0 0 1 0 0 0 0 0 1 0 2 2 0 1 0 0 2 0 2 0 0 0 1 1 0 1 0 0 2 0 0 0 1 0 1 0 0 1 0 0 0 0 1 1 0 1 0 0 0 1 0 2 2 0 0 0 0 0 0 0 1 0 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 1 2 2 1 0 0 0 0 2 0 0 1 0 1 0 1 0 1 0 1 1 0 0 2 0 1 0 2 1 1 2 0 1 1 1 0 0 0 0 0 0 2 1 1 2 0 0 0 1 2 0 0 0 1 0 0 2 1 0 0 2 0 1 2 1 0 0 1 1 0 0 0 1 0 0 1 0 0 0 2 1 0 1 0 2 0 1 0 2 0 0 0 2 2 2 2 2 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 2 0 0 2 0 0 0 0 0 1 0 2 2 0 2 0 0 0 0 2 0 0 0 1 1 2 1 0 0 0 1 1 0 2 0 2 0 2 0 0 0 0 0 0 0 2 1 1 0 0 0 0 1 0 1 0 1 1 2 0 0 0 1 0 0 1 0 1 0 1 0 0 2 0 0 0 1 1 0 2 0 0 0 0 2 0 0 1 0 1 1 0 0 0 0 2 1 0 0 0 0 1 0 0 1 0 1 0 1 2 0 0 0 0 2 0 1 0 0 1 0 2 0 2 0 0 2 0 0 0 0 0 0 1 0 0 0 1 0 0 2 0 1 2 1 0 0 0 0 2 0 0 2 0 1 0 2 2 2 0 0 1 1 0 0 1 1 0 1 0 1 0 2 1 0 0 0 0 0 0 2 2 0 0 0 2 1 0 0 0 1 1 0 0 2 0 1 0 1 0 2 2 0 0 1 2 0 0 2 0 2 0 0 1 0 0 2 1 2 0 0 2 2 0 2 0 2 0 2 0 0 0 0 2 0 0 2 0 1 0 1 0 2 0 2 1 1 0 0 1 2 0 1 2 0 0 0 0 0 1 0 0 0 1 0 0 0 1 1 1 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 2 2 0 0 0 0 1 1 0 0 0 1 1 0 0 1 0 2 0 0 0 0 0 0 0 1 2 0 0 0 0 1 0 2 0 0 0 2 0 0 2 2 0 0 0 2 1 0 0 0 2 2 0 1 2 2 1 0 0 0 0 0 1 1 0 2 0 1 0 1 2 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 2 0 2 0 1 0 2 1 1 1 0 2 2 0 0 0 0 0 0 0 2 2 0 2 2 2 1 2 2 0 0 0 0 0 0 1 2 0 2 2 1 0 0 2 0 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 1 2 0 2 1 1 2 0 0 0 0 1 0 1 0 0 0 2 2 1 0 0 2 0 0 1 0 0 2 0 0 0 0 1 0 0 0 0 0 1 0 2 0 2 2 2 2 0 1 0 0 2 2 0 0 0 2 0 0 2 0 0 2 0 0 0 1 0 2 0 0 0 0 0 0 0 0 1 1 1 2 0 0 0 0 0 2 2 1 0 0 1 2 0 0 1 2 1 2 0 0 0 0 0 2 1 1 1 0 0 0 0 0 0 1 0 0 1 0 2 0 0 0 0 2 1 2 0 0 2 0 1 0 2 0 2 2 0 0 1 1 2 0 2 0 0 2 2 0 2 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 2 0 0 0 0 0 2 0 0 2 0 0 0 0 0 0 0 2 1 2 2 0 1 0 0 0 0 0 2 1 0 0 2 0 0 0 0 0 2 2 0 0 0 0 0 0 1 0 0 2 0 2 0 0 0 0 0 1 1 0 0 2 0 0 2 2 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 1 0 1 1 2 2 1 2 1 2 2 1 0 0 2 1 0 0 0 1 1 0 2 0 0 0 0 1 0 1 1 2 0 0 1 0 1 0 0 0 0 2 0 0 0 1 2 0 0 0 0 1 2 2 0 0 2 2 1 1 0 1 0 0 2 0 2 1 0 2 0 1 1 1 0 0 0 1 2 0 0 1 0 0 0 0 0 2 2 2 0 0 0 2 2 0 1 1 0 0 0 0 1 0 0 1 0 0 1 2 0 0 0 1 0 2 0 1 0 0 0 0 2 0 0 0 0 0 0 0 1 0 0 0 0 2 0 0 0 0 2 1 0 0 0 2 1 2 1 0 0 0 0 2 2 0 1 2 1 0 2 1 0 0 0 0 2 0 1 2 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 2 0 0 1 1 2 1 0 2 0 2 0 0 2 0 0 0 1 0 0 2 0 2 2 1 0 2 0 1 0 0 0 0 2 0 1 0 0 2 0 0 0 1 0 0 0 1 2 2 2 0 1 0 0 0 0 0 0 2 0 0 0 0 0 2 2 2 0 0 2 2 1 0 2 2 0 1 0 1 1 0 1 2 1 0 0 0 2 0 1 0 0 1 2 0 1 0 0 1 1 2 0 0 1 1 0 0 0 0 0 0 0 0 1 2 1 1 0 0 0 0 0 0 0 2 2 2 0 0 0 2 1 0 2 1 2 1 0 0 0 2 1 1 0 0 0 1 0 1 0 0 2 1 0 0 0 0 1 0 0 1 1 2 0 2 0 0 2 0 2 0 0 1 0 1 0 2 2 0 0 0 0 1 1 0 2 1 0 0 2 1 0 0 2 1 2 0 2 0 0 2 2 2 0 1 0 0 0 1 2 0 2 0 0 0 2 0 0 2 0 2 0 0 2 2 2 2 0 1 1 0 2 0 0 2 1 0 2 2 0 0 1 0 0 1 0 0 0 1 2 0 1 2 0 0 0 0 0 2 1 1 2 0 0 0 0 0 1 0 0 2 0 0 1 2 0 0 0 0 0 0 0 2 0 0 0 0 2 1 1 0 0 1 0 0 0 1 2 0 0 1 1 0 2 2 2 2 2 1 1 0 0 1 0 2 0 0 0 0 0 0 0 0 2 2 1 2 0 2 2 1 0 0 0 1 0 0 0 0 0 1 0 2 0 0 2 2 2 1 2 0 2 0 0 2 0 2 0 0 1 0 0 0 1 2 0 1 1 0 0 2 1 0 2 0 0 0 0 0 1 0 0 0 0 0 0 2 0 1 2 2 0 0 0 0 1 1 0 0 2 1 0 0 1 0 2 1 0 0 0 1 1 2 0 0 0 2 0 0 0 1 0 1 0 0 2 1 2 0 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 0 1 2 1 1 0 0 0 0 2 1 1 2 0 0 0 1 0 0 0 0 1 0 0 2 0 0 2 2 0 0 0 1 0 2 1 2 0 0 2 0 2 2 1 2 0 2 1 0 2 1 0 0 1 2 1 1 0 0 0 0 0 0 0 1 0 0 2 2 2 0 1 0 0 1 2 0 0 0 1 0 0 0 0 0 0 0 0 2 2 0 0 0 1 0 0 2 0 1 2 0 0 2 2 0 0 0 0 1 0 0 0 0 0 0 2 0 2 0 0 0 0 0 0 1 1 2 0 1 2 0 0 0 2 0 0 2 0 0 1 0 0 0 2 0 0 0 0 2 0 0 1 1 0 0 2 0 0 1 1 0 2 2 0 0 1 1 0 1 1 1 0 2 0 2 0 2 1 1 2 1 0 0 2 0 0 0 0 1 2 1 1 0 2 0 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 2 0 0 0 2 0 0 2 0 0 0 0 1 0 0 0 2 1 0 0 2 0 0 1 2 0 2 2 2 1 1 0 1 0 0 1 1 0 1 0 2 1 1 0 0 2 1 0 2 0 0 0 0 0 2 0 0 0 2 0 2 2 0 1 0 0 2 0 1 0 0 2 0 1 1 2 0 0 0 0 0 1 1 0 0 0 0 2 0 2 2 1 0 0 1 0 2 0 0 0 2 1 1 0 0 0 0 0 0 0 0 0 1 0 0 2 0 1 0 0 0 0 2 1 1 0 1 0 0 0 0 0 0 0 1 0 2 0 2 0 0 2 0 2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 1 0 0 1 1 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 2 1 0 0 0 0 0 1 0 0 2 1 2 2 0 0 2 2 0 0 0 1 0 1 2 1 0 0 0 2 1 0 0 0 2 0 0 2 2 0 0 0 1 2 1 0 0 0 0 0 0 0 2 1 0 0 2 2 0 0 0 1 0 0 1 2 2 0 1 0 0 0 2 0 2 0 0 2 1 1 1 2 0 0 2 0 2 0 2 1 0 0 2 0 1 1 1 2 0 2 2 0 2 0 1 0 0 0 0 0 0 2 0 0 2 0 1 1 0 0 0 0 1 1 2 0 1 0 1 2 1 0 0 2 1 2 0 0 2 0 0 0 0 0 2 0 0 2 0 2 0 1 1 1 0 0 0 1 1 2 0 0 1 2 0 0 0 1 0 2 0 0 2 2 1 0 0 0 0 0 0 1 1 2 0 0 0 0 0 2 0 2 0 2 2 0 0 2 2 0 0 0 0 2 0 0 2 0 0 0 0 0 1 2 0 1 0 2 0 0 0 0 0 1 0 2 1 0 0 2 1 0 0 1 0 1 1 2 1 2 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 1 2 0 2 0 0 0 2 0 2 0 1 0 0 0 0 1 2 1 1 0 2 2 0 0 0 0 0 0 0 1 2 0 2 1 1 0 0 0 2 0 0 0 0 0 0 0 2 0 2 0 0 0 2 0 0 0 2 2 0 2 2 1 0 0 1 1 0 0 0 0 1 0 0 1 1 0 2 0 0 0 1 0 2 0 0 1 2 0 0 1 0 0 0 0 2 2 0 0 2 0 0 1 1 0 2 1 2 2 0 2 0 1 1 0 2 0 1 0 0 2 0 0 0 1 0 1 0 0 0 1 0 2 0 0 0 0 0 1 0 0 1 1 0 0 1 0 2 0 1 0 1 1 2 2 0 0 2 0 1 0 0 0 2 0 0 0 0 2 1 0 2 1 0 0 0 0 0 0 1 0 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 0 1 0 0 0 2 1 0 2 0 2 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 2 0 0 1 1 1 1 2 1 0 2 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 2 0 0 2 0 1 1 2 0 0 0 2 2 1 0 1 0 0 0 2 0 2 2 0 0 2 2 1 0 0 2 1 2 0 0 0 1 0 0 2 2 0 2 0 0 0 0 1 1 2 0 2 0 0 0 1 1 0 0 0 0 1 1 2 0 0 0 2 1 2 2 1 0 2 0 0 0 0 0 2 0 0 0 1 0 0 0 2 0 0 0 0 0 0 2 0 0 2 0 0 2 2 2 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 2 2 0 2 0 2 2 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 2 0 0 0 2 0 0 2 0 2 2 0 0 0 0 2 0 0 2 1 0 0 2 0 0 0 1 1 2 1 1 0 0 0 1 0 2 0 0 0 0 0 0 0 2 2 1 1 1 2 1 1 0 1 1 0 1 0 0 1 0 0 0 0 0 1 0 1 2 0 2 2 0 0 0 1 0 0 0 1 1 2 0 0 1 2 0 1 0 0 1 0 2 0 2 0 0 1 0 2 0 0 2 0 0 2 0 0 1 0 1 0 0 0 1 0 2 0 2 0 0 0 1 0 0 0 0 0 0 2 2 1 1 2 0 0 1 0 0 0 0 1 0 0 0 2 0 0 0 0 2 0 0 0 0 0 0 1 0 0 0 1 0 2 2 0 0 0 0 0 2 1 2 0 0 0 2 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 2 0 0 0 0 2 0 1 0 0 0 2 0 0 2 0 0 1 0 2 0 1 1 0 0 0 0 0 0 1 0 1 1 2 0 1 0 1 0 0 0 0 0 2 1 0 0 0 1 0 2 0 0 1 0 0 1 0 1 2 2 1 0 1 0 1 2 0 0 0 0 0 1 0 0 1 0 0 0 2 0 0 0 1 0 1 0 0 0 2 2 0 0 0 0 1 0 0 0 0 0 0 1 2 2 0 0 0 0 0 0 2 0 0 2 1 0 0 0 1 0 0 0 1 2 0 2 0 0 0 0 0 2 0 0 1 0 2 2 0 2 0 0 2 2 1 1 0 0 1 0 0 0 1 0 2 0 0 0 1 2 0 0 0 0 1 0 2 0 2 0 2 0 2 0 0 0 0 0 0 0 2 0 2 0 0 2 2 2 0 1 1 0 2 1 0 0 1 2 0 0 1 2 0 0 2 0 0 2 0 0 2 1 0 0 1 2 0 0 0 2 0 0 0 0 2 0 0 2 0 0 0 2 2 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 2 0 1 0 0 2 0 1 1 0 0 0 2 0 2 0 1 0 0 2 0 0 1 1 2 2 1 2 0 0 0 0 2 0 0 1 1 0 0 0 0 2 0 2 0 0 2 0 1 0 2 0 1 1 0 2 1 1 0 0 1 2 1 2 0 2 2 0 2 1 0 0 0 0 0 0 1 2 2 1 1 0 0 0 2 0 1 0 0 0 0 0 0 0 2 1 0 1 1 0 2 2 1 1 0 2 1 0 0 0 2 2 0 2 2 0 2 1 1 1 2 0 1 1 0 0 0 0 2 1 0 1 2 1 0 1 2 1 2 1 0 0 0 0 2 2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 2 2 0 0 0 0 0 0 0 2 0 1 0 0 0 1 2 2 1 0 0 1 0 0 0 0 2 0 0 0 0 0 2 0 2 2 0 0 0 2 0 0 0 0 1 0 2 0 0 1 2 0 2 0 0 0 1 2 0 0 0 2 0 2 1 0 1 2 1 0 2 0 2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 2 0 0 2 0 0 0 0 2 2 2 1 0 0 1 2 0 1 0 2 2 0 0 0 1 0 2 2 2 0 2 0 2 0 2 1 0 0 0 2 0 0 0 0 1 0 0 0 0 0 0 0 2 0 0 2 0 0 0 0 0 1 0 0 1 1 1 0 2 2 0 0 0 2 2 0 0 2 1 0 0 1 2 0 2 0 0 0 1 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0 0 0 2 0 0 2 0 0 0 0 1 0 0 0 2 0 0 2 0 0 0 2 0 1 1 2 0 0 0 0 0 2 1 2 0 0 0 1 0 0 0 1 0 0 0 2 0 2 0 1 0 0 0 0 2 0 0 1 0 1 1 1 1 0 1 0 1 0 0 2 0 0 2 0 0 1 0 2 0 1 0 0 1 0 0 2 1 0 1 1 0 0 0 0 1 0 0 1 2 2 0 1 0 2 2 1 0 1 1 0 2 0 2 0 1 0 0 0 0 2 0 1 0 1 2 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 2 1 0 0 0 0 0 1 2 2 1 0 0 0 0 0 2 1 1 0 0 0 0 0 0 1 0 0 2 1 0 0 2 1 0 1 0 0 0 1 1 0 0 0 0 0 2 0 1 0 0 1 0 2 0 0 0 0 0 1 2 2 0 2 0 2 0 0 2 1 0 2 0 2 2 0 0 0 0 1 2 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 2 0 0 0 1 0 1 1 2 1 0 2 0 0 0 1 0 0 0 0 1 2 1 0 1 2 2 2 2 0 0 1 1 0 0 2 1 0 0 1 0 1 0 2 1 1 0 0 0 2 0 0 0 0 2 0 0 0 0 0 0 1 0 1 2 0 0 0 2 1 0 0 2 1 0 2 1 0 0 2 1 1 0 2 2 0 2 0 0 0 2 1 2 1 2 0 2 1 0 0 0 0 0 1 0 2 0 0 1 0 2 2 0 1 0 2 1 0 1 0 0 0 0 2 1 2 1 1 2 1 0 0 1 0 0 0 0 0 0 1 0 1 0 0 0 0 0 1 2 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 1 0 1 2 0 2 0 0 2 1 0 0 0 0 1 1 1 0 0 0 0 2 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 2 0 0 0 1 2 0 0 0 2 0 2 0 1 0 1 0 0 0 0 2 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 2 0 0 1 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 1 0 2 2 2 0 0 0 1 0 0 0 0 1 0 1 1 0 1 2 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 2 2 1 0 1 0 0 2 2 1 0 0 2 0 0 0 2 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 2 0 0 0 0 1 2 0 0 0 1 0 1 0 0 2 0 2 1 0 0 2 0 2 1 2 2 2 0 0 0 1 1 2 0 1 0 0 0 0 0 2 1 0 0 0 1 0 0 2 2 0 2 2 1 0 2 2 0 1 0 0 0 0 1 0 0 0 1 1 1 0 0 2 0 1 1 0 1 2 2 0 2 0 0 0 0 0 0 0 1 0 2 1 2 0 0 0 0 0 1 2 0 2 0 2 0 0 2 0 1 0 0 1 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 2 0 1 0 0 0 0 2 0 0 0 2 0 0 2 1 0 0 0 0 1 2 1 1 0 1 0 0 1 0 0 0 0 2 0 0 0 1 2 2 0 0 1 1 2 0 0 0 2 0 0 0 0 2 0 0 2 0 2 2 0 0 2 0 0 0 2 0 0 1 2 0 0 1 2 2 0 0 1 2 0 1 0 2 0 0 2 0 1 2 1 0 0 2 0 2 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 1 2 0 0 1 1 0 2 0 0 0 1 2 0 1 0 0 2 1 0 2 0 0 0 0 0 1 1 0 1 0 0 1 1 2 0 0 0 1 0 2 1 1 0 0 2 0 2 0 0 0 0 1 0 0 0 0 2 0 0 0 0 0 1 2 0 2 0 0 0 0 2 1 0 0 2 0 2 0 2 0 0 0 2 0 0 0 0 1 0 0 2 0 2 0 0 0 2 0 2 0 2 0 0 2 0 1 0 0 0 0 0 0 2 0 1 0 2 0 2 0 0 1 2 0 0 0 1 2 1 0 1 0 0 0 2 0 0 1 0 0 0 1 1 2 0 0 0 0 0 0 2 2 0 1 2 0 0 0 0 1 0 1 1 0 2 2 0 0 2 0 0 0 2 0 2 0 0 0 2 0 0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 1 1 0 1 0 1 0 0 0 0 0 2 0 0 2 2 0 0 0 0 2 2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 2 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 2 0 1 0 2 0 1 2 1 2 0 0 0 2 0 1 2 0 2 2 1 1 0 0 0 1 1 0 1 1 2 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 1 0 0 2 2 0 2 0 0 0 0 0 0 0 2 1 1 0 1 1 0 2 0 2 0 1 2 1 0 0 1 0 0 2 0 1 0 0 0 0 0 0 1 0 0 0 1 2 0 1 0 0 0 1 0 2 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 0 0 0 0 1 0 1 2 0 0 0 0 0 2 0 1 2 0 0 0 0 0 0 1 0 1 1 2 0 2 2 1 0 2 2 0 0 2 0 0 0 1 1 0 2 0 0 0 2 0 2 0 0 0 0 0 0 0 0 1 0 0 2 0 0 0 0 1 0 0 0 0 0 2 0 0 0 0 2 2 0 0 0 0 0 0 1 0 0 2 0 1 1 1 0 0 2 0 2 0 0 2 2 1 2 0 0 0 0 1 0 2 2 1 0 0 0 2 0 1 2 0 0 0 0 1 1 0 2 0 0 1 0 0 0 2 1 1 0 0 0 2 0 1 0 0 1 0 0 0 1 1 0 0 0 1 0 1 0 0 2 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 1 2 0 0 0 0 2 0 2 0 0 0 2 0 2 1 1 0 0 0 1 1 1 0 1 0 2 2 2 2 0 0 2 2 0 0 0 1 0 1 0 0 2 0 2 0 2 2 0 0 1 0 1 0 0 0 0 0 2 0 0 1 2 1 0 2 0 0 0 0 0 0 0 2 1 0 0 0 0 2 2 0 0 1 2 2 0 1 0 1 0 0 0 2 1 0 1 2 0 1 0 0 2 1 0 1 0 2 0 2 2 1 2 1 0 0 0 0 1 0 0 2 0 0 0 0 0 2 2 1 0 2 2 0 2 2 0 1 2 0 0 0 2 0 1 0 2 0 0 1 1 2 1 0 0 0 0 0 1 1 1 0 0 2 0 0 0 0 1 0 1 2 1 1 0 2 0 2 0 1 0 0 0 0 0 0 2 1 0 0 0 0 0 1 0 0 0 1 0 2 0 1 2 1 0 0 0 2 0 0 0 0 1 0 2 0 0 0 1 0 0 0 0 2 0 2 0 0 0 0 1 1 1 1 0 0 0 0 1 2 2 2 1 0 1 2 0 0 0 0 0 0 0 1 0 0 2 2 0 1 2 0 0 1 0 0 0 0 2 1 0 0 2 0 2 0 0 2 0 0 2 0 2 0 0 2 0 0 0 0 0 0 1 2 0 0 0 1 2 2 0 2 1 0 1 1 2 0 0 2 2 0 2 2 0 0 2 0 2 0 0 1 0 0 2 0 2 2 2 0 1 1 1 0 1 2 0 2 0 0 2 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 1 0 0 0 1 1 0 0 2 1 0 1 0 0 0 0 0 2 0 0 1 2 2 0 0 0 2 0 0 0 2 0 2 0 1 0 0 1 0 0 0 0 0 0 1 2 0 0 1 0 0 0 0 1 2 0 0 0 1 1 2 0 0 1 0 0 1 0 0 0 2 2 0 0 1 1 0 2 0 1 0 1 0 1 2 1 2 2 1 0 0 1 1 0 0 0 2 0 0 0 0 0 1 1 0 0 0 1 0 0 0 1 0 1 0 2 0 0 0 0 0 2 1 0 2 0 1 0 0 1 2 0 0 0 0 0 2 1 1 2 2 0 1 0 1 1 0 0 1 1 1 0 2 0 0 0 0 1 0 0 1 0 2 0 1 1 0 0 1 2 1 0 0 0 0 2 0 2 0 1 0 2 0 0 2 0 2 1 1 1 2 2 0 0 0 1 2 0 2 1 0 0 0 0 1 0 0 2 0 1 2 0 0 0 1 0 0 0 0 0 1 1 2 0 2 0 0 2 0 0 0 0 1 1 1 2 0 1 0 2 1 1 2 0 2 1 0 0 2 1 1 0 0 2 1 1 0 1 2 0 1 1 0 0 0 2 0 0 2 2 0 0 0 1 0 0 0 0 0 0 1 2 0 0 0 2 0 0 0 0 2 0 0 0 2 0 1 0 0 1 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 1 0 0 0 0 1 1 0 0 1 2 2 0 0 2 2 1 0 2 0 1 0 0 1 0 0 0 0 0 1 0 0 0 2 0 2 1 0 1 0 0 1 0 0 0 2 0 2 2 0 0 1 2 0 2 0 1 1 0 2 2 1 0 0 2 0 2 2 0 0 2 0 1 0 0 1 0 1 0 0 0 0 2 0 2 0 1 0 0 0 0 2 1 1 0 2 1 1 0 0 0 0 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 2 0 0 1 1 2 0 0 0 1 1 0 0 1 0 1 2 0 0 0 2 1 0 0 1 1 0 0 0 1 0 2 1 1 1 0 0 2 0 0 1 1 2 0 2 0 1 2 0 0 0 1 0 2 2 2 0 1 0 0 0 0 1 1 0 2 0 1 0 0 0 2 0 2 0 1 1 1 0 0 2 2 1 0 1 0 1 0 1 2 0 2 0 2 0 1 2 0 1 1 1 0 0 0 0 1 0 0 0 0 0 2 0 0 0 2 0 0 0 0 0 0 1 2 0 2 0 0 0 0 2 0 2 2 1 0 2 0 0 1 0 0 1 2 2 0 0 1 0 2 0 1 1 2 2 0 0 0 2 2 0 0 2 1 0 0 0 1 1 0 0 1 2 2 0 1 0 1 1 0 0 2 2 2 1 1 0 0 0 0 0 1 0 2 0 0 0 2 0 0 0 1 0 0 1 1 0 0 0 1 0 0 2 1 0 2 2 0 1 2 2 2 2 1 0 0 2 0 0 1 0 0 0 0 0 1 0 2 0 2 2 0 0 0 1 1 0 0 2 0 0 0 0 1 1 0 2 0 0 0 1 0 0 0 0 1 0 2 0 0 0 1 0 1 0 0 0 2 1 0 1 1 2 0 1 1 0 0 2 1 1 0 1 2 0 0 2 0 1 2 0 2 0 2 0 2 0 0 0 2 0 2 1 2 1 0 0 0 2 0 0 0 0 0 0 1 1 1 1 0 1 1 1 0 2 1 0 0 0 2 0 2 2 1 0 0 0 0 0 0 0 0 1 0 1 0 2 2 0 2 2 0 0 0 0 0 2 2 2 0 0 0 1 0 0 2 0 0 0 2 2 0 2 2 0 2 0 1 2 1 0 1 0 1 0 0 0 0 1 0 1 0 2 2 0 1 0 1 0 0 1 0 0 0 0 0 2 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 1 1 0 0 0 0 0 0 2 1 2 0 2 2 0 2 0 2 1 0 2 0 0 0 2 0 1 2 0 0 2 2 0 2 2 0 0 0 0 1 1 0 0 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 2 0 2 0 0 2 2 0 0 0 2 0 1 1 1 0 2 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 2 1 0 1 2 0 0 0 0 0 0 0 0 2 0 0 2 1 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 2 0 0 1 2 2 0 1 0 0 1 0 0 2 1 0 0 0 0 0 0 0 1 0 0 0 2 0 1 0 0 2 0 1 0 0 1 0 0 2 0 0 1 0 0 0 0 0 1 0 0 0 0 2 1 1 0 0 0 0 0 1 0 2 0 0 1 2 0 2 1 0 0 2 2 0 0 0 0 0 0 2 0 2 1 1 0 0 0 0 1 0 0 2 0 0 0 2 0 0 0 0 1 0 0 0 0 2 0 0 0 0 0 2 0 0 1 0 2 0 2 1 2 0 2 2 0 2 0 0 0 2 0 2 0 2 0 2 0 0 1 1 0 2 1 0 2 1 2 2 0 1 1 0 0 0 1 0 0 1 0 1 1 2 0 0 0 0 1 0 0 0 0 0 0 0 2 2 1 1 2 1 1 2 0 0 0 2 0 0 1 0 2 0 1 2 0 2 0 0 0 0 2 0 0 2 0 1 1 0 2 0 1 0 1 0 1 0 0 0 0 0 0 0 2 0 2 0 0 0 2 2 1 0 0 2 1 0 2 0 0 1 1 0 2 1 0 0 2 0 0 1 0 0 2 0 0 0 2 2 0 1 2 0 2 0 2 0 0 0 0 0 0 0 2 1 2 0 0 1 0 0 0 0 2 0 0 2 0 0 2 2 0 1 0 1 1 2 0 0 0 1 0 1 0 0 2 0 1 0 0 2 0 0 0 1 0 1 2 0 0 0 2 0 0 0 0 1 2 0 2 0 0 2 0 0 0 0 1 0 0 2 2 0 0 1 0 1 0 0 0 2 0 0 0 1 0 0 0 0 0 0 1 0 1 0 0 2 0 0 0 0 2 0 0 0 1 0 0 1 0 0 0 0 0 0 1 2 0 0 2 2 0 2 1 0 0 2 0 0 0 0 2 2 2 0 0 0 0 0 0 0 0 2 0 1 1 1 1 0 1 0 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 2 1 0 0 1 0 0 2 0 0 0 1 1 0 0 2 1 0 0 2 0 0 0 0 0 0 1 0 0 2 2 0 2 0 0 0 0 0 1 0 2 0 0 0 0 1 2 2 0 0 0 0 0 0 2 0 0 1 1 0 0 1 0 2 0 0 2 0 0 0 1 1 1 1 2 0 2 2 0 0 1 2 0 0 0 0 0 0 0 2 0 1 2 0 2 0 1 0 1 2 1 0 1 2 0 0 0 1 0 0 1 2 0 2 1 1 0 0 2 0 0 1 2 0 2 2 0 0 0 0 0 1 2 1 2 1 1 0 0 0 2 2 2 0 2 0 2 0 0 1 0 0 0 1 2 0 1 1 2 0 0 2 1 0 0 2 0 0 1 1 0 2 0 1 2 0 0 2 0 0 0 1 0 0 0 2 1 1 0 0 0 2 2 0 1 0 0 0 0 0 0 1 2 0 2 1 0 0 2 1 1 0 1 2 0 1 0 1 2 0 0 1 0 1 0 0 0 0 0 1 0 1 0 2 1 1 2 2 0 2 0 0 1 1 0 2 0 2 0 2 0 1 1 0 2 1 1 1 0 1 0 0 0 2 0 1 2 0 0 2 0 1 1 0 2 0 2 0 2 0 2 0 0 2 1 0 2 0 0 0 2 1 0 0 0 2 1 2 0 0 1 0 1 0 0 2 2 0 0 1 1 2 0 0 1 2 0 0 2 0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 2 0 1 1 0 1 1 2 0 1 0 0 2 0 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 2 2 0 1 0 0 0 2 0 0 0 0 2 2 0 2 0 0 0 2 0 0 0 1 0 2 2 0 2 1 0 2 0 0 2 1 1 2 2 0 0 0 1 2 1 2 0 2 2 0 0 0 0 0 1 0 0 2 2 0 0 0 1 0 0 0 2 0 0 0 0 2 2 2 1 0 0 2 1 0 0 0 1 1 0 1 0 0 1 0 1 0 0 0 0 0 1 0 2 0 0 0 0 0 0 0 0 2 1 0 0 0 0 1 0 0 0 0 0 2 0 1 2 2 2 0 0 0 2 0 0 1 0 0 0 1 0 0 2 2 0 0 2 0 0 0 0 0 1 0 0 0 1 2 0 0 1 2 0 0 0 0 2 0 0 1 2 1 0 0 2 2 0 1 0 0 2 1 1 0 0 1 0 1 2 1 0 0 2 1 0 0 0 2 0 0 2 0 2 2 0 2 1 0 0 1 0 0 0 1 2 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 1 1 0 1 0 1 0 0 1 1 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 1 0 0 0 2 0 0 1 2 0 0 0 1 2 2 1 2 2 0 0 2 0 0 2 2 2 2 2 1 0 2 0 0 0 0 0 0 0 0 0 1 2 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 2 0 1 2 0 0 0 2 1 1 0 2 2 1 0 0 0 0 0 0 2 1 1 0 0 0 2 0 0 1 0 0 0 2 0 2 0 0 2 2 0 0 0 0 0 0 1 1 1 2 1 1 2 2 0 2 1 0 0 1 0 1 0 2 0 0 2 0 0 0 0 2 0 2 0 0 0 0 0 0 2 2 0 0 0 1 2 2 0 2 0 0 0 0 0 1 0 0 2 0 0 1 0 1 1 0 2 0 2 1 2 0 0 0 0 0 0 1 0 2 0 0 0 0 0 0 2 0 0 0 0 1 0 2 1 0 0 2 0 1 1 0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 2 2 2 0 1 1 1 2 1 0 1 1 2 2 1 1 2 1 1 2 0 0 0 0 0 0 0 2 2 0 0 0 0 0 1 1 0 0 0 1 1 0 2 0 1 0 1 0 0 0 0 0 0 0 1 0 0 2 0 1 1 1 0 2 1 2 2 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 2 2 0 0 0 1 2 0 0 0 0 0 1 0 2 1 2 0 0 1 2 0 0 0 0 1 0 2 0 2 2 0 0 0 0 0 1 0 2 1 0 2 1 0 0 0 0 0 2 0 0 0 0 1 0 2 1 0 0 2 0 0 1 0 1 2 0 2 2 1 0 0 0 2 2 1 1 2 1 2 1 2 0 1 2 0 1 1 0 0 0 2 1 1 2 0 0 0 0 0 0 1 0 2 0 2 0 1 0 0 2 0 1 0 0 0 0 2 0 0 0 2 0 0 0 0 2 2 0 0 0 0 0 1 0 1 0 0 0 2 1 0 0 0 1 0 0 2 2 0 1 0 0 1 0 1 1 0 2 0 1 2 2 0 2 0 1 1 0 0 1 0 0 1 0 0 2 0 0 0 1 0 2 2 0 2 0 1 0 0 0 1 0 0 0 0 0 0 2 1 0 0 0 1 1 0 0 1 1 2 0 2 0 1 1 0 0 0 1 1 0 0 0 0 0 1 2 0 1 0 0 0 0 0 0 2 0 0 2 0 2 0 0 0 2 1 2 2 0 1 0 2 1 0 0 2 0 1 2 2 0 0 2 0 1 0 2 1 0 0 1 1 2 2 0 0 0 2 0 0 1 2 2 0 0 0 0 0 0 0 0 2 0 0 0 1 1 2 0 0 0 0 0 0 0 1 2 0 1 2 0 2 0 0 0 0 0 1 2 1 1 0 1 1 2 1 0 2 0 1 0 2 0 0 1 0 2 0 0 2 0 1 0 2 2 1 2 0 0 2 0 2 0 0 2 1 0 0 0 0 1 0 0 0 0 0 2 2 2 1 1 0 0 1 2 1 0 2 0 0 2 2 2 2 0 0 0 1 0 1 0 0 1 1 0 0 0 2 2 0 2 1 0 1 0 0 0 0 2 2 2 2 1 1 2 1 1 1 1 2 0 0 0 0 2 0 0 1 1 0 0 2 2 0 2 0 0 2 0 0 2 0 0 2 0 2 0 0 0 0 0 0 0 2 2 2 0 0 0 0 0 1 0 0 0 0 1 1 2 0 0 0 0 0 2 0 0 2 1 2 0 1 0 0 0 0 2 2 1 0 0 0 1 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 2 2 2 1 1 0 0 0 0 2 0 1 0 0 1 0 1 1 0 0 2 0 0 0 0 2 0 0 1 0 0 0 0 2 2 2 0 0 2 0 0 0 1 0 1 0 0 2 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 1 0 0 0 0 2 0 1 0 2 0 0 0 0 0 1 0 0 0 1 1 1 1 2 2 0 0 2 0 0 0 1 2 1 2 0 0 1 0 1 1 0 1 1 0 0 0 0 0 2 1 1 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 1 0 0 2 1 0 1 2 2 0 0 0 0 0 2 0 1 0 0 0 0 0 2 2 1 2 0 0 2 2 0 2 0 0 0 2 0 2 0 0 2 2 0 2 0 0 1 0 2 1 0 0 0 0 0 0 0 1 1 0 0 2 0 0 0 0 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 1 0 1 0 0 2 0 2 2 0 0 0 0 0 1 0 0 0 0 1 0 2 0 2 0 2 0 2 2 0 2 0 2 2 2 1 2 0 0 0 0 1 2 0 0 2 0 2 0 0 0 1 0 1 0 2 0 2 1 0 0 0 0 0 1 0 0 1 0 1 0 0 2 1 1 0 1 1 0 0 2 0 1 1 0 1 0 0 2 0 0 0 0 0 0 0 2 0 0 0 0 1 2 0 1 2 2 2 1 2 1 2 1 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 2 0 0 0 1 1 1 0 0 0 2 1 0 1 2 1 0 0 0 0 1 0 2 0 1 1 0 0 1 1 2 0 2 0 2 2 2 0 0 1 0 2 0 0 0 0 0 2 0 1 0 0 0 1 2 0 1 1 0 0 0 1 2 0 2 1 1 2 1 0 2 0 0 0 2 2 0 0 2 0 1 1 0 0 0 1 2 0 1 2 0 2 0 2 0 0 0 0 1 0 2 0 0 0 0 0 0 0 0 0 1 0 0 0 2 2 0 0 0 1 0 1 2 1 0 1 1 0 0 1 0 1 1 1 0 1 0 2 1 0 0 2 0 0 0 0 0 2 2 0 0 2 2 1 0 2 0 0 0 0 2 0 0 0 0 2 0 0 0 0 1 0 1 1 0 1 0 2 0 0 0 1 0 1 0 1 0 0 1 2 0 1 0 2 2 0 0 2 0 2 0 0 0 1 0 2 2 2 1 2 2 2 0 0 2 1 1 1 0 2 0 0 1 0 2 0 1 1 1 2 1 0 1 1 0 1 0 1 0 0 0 1 1 2 0 2 0 0 0 1 1 0 1 0 2 2 0 0 0 0 0 1 2 2 1 2 1 0 1 1 0 0 0 1 0 0 2 0 0 0 0 1 1 0 0 0 0 0 1 0 2 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 1 2 0 0 0 0 2 2 0 0 0 1 0 0 2 0 2 2 0 0 2 1 2 0 0 0 0 1 0 0 0 1 1 0 0 1 2 1 1 2 0 2 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 1 2 0 0 0 2 1 2 0 0 0 0 0 0 2 0 0 0 0 0 1 0 0 0 0 0 0 2 0 2 1 0 0 0 0 0 0 0 0 2 0 0 0 1 2 1 1 0 2 0 0 2 2 0 1 0 0 0 0 2 2 0 0 1 2 0 0 0 2 2 0 2 2 0 0 1 0 2 0 0 2 2 2 0 1 2 2 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 2 0 2 0 0 1 0 2 0 0 0 0 2 0 0 2 0 0 1 2 0 2 2 0 1 1 0 0 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 0 0 0 2 0 0 0 0 0 1 2 0 0 0 1 0 0 0 0 0 1 2 0 0 1 2 1 0 0 0 2 0 2 0 0 0 2 1 0 2 0 2 0 0 2 2 0 0 0 1 0 0 2 2 1 0 0 0 0 1 0 0 0 2 0 2 0 1 0 0 2 0 0 1 0 0 1 0 1 1 2 1 0 0 1 0 0 1 0 2 0 2 0 0 0 1 0 0 2 1 0 0 0 0 1 0 0 2 0 0 0 1 1 1 2 0 0 0 1 0 1 2 2 2 0 0 0 0 1 0 2 0 0 2 1 2 2 0 0 1 2 1 0 0 0 1 0 2 0 0 0 0 2 1 1 0 0 0 0 0 1 0 1 2 0 0 2 0 0 2 0 0 1 0 0 2 0 1 0 0 0 0 0 0 1 1 0 0 0 2 0 1 1 1 0 1 0 0 0 1 0 2 2 0 2 0 0 0 0 2 1 2 1 0 0 1 0 0 0 2 0 2 0 2 1 0 0 1 2 0 1 1 0 2 2 0 1 0 2 0 2 1 0 2 1 2 0 0 2 0 2 1 2 2 0 0 0 0 2 0 1 0 0 2 0 1 0 0 0 0 0 0 0 0 0 2 0 0 0 0 2 2 1 0 0 0 2 0 2 0 0 0 0 1 1 0 0 0 0 0 2 0 0 0 0 2 0 0 1 1 2 0 1 0 1 0 0 2 0 1 0 0 2 1 2 0 2 2 0 0 0 2 0 1 0 1 0 0 0 0 0 1 1 0 0 1 0 0 0 1 2 0 0 2 1 2 0 0 1 0 0 0 1 2 1 0 0 0 2 0 0 0 0 2 0 0 2 1 0 0 1 0 0 0 1 0 0 0 0 0 2 2 0 0 1 1 0 0 1 0 2 2 0 1 1 0 0 0 0 0 2 1 2 0 0 1 1 0 0 0 0 0 2 0 0 0 0 0 0 1 2 0 0 0 0 0 2 0 0 0 2 2 0 2 2 0 0 0 0 0 1 0 1 0 0 0 0 0 2 0 0 0 2 0 1 0 0 0 0 0 0 0 1 1 2 0 1 0 0 0 1 2 1 1 2 2 0 1 0 0 0 0 0 0 0 0 2 0 2 0 0 2 1 2 2 2 0 0 0 0 1 1 1 0 0 0 0 1 2 0 0 1 0 0 1 1 0 0 2 0 1 0 1 0 1 1 0 0 0 1 0 2 0 1 0 0 0 0 0 0 0 1 1 2 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 1 0 2 1 0 0 0 0 2 0 1 1 0 0 1 0 2 1 0 0 0 0 0 1 1 1 0 2 1 0 0 0 2 2 2 0 1 1 1 0 1 0 0 2 0 0 0 0 0 0 2 0 0 0 1 0 0 1 2 0 0 2 0 2 2 1 0 0 2 1 1 0 0 2 0 0 0 2 1 0 1 1 1 0 2 0 1 0 2 0 0 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 0 0 1 0 2 1 0 0 0 0 1 2 0 2 0 0 0 0 0 1 1 0 1 2 0 0 0 0 0 0 0 1 0 1 1 1 0 0 2 0 0 2 0 0 2 2 2 0 0 2 2 0 2 2 2 0 0 2 1 0 0 1 2 0 0 0 0 2 1 0 0 0 1 2 0 0 2 0 0 0 1 0 0 2 2 1 0 0 2 0 0 0 0 0 0 0 1 0 0 0 0 0 2 2 0 1 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 1 1 1 0 0 0 2 0 0 0 0 0 1 0 0 0 0 2 0 0 2 0 0 1 0 0 0 2 0 0 0 0 0 0 1 2 0 0 2 1 0 0 0 0 0 0 0 1 1 0 0 0 2 2 0 2 0 2 1 0 2 1 0 0 2 0 0 1 0 0 1 0 1 0 0 0 2 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 2 2 0 2 1 2 2 0 0 0 0 0 2 2 1 1 2 2 1 2 0 0 2 0 1 2 0 2 0 2 0 2 1 0 0 0 2 0 0 0 2 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 2 2 0 2 0 0 0 2 0 0 0 0 0 1 0 1 0 0 2 2 2 0 1 0 1 0 0 2 0 0 0 0 2 0 0 1 0 0 2 0 0 0 0 0 2 2 1 1 1 0 2 0 0 1 1 2 0 2 1 2 0 2 0 0 2 0 2 1 1 0 2 0 2 1 1 0 2 0 2 2 0 0 2 0 0 2 2 1 0 0 1 2 2 0 0 2 0 0 0 1 1 1 2 2 0 0 0 1 0 0 0 0 0 2 0 2 1 0 2 0 1 2 0 0 2 2 0 0 0 1 0 2 0 0 1 0 1 2 0 0 0 0 0 0 0 1 2 1 0 0 0 0 0 0 0 2 2 2 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 2 0 0 0 0 0 1 2 0 0 2 0 0 0 0 1 0 2 0 0 0 2 2 2 0 0 2 1 0 1 2 1 0 0 0 0 0 0 1 1 0 2 0 1 0 0 0 0 2 0 0 0 0 2 0 2 1 0 1 0 2 0 0 0 0 0 1 0 0 1 1 1 2 1 0 0 0 0 0 0 1 0 0 2 0 0 2 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 1 0 0 0 0 0 2 0 1 0 0 2 0 0 1 2 1 0 1 2 0 0 0 2 0 0 2 0 2 1 0 0 1 2 2 0 0 0 0 0 0 0 0 1 0 1 0 0 1 1 1 0 0 1 1 2 1 1 0 2 1 0 0 0 2 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 2 1 2 0 1 2 1 0 1 1 1 0 0 2 0 0 0 0 0 0 0 1 0 0 0 1 2 0 1 0 0 0 0 1 0 2 0 0 1 2 1 1 0 1 1 1 0 2 1 0 0 1 1 0 0 1 0 1 0 1 0 0 2 2 1 0 2 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 2 2 1 2 1 0 0 1 0 2 2 1 0 1 2 2 1 0 2 0 0 0 1 0 2 0 2 1 0 0 0 2 0 0 0 0 1 2 0 0 2 1 0 2 2 0 1 0 0 0 0 0 2 0 1 0 0 0 0 1 0 0 0 0 0 1 0 2 0 0 0 0 2 2 0 0 1 0 0 0 0 1 0 1 0 0 0 1 0 1 1 1 0 1 0 0 2 1 2 0 2 0 1 0 2 0 0 1 0 0 2 0 0 0 2 0 2 0 0 0 0 0 0 1 0 0 0 2 2 0 1 0 0 0 0 0 0 0 2 0 1 0 0 2 1 2 0 0 1 0 0 0 1 1 0 0 2 0 0 0 2 0 1 0 1 1 2 1 0 0 1 1 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 1 0 2 0 0 0 2 0 0 2 0 0 2 0 0 0 1 2 1 0 0 0 0 0 1 0 0 1 0 1 0 0 2 0 0 0 0 0 0 2 1 2 0 1 0 1 0 1 0 0 1 1 0 0 1 0 0 0 0 2 2 0 0 0 0 2 1 2 0 0 0 0 0 0 2 1 1 0 1 1 1 0 0 0 0 0 2 1 2 2 2 0 0 0 0 0 0 2 0 0 0 2 0 0 0 0 0 2 0 0 0 2 0 1 0 0 0 1 2 1 0 2 1 0 2 2 0 2 0 0 0 0 1 0 0 0 2 0 0 0 2 1 1 1 1 1 0 0 0 1 1 2 0 2 0 0 2 0 0 1 2 1 0 0 1 2 0 0 0 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 1 0 0 0 1 2 0 0 0 1 0 0 1 1 1 0 0 0 0 1 0 0 1 0 0 2 1 0 0 2 1 0 0 2 0 2 2 0 0 0 2 0 1 2 1 0 0 2 0 0 2 0 1 0 0 0 0 0 0 0 2 0 2 1 1 0 0 0 1 0 0 0 0 0 0 0 2 1 1 1 0 0 2 0 0 0 0 0 0 0 0 2 0 0 0 1 0 0 2 1 2 0 2 0 0 0 2 0 1 0 0 0 1 1 0 0 0 0 0 0 2 0 0 0 0 0 1 1 1 0 0 0 0 2 2 1 2 0 2 1 0 0 0 0 0 2 0 0 0 0 1 0 2 1 0 1 0 0 0 0 0 1 2 1 1 2 0 0 2 1 0 0 0 2 0 2 0 0 0 1 1 0 0 2 0 0 1 0 0 0 2 0 0 0 0 1 0 0 0 0 2 0 2 2 2 0 0 0 0 1 0 1 0 1 2 0 0 0 1 2 2 0 0 2 1 2 0 1 2 0 1 1 0 0 1 0 2 2 1 0 0 2 0 0 1 1 1 2 2 1 2 2 1 1 0 0 2 0 0 0 2 2 0 0 0 0 0 0 0 2 2 1 1 1 2 0 1 0 0 2 1 0 1 0 0 0 2 0 0 0 0 0 2 2 0 1 0 0 0 0 0 1 0 1 1 0 0 0 2 2 0 0 1 1 2 0 0 0 0 2 0 1 0 1 0 0 0 0 0 1 1 0 0 0 0 2 0 1 2 2 0 1 2 1 0 0 1 1 0 0 2 0 0 0 0 0 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 0 0 0 1 2 1 2 1 2 0 0 0 0 0 0 1 0 2 0 0 1 1 1 0 1 0 0 0 1 2 0 0 0 0 1 2 0 2 2 2 0 0 0 0 1 0 0 2 1 0 0 0 0 2 1 0 0 2 0 0 1 0 1 1 0 0 2 0 0 0 0 0 0 0 2 2 0 0 0 0 2 2 0 0 0 0 1 1 0 0 0 0 2 0 0 0 0 1 1 0 0 0 0 0 2 0 0 2 2 0 0 0 1 0 0 0 0 2 1 0 2 1 2 0 0 2 2 2 0 0 0 0 2 2 0 0 0 0 0 0 0 0 0 0 1 2 0 0 0 0 2 0 1 1 1 0 0 1 0 2 0 0 1 0 0 2 2 2 1 0 0 0 1 0 2 0 1 0 0 0 0 0 0 2 0 0 2 1 0 0 0 2 0 0 0 1 2 0 2 0 0 0 1 0 1 2 1 1 0 1 2 2 2 0 0 1 0 0 0 0 2 1 0 0 2 0 2 0 0 0 0 2 0 1 2 0 0 0 0 0 2 2 0 0 0 2 0 1 1 2 2 2 0 0 2 0 0 2 0 0 0 0 2 0 0 0 0 0 2 0 1 0 0 0 1 1 0 2 0 0 0 0 0 1 0 2 0 2 0 0 0 0 0 0 2 0 0 0 2 1 2 2 1 0 0 0 0 0 1 0 0 1 0 0 0 2 1 1 2 0 0 0 0 0 0 2 2 0 2 0 0 2 2 0 0 0 0 0 2 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 0 2 0 1 2 0 1 0 0 2 2 1 0 0 0 1 1 0 0 0 2 0 1 0 0 0 0 0 2 0 0 1 0 0 1 1 1 1 2 1 2 2 0 0 0 2 0 0 0 0 0 0 1 0 0 0 2 0 0 2 0 2 0 0 2 2 0 1 0 0 1 0 0 1 0 1 1 2 0 2 0 0 0 0 2 1 2 0 1 0 1 0 0 0 0 2 2 0 0 1 0 0 2 1 0 0 2 2 0 0 2 0 1 0 0 0 2 0 1 2 0 1 0 0 0 1 1 0 1 0 0 0 0 0 0 2 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 2 0 0 0 0 2 0 0 0 1 1 0 0 2 2 1 0 0 1 0 1 0 1 0 0 2 0 0 2 0 0 2 0 2 0 1 2 0 0 1 2 2 0 0 1 1 1 0 0 0 0 0 0 1 0 1 0 1 2 0 2 1 2 0 0 0 0 0 0 1 2 0 0 0 0 2 0 0 1 2 0 2 0 0 0 2 1 0 2 0 1 2 0 2 1 0 0 0 0 1 0 2 1 0 2 1 1 0 0 0 0 2 0 2 0 0 0 0 0 2 0 0 0 2 2 2 0 0 1 0 1 0 0 2 0 0 0 0 0 0 1 0 1 2 0 2 0 0 1 0 2 2 2 0 1 0 2 2 0 0 0 0 2 0 2 0 1 0 2 1 0 0 0 0 1 0 0 2 0 0 2 0 2 1 0 2 2 0 0 2 2 2 2 0 2 1 0 2 0 0 0 0 0 0 0 0 0 0 2 1 0 2 1 1 2 2 0 0 2 0 0 0 0 1 1 0 0 2 0 0 0 0 0 2 1 0 1 0 1 0 1 0 0 2 0 2 0 1 2 0 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 2 0 2 1 1 0 2 1 0 0 2 0 2 0 2 0 2 0 0 0 0 0 0 1 0 0 1 0 0 0 0 2 1 2 0 0 0 0 0 0 2 2 0 0 0 0 0 0 0 2 1 2 1 0 0 0 0 2 1 0 0 0 1 0 1 0 0 1 0 0 0 0 0 1 0 0 2 0 0 2 0 0 0 1 1 2 0 0 1 0 0 0 0 0 2 0 0 0 2 0 2 0 1 1 0 0 1 0 0 0 0 0 2 0 1 0 0 0 1 0 0 1 2 0 0 0 0 1 1 1 0 2 1 0 2 0 2 2 1 0 0 0 2 0 0 0 0 0 0 1 0 0 2 0 2 0 0 1 0 2 0 0 0 0 0 0 0 0 2 1 2 0 1 2 0 0 2 0 1 2 1 2 0 0 0 2 0 0 0 0 1 0 0 2 0 2 0 0 2 0 0 2 0 0 2 1 2 0 0 2 1 0 1 0 2 0 2 0 0 0 0 0 2 0 0 2 0 2 1 0 0 0 0 1 0 0 0 0 1 0 0 2 0 0 0 0 2 2 0 2 1 2 0 0 1 0 2 1 0 2 0 0 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 2 0 2 0 2 1 0 0 1 1 0 0 0 2 0 0 2 0 1 0 0 0 2 0 0 0 2 2 0 0 2 0 0 0 0 0 0 0 0 2 2 0 0 0 0 2 1 1 0 1 1 0 0 0 2 2 0 1 1 0 0 0 0 0 0 2 0 2 2 0 0 0 0 0 0 0 2 1 0 0 1 0 0 0 0 0 0 1 2 2 0 0 1 1 0 1 0 2 0 0 0 0 2 0 2 0 0 0 0 0 2 2 0 0 0 0 0 1 0 1 2 2 0 2 0 1 0 0 1 2 0 0 1 0 0 0 0 2 0 0 0 0 0 1 2 0 1 1 2 0 0 0 0 0 0 0 2 1 0 1 2 2 0 0 1 2 0 1 2 0 0 0 1 0 0 1 0 0 2 0 0 0 0 0 0 0 1 0 0 0 1 1 0 0 1 1 1 0 0 0 0 2 0 0 2 0 0 1 0 2 1 2 1 0 0 2 0 0 0 2 0 1 1 1 0 0 0 0 0 0 0 0 2 0 0 0 0 2 0 1 2 2 0 1 2 0 0 0 1 0 1 0 0 1 0 2 0 0 1 2 0 1 0 0 0 1 0 1 2 1 0 0 0 0 1 0 1 0 2 0 0 0 0 0 1 2 0 1 0 0 1 0 0 2 1 0 2 0 1 0 1 0 0 1 1 0 0 2 0 0 0 2 0 1 2 0 2 0 0 2 0 0 1 0 0 0 0 1 0 0 1 1 2 0 0 2 0 0 0 2 0 2 0 0 0 0 0 0 2 2 1 0 2 2 0 0 1 0 1 0 2 0 0 0 0 0 0 0 0 2 1 2 0 1 0 0 0 0 2 0 0 1 2 2 0 1 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 0 1 2 0 2 1 1 2 0 2 0 0 0 0 1 2 2 0 2 0 0 0 0 0 0 1 1 0 0 2 0 2 1 0 0 0 0 0 2 0 1 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1 0 2 2 0 0 1 1 0 0 0 0 2 1 1 2 0 0 2 1 0 1 2 0 2 0 2 0 0 0 0 0 2 2 1 1 0 0 0 0 2 0 2 0 0 0 0 0 1 0 0 0 1 0 2 0 1 0 0 0 1 0 0 0 0 1 2 1 0 0 0 0 0 2 1 0 2 0 0 0 0 1 2 0 1 2 0 0 1 2 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 2 0 0 0 0 0 0 0 0 1 2 0 0 0 2 0 0 0 2 0 1 0 0 0 0 1 0 1 0 0 0 1 2 1 1 2 1 1 2 1 0 0 2 0 0 0 1 0 2 0 2 0 2 0 0 2 0 2 0 0 0 0 0 0 0 1 0 1 2 0 0 0 0 1 2 0 0 2 0 0 1 0 2 2 0 2 1 1 1 0 1 1 0 0 0 0 2 0 0 2 2 0 0 2 0 0 0 0 0 0 0 1 1 2 1 2 0 0 0 0 0 0 1 2 0 0 0 0 2 0 0 0 0 2 2 0 0 0 0 0 0 1 0 2 1 1 1 0 0 0 2 0 2 2 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 2 1 0 0 1 1 0 2 0 1 0 0 2 0 1 0 2 0 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 1 2 0 1 1 0 0 1 0 2 0 1 0 0 0 0 0 2 2 0 2 1 0 1 0 2 0 0 2 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 2 0 0 0 0 1 0 0 0 2 0 0 0 0 1 0 0 2 1 2 0 2 0 0 2 0 0 1 0 0 1 0 0 2 0 0 0 2 0 2 1 1 0 0 0 2 0 1 0 2 0 2 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 2 0 0 0 0 0 2 0 0 2 0 0 0 0 1 2 2 0 2 0 2 0 1 0 2 0 2 2 0 0 0 0 0 0 1 0 0 0 2 2 0 0 0 0 2 0 0 2 1 1 1 2 1 0 1 0 2 0 1 0 0 0 1 2 0 0 0 0 0 0 0 0 0 0 2 1 2 0 0 1 0 0 1 0 0 2 1 0 2 2 1 0 1 0 1 1 0 0 0 0 0 2 0 0 0 1 0 2 1 0 2 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 2 1 0 0 0 0 2 0 2 2 2 0 2 0 1 1 2 0 0 0 1 0 0 0 0 0 0 2 1 0 0 0 2 0 1 1 2 1 2 1 0 1 1 0 0 0 0 0 0 0 2 0 2 2 2 0 0 2 0 0 0 1 0 0 1 0 0 2 0 1 0 0 2 2 0 2 1 2 0 1 0 0 0 0 2 1 0 1 0 0 0 0 0 1 1 0 0 0 0 1 2 0 0 0 1 1 2 0 0 1 2 0 0 0 0 0 0 0 1 2 1 0 0 0 0 0 0 2 1 0 0 0 0 2 0 1 0 2 0 2 0 1 2 0 0 2 1 0 0 1 2 0 0 1 2 2 0 1 1 0 0 1 0 0 0 1 0 1 0 0 0 1 0 0 1 2 2 0 0 0 0 0 0 0 1 0 0 1 2 0 0 0 1 0 0 0 0 2 0 0 0 1 0 2 1 0 0 2 0 0 0 1 0 0 1 0 0 1 2 0 0 0 0 2 0 1 2 0 0 0 2 2 2 0 0 1 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 1 1 0 0 0 0 1 0 0 2 1 0 0 0 0 0 0 0 0 2 0 2 2 0 0 0 2 2 0 0 0 1 2 1 0 0 0 0 0 0 0 2 0 0 0 1 1 1 1 0 0 1 0 2 0 0 1 1 2 2 2 2 0 0 0 0 2 1 0 0 0 0 2 0 0 0 0 0 0 0 2 0 2 2 0 0 0 2 0 1 0 2 1 0 1 0 1 2 2 2 0 0 0 0 1 0 0 0 1 1 2 0 2 0 1 0 0 0 0 2 1 1 0 2 0 2 1 1 0 1 0 2 1 0 0 0 0 0 1 0 0 1 2 1 0 0 0 1 0 0 1 2 0 2 0 0 0 0 0 1 0 0 1 2 0 0 2 1 1 0 0 0 2 1 0 2 1 0 1 2 0 2 0 0 0 0 2 2 0 0 0 0 0 2 0 0 0 0 2 0 1 1 1 0 1 0 2 1 2 2 0 2 0 1 0 1 2 2 0 0 0 1 0 0 0 0 0 2 2 0 0 0 0 1 0 1 0 0 1 2 0 2 0 0 2 0 0 2 0 0 0 0 2 2 1 0 0 1 0 2 1 2 0 0 0 0 0 0 0 0 2 0 0 2 0 0 0 1 2 1 0 0 0 0 1 0 2 2 0 0 0 1 2 2 1 0 1 0 0 0 0 1 0 1 1 1 1 1 2 0 2 0 2 0 1 0 0 0 2 0 0 0 1 0 0 0 1 2 1 1 0 0 0 0 0 0 2 0 2 0 0 0 0 0 1 2 0 0 0 0 2 0 0 2 0 0 2 0 0 0 1 2 1 0 1 0 0 0 1 1 1 0 1 0 0 0 0 1 2 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 1 2 0 1 0 0 0 0 0 2 1 0 0 0 1 1 0 0 0 1 2 0 0 1 0 1 0 1 2 2 0 1 0 0 0 2 1 0 0 0 2 0 0 0 0 0 0 1 0 2 1 1 0 0 0 2 1 0 2 0 2 1 1 1 0 0 2 0 2 1 2 1 2 0 0 0 0 0 2 1 0 0 0 0 2 1 1 2 0 0 1 0 0 2 2 2 1 0 0 0 1 2 1 0 0 0 2 1 0 1 1 0 0 2 0 0 0 2 0 0 1 0 0 2 0 2 0 0 0 0 0 0 0 0 0 1 2 1 2 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 2 2 0 0 0 0 0 0 0 0 0 0 2 0 2 0 2 0 0 2 2 0 0 0 1 0 2 0 0 2 0 2 0 0 2 0 0 0 2 0 0 2 0 2 1 2 0 0 2 2 0 0 0 0 0 0 0 0 0 1 1 2 1 0 0 1 0 1 0 0 0 0 2 0 2 2 1 0 0 0 0 0 0 2 0 0 2 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 2 0 2 0 2 2 1 2 0 2 0 1 0 0 0 2 0 2 1 0 0 1 0 0 0 1 0 2 0 0 0 0 2 0 0 0 0 2 0 0 1 2 2 2 0 0 0 0 0 0 0 2 2 1 0 0 0 1 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 2 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 2 0 0 1 0 0 2 0 0 1 2 1 0 2 1 1 0 1 0 1 0 0 0 0 0 0 0 1 1 1 0 1 1 0 0 0 2 0 0 0 0 2 0 0 0 2 1 2 0 0 0 1 0 0 1 2 1 1 0 0 2 0 1 1 2 0 0 0 0 0 1 0 0 1 0 0 2 2 0 0 2 1 2 1 0 0 0 0 0 0 1 0 1 1 0 0 1 2 2 0 1 1 0 0 0 0 0 0 0 0 1 0 2 0 1 1 0 0 1 0 1 2 1 0 1 2 0 0 0 2 2 0 2 1 1 1 0 0 2 0 0 2 0 2 0 1 0 1 0 2 0 0 0 2 1 0 2 0 1 0 0 0 2 0 1 2 0 0 1 0 0 0 2 2 2 2 0 2 0 0 2 0 1 2 2 2 0 0 1 0 0 0 0 2 0 1 0 2 0 2 2 0 2 0 1 0 0 0 0 0 2 0 1 0 1 1 0 2 1 0 0 0 1 2 0 1 0 0 0 0 1 0 0 1 1 1 1 0 2 2 0 0 0 2 2 0 2 1 0 0 2 0 1 0 0 0 1 0 0 0 0 1 1 0 1 0 0 0 0 0 0 1 0 2 0 1 0 0 0 0 1 1 1 0 0 2 0 1 0 0 2 0 2 0 2 1 1 2 0 1 1 1 1 1 1 0 2 2 0 2 0 2 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 2 1 0 0 0 0 0 2 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 2 0 2 2 0 0 0 2 2 0 0 0 1 0 2 0 0 0 0 2 0 0 2 0 0 0 2 1 1 2 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 2 0 2 0 0 1 1 0 0 0 0 0 0 0 0 2 0 2 0 0 0 0 2 0 1 0 0 2 1 0 0 0 0 0 1 0 1 0 2 1 2 0 0 0 2 1 2 2 0 0 0 2 0 1 2 2 1 2 2 0 0 1 1 0 0 0 0 0 1 2 0 0 1 2 0 2 0 0 0 0 0 1 0 0 2 0 0 0 0 2 0 0 0 1 0 0 2 2 2 2 2 2 0 0 0 0 0 0 0 0 0 0 1 0 2 1 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 1 0 1 2 0 0 0 0 2 0 0 0 1 0 2 2 2 2 0 2 2 0 2 2 0 0 0 0 1 0 0 2 0 2 2 0 2 0 2 0 1 0 0 0 2 1 0 0 0 0 0 0 2 1 1 0 0 0 2 0 1 2 0 2 0 0 1 2 2 0 0 2 0 0 0 0 0 0 1 0 2 0 2 0 2 2 1 0 0 0 0 0 0 1 0 1 1 0 1 0 0 0 2 0 1 0 0 0 2 0 0 1 0 0 0 2 1 0 0 2 2 2 2 1 2 2 2 1 0 0 0 1 1 0 0 2 0 1 0 2 0 1 1 0 1 2 2 2 1 1 0 0 0 0 2 1 2 0 0 0 2 0 2 0 1 2 0 1 0 2 0 1 2 0 0 2 0 0 0 0 1 0 0 0 1 0 0 0 2 0 0 1 2 1 0 2 0 0 0 0 2 0 2 0 0 0 0 0 2 0 2 0 0 0 2 0 2 2 0 1 2 1 0 0 2 0 1 2 0 0 0 1 2 0 0 0 1 2 0 1 0 0 2 0 0 0 2 1 0 2 1 1 0 0 0 0 2 1 1 0 2 0 1 1 0 2 0 0 2 0 0 0 0 1 2 1 0 1 0 0 2 1 0 2 0 0 0 1 1 0 1 2 1 1 0 0 2 2 1 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0 1 0 2 0 2 0 0 0 0 0 0 0 1 2 0 0 1 0 1 2 1 0 2 0 0 0 2 0 1 0 0 1 0 1 1 2 0 2 0 0 1 0 2 2 2 0 0 0 0 0 0 0 2 0 0 0 1 1 0 1 0 0 0 2 0 0 0 1 0 0 0 0 0 2 1 0 0 1 1 2 0 0 1 1 2 0 0 0 2 0 0 1 1 0 0 0 1 0 1 0 0 1 0 1 0 0 0 0 2 1 0 2 1 0 0 0 2 0 2 0 2 1 1 1 2 0 1 2 1 0 0 0 0 0 1 0 0 2 1 1 2 2 2 1 2 2 2 1 0 2 0 0 2 0 0 1 0 1 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 0 1 0 1 0 0 2 1 1 1 0 2 0 0 2 1 0 0 1 0 0 2 1 0 2 2 1 1 0 0 1 2 2 0 0 2 1 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 0 1 1 1 0 2 0 0 2 0 1 0 0 0 2 0 0 0 1 0 0 0 2 0 1 0 1 0 1 1 1 1 0 1 0 1 0 0 0 0 2 0 1 0 1 1 0 2 1 1 0 2 1 0 1 0 2 1 2 1 2 0 0 0 0 2 2 0 0 0 2 0 2 0 1 0 1 2 0 2 2 2 0 0 1 0 1 0 0 0 0 1 2 0 0 0 0 1 2 1 1 2 0 0 0 0 0 0 0 2 0 1 2 0 2 2 0 0 2 1 1 1 2 1 2 0 0 0 0 1 2 0 0 1 0 2 1 2 0 2 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 2 2 0 0 0 2 0 2 2 0 0 0 1 0 0 0 1 0 2 2 0 0 2 2 2 1 0 1 0 2 2 0 1 0 0 0 1 0 0 0 0 1 1 2 2 1 1 2 1 0 2 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 1 2 2 0 0 1 0 2 0 1 0 0 0 0 1 2 0 2 0 0 2 0 2 0 2 0 0 0 0 0 0 2 1 0 2 1 0 0 0 0 0 0 0 0 1 0 2 0 2 0 2 0 1 0 2 2 0 0 2 0 0 2 2 2 1 0 2 0 2 0 0 0 2 1 0 0 0 0 0 1 1 1 1 0 0 2 0 2 0 0 0 2 1 0 0 0 2 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 2 0 2 0 0 0 0 2 0 0 0 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 2 0 1 2 0 1 0 0 0 0 0 0 1 2 0 0 0 1 0 1 1 0 1 0 2 0 0 0 1 0 0 0 1 0 0 0 0 0 2 0 2 2 0 0 0 1 0 0 0 1 0 1 0 2 1 1 0 0 0 2 0 0 0 2 1 2 2 0 0 0 2 0 0 2 0 0 0 0 0 0 2 1 0 0 0 0 0 1 0 0 0 0 0 0 1 2 0 0 0 2 0 2 0 0 0 1 0 0 0 2 0 1 0 0 0 0 1 1 1 0 0 1 0 2 0 0 2 0 0 0 0 0 0 0 0 0 1 2 1 0 1 2 1 2 0 0 0 0 2 0 0 0 2 1 0 0 0 0 0 0 0 0 2 2 2 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 1 0 2 0 1 1 0 1 2 0 0 0 2 0 0 0 0 0 1 2 0 0 0 2 0 0 1 1 0 0 0 2 0 0 1 0 0 0 2 1 0 1 1 0 0 1 0 0 1 0 1 0 1 0 2 0 0 2 0 2 0 2 0 1 0 0 0 1 0 2 2 0 1 1 1 1 1 1 2 0 0 0 0 0 0 0 0 0 2 1 2 0 1 0 0 2 2 0 2 0 0 0 0 2 2 0 0 0 0 0 1 1 0 0 1 2 0 0 0 0 0 0 0 0 0 2 2 0 1 1 1 1 0 0 0 0 1 0 1 0 0 0 2 0 0 0 0 1 1 1 2 1 0 0 0 2 2 0 0 0 0 0 2 0 2 0 0 0 0 1 1 2 2 2 0 0 0 0 1 0 0 0 0 2 0 0 0 0 0 1 2 0 2 0 0 0 2 2 2 0 2 0 0 0 0 2 0 0 0 0 0 2 0 1 0 1 0 0 1 2 2 1 0 0 1 0 0 2 0 0 0 0 0 0 1 0 0 2 2 0 1 0 0 0 1 1 0 0 0 0 2 0 1 1 2 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 2 2 1 0 2 0 0 2 2 2 1 2 0 0 1 2 2 0 0 1 2 2 0 2 0 0 1 0 1 1 0 1 1 0 2 0 1 0 0 1 0 1 2 0 0 1 2 1 0 2 0 1 2 2 2 0 0 0 0 2 0 1 0 1 0 2 2 2 0 1 2 0 0 0 1 2 0 0 0 2 2 1 1 0 0 0 2 2 0 2 1 0 1 2 0 1 0 2 1 0 0 2 1 0 2 0 0 2 0 1 1 0 0 0 0 2 1 0 0 0 1 0 2 0 0 0 0 1 0 0 2 0 0 0 0 2 0 2 0 0 2 0 0 2 2 2 2 0 2 0 0 0 0 0 2 0 0 1 2 1 2 0 2 0 0 2 1 0 0 0 0 0 0 0 1 0 0 0 0 2 0 0 0 2 0 0 0 0 0 1 2 0 0 0 0 0 1 1 0 1 2 0 0 2 0 2 1 1 0 2 0 0 1 2 0 0 0 0 1 1 0 1 0 1 0 0 1 1 0 0 0 1 1 0 1 0 0 0 2 0 1 0 1 1 0 0 0 0 2 0 0 2 1 0 0 2 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 2 0 0 0 0 0 0 0 0 1 2 0 1 2 0 0 0 0 2 0 0 2 0 1 0 0 2 0 0 0 0 1 0 2 0 1 0 0 0 0 1 2 0 2 1 2 0 2 2 0 1 1 1 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 0 0 0 0 0 0 0 1 2 0 2 0 2 0 0 2 0 2 0 2 0 1 1 2 2 2 1 1 2 1 0 0 2 0 0 2 0 0 2 0 0 0 0 0 0 1 2 0 2 1 0 1 0 0 1 0 0 0 0 0 0</ItemsUses>
+        </Instances>
+        <MissingValues>
+            <InstancesNumber>19998</InstancesNumber>
+            <VariablesNumber>528</VariablesNumber>
+            <ScrubbingMethod>Mean</ScrubbingMethod>
+            <MissingValuesNumber>0</MissingValuesNumber>
+        </MissingValues>
+    </DataSet>
+    <NeuralNetwork>
+        <Inputs>
+            <InputsNumber>32</InputsNumber>
+            <Item Index="1">
+                <Name>AA0</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="2">
+                <Name>AA1</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="3">
+                <Name>AA2</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="4">
+                <Name>AA3</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="5">
+                <Name>AA4</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="6">
+                <Name>AA5</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="7">
+                <Name>AA6</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="8">
+                <Name>AA7</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="9">
+                <Name>AA8</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="10">
+                <Name>AA9</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="11">
+                <Name>AA10</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="12">
+                <Name>AA11</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="13">
+                <Name>AA12</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="14">
+                <Name>AA13</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="15">
+                <Name>AA14</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="16">
+                <Name>AA15</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="17">
+                <Name>AA16</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="18">
+                <Name>AA17</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="19">
+                <Name>AA18</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="20">
+                <Name>AA19</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="21">
+                <Name>AA20</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="22">
+                <Name>AA21</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="23">
+                <Name>AA22</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="24">
+                <Name>AA23</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="25">
+                <Name>AA24</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="26">
+                <Name>AA25</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="27">
+                <Name>AA26</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="28">
+                <Name>AA27</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="29">
+                <Name>AA28</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="30">
+                <Name>AA29</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="31">
+                <Name>AA30</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+            <Item Index="32">
+                <Name>AA31</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+        </Inputs>
+        <ScalingLayer>
+            <ScalingNeuronsNumber>32</ScalingNeuronsNumber>
+            <Statistics Index="1">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.38129</Mean>
+                <StandardDeviation>5.45738</StandardDeviation>
+            </Statistics>
+            <Statistics Index="2">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.38064</Mean>
+                <StandardDeviation>5.45995</StandardDeviation>
+            </Statistics>
+            <Statistics Index="3">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.37849</Mean>
+                <StandardDeviation>5.46875</StandardDeviation>
+            </Statistics>
+            <Statistics Index="4">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.37699</Mean>
+                <StandardDeviation>5.46824</StandardDeviation>
+            </Statistics>
+            <Statistics Index="5">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.38369</Mean>
+                <StandardDeviation>5.4611</StandardDeviation>
+            </Statistics>
+            <Statistics Index="6">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.38494</Mean>
+                <StandardDeviation>5.46641</StandardDeviation>
+            </Statistics>
+            <Statistics Index="7">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.38594</Mean>
+                <StandardDeviation>5.46545</StandardDeviation>
+            </Statistics>
+            <Statistics Index="8">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.39209</Mean>
+                <StandardDeviation>5.47288</StandardDeviation>
+            </Statistics>
+            <Statistics Index="9">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.37839</Mean>
+                <StandardDeviation>5.47628</StandardDeviation>
+            </Statistics>
+            <Statistics Index="10">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.36644</Mean>
+                <StandardDeviation>5.4753</StandardDeviation>
+            </Statistics>
+            <Statistics Index="11">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.35394</Mean>
+                <StandardDeviation>5.46365</StandardDeviation>
+            </Statistics>
+            <Statistics Index="12">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.34803</Mean>
+                <StandardDeviation>5.45768</StandardDeviation>
+            </Statistics>
+            <Statistics Index="13">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.35854</Mean>
+                <StandardDeviation>5.45506</StandardDeviation>
+            </Statistics>
+            <Statistics Index="14">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.36079</Mean>
+                <StandardDeviation>5.45446</StandardDeviation>
+            </Statistics>
+            <Statistics Index="15">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.34668</Mean>
+                <StandardDeviation>5.45651</StandardDeviation>
+            </Statistics>
+            <Statistics Index="16">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.36749</Mean>
+                <StandardDeviation>5.46669</StandardDeviation>
+            </Statistics>
+            <Statistics Index="17">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.37084</Mean>
+                <StandardDeviation>5.46432</StandardDeviation>
+            </Statistics>
+            <Statistics Index="18">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.37599</Mean>
+                <StandardDeviation>5.46692</StandardDeviation>
+            </Statistics>
+            <Statistics Index="19">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.35774</Mean>
+                <StandardDeviation>5.46672</StandardDeviation>
+            </Statistics>
+            <Statistics Index="20">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.36499</Mean>
+                <StandardDeviation>5.46403</StandardDeviation>
+            </Statistics>
+            <Statistics Index="21">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.36819</Mean>
+                <StandardDeviation>5.47191</StandardDeviation>
+            </Statistics>
+            <Statistics Index="22">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.38734</Mean>
+                <StandardDeviation>5.4766</StandardDeviation>
+            </Statistics>
+            <Statistics Index="23">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.38949</Mean>
+                <StandardDeviation>5.47273</StandardDeviation>
+            </Statistics>
+            <Statistics Index="24">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.39914</Mean>
+                <StandardDeviation>5.48311</StandardDeviation>
+            </Statistics>
+            <Statistics Index="25">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.39564</Mean>
+                <StandardDeviation>5.48497</StandardDeviation>
+            </Statistics>
+            <Statistics Index="26">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.39299</Mean>
+                <StandardDeviation>5.48624</StandardDeviation>
+            </Statistics>
+            <Statistics Index="27">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.39909</Mean>
+                <StandardDeviation>5.48301</StandardDeviation>
+            </Statistics>
+            <Statistics Index="28">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.41174</Mean>
+                <StandardDeviation>5.48548</StandardDeviation>
+            </Statistics>
+            <Statistics Index="29">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.42734</Mean>
+                <StandardDeviation>5.48001</StandardDeviation>
+            </Statistics>
+            <Statistics Index="30">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.42844</Mean>
+                <StandardDeviation>5.48367</StandardDeviation>
+            </Statistics>
+            <Statistics Index="31">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.43714</Mean>
+                <StandardDeviation>5.48421</StandardDeviation>
+            </Statistics>
+            <Statistics Index="32">
+                <Minimum>1</Minimum>
+                <Maximum>20</Maximum>
+                <Mean>9.43714</Mean>
+                <StandardDeviation>5.4845</StandardDeviation>
+            </Statistics>
+            <ScalingMethod>MinimumMaximum</ScalingMethod>
+        </ScalingLayer>
+        <PrincipalComponentsLayer>
+            <InputsNumber>32</InputsNumber>
+            <PrincipalComponentsNumber>0</PrincipalComponentsNumber>
+            <PrincipalComponentsMethod>NoPrincipalComponents</PrincipalComponentsMethod>
+        </PrincipalComponentsLayer>
+        <MultilayerPerceptron>
+            <Architecture>32 80 1</Architecture>
+            <LayersActivationFunction>HyperbolicTangent Linear</LayersActivationFunction>
+            <Parameters>0.663272 -0.238429 0.345339 0.245618 0.454118 -1.39492 -1.15654 -1.05383 0.521445 0.697626 -0.270553 1.01873 0.6642 0.199767 -0.906467 -0.288854 -1.0001 0.152113 -1.39961 0.750151 -0.180246 0.589352 1.76833 0.774382 0.404729 0.439027 0.13437 -0.151807 -0.298348 1.26199 0.089072 1.10323 1.1081 -0.0781458 0.240473 0.017833 -0.810062 1.11357 0.353378 -0.24523 -1.37894 -0.582346 -0.818099 1.3403 1.18511 0.46039 -0.311939 0.307085 1.49009 -0.252186 -0.758001 1.22468 -1.08732 -0.388414 0.474758 0.339498 0.932172 0.194901 -0.690935 -1.42971 0.704697 0.407929 -1.30365 -2.30191 0.328756 -0.0322394 0.310003 -0.297277 -0.930174 -0.239203 -1.60995 0.32375 1.36633 -0.412657 0.516756 -0.406231 0.589959 0.7942 -0.746032 -0.964324 0.338259 1.33722 -1.22328 -0.672658 -0.264441 -0.988218 -0.626758 -0.453932 -0.29032 -0.614137 -0.459032 0.64208 -0.820858 -0.255156 -0.306259 0.895781 -1.3174 -0.290134 0.355892 -0.699591 0.643644 1.52665 -1.54068 0.148705 0.233554 -1.39727 0.354465 1.33835 -0.655497 0.225546 -0.70172 -0.154476 0.0283322 -1.34085 -0.554799 -0.822523 0.0191078 -0.504686 0.488167 -1.48725 -0.119677 -0.0366915 1.21569 -1.48713 -0.758709 -0.831528 0.502168 -0.485856 0.219852 1.18287 -0.0591444 -1.20435 0.270395 -0.212402 -1.75175 0.682738 -0.793967 -0.559168 -0.921235 0.707993 -0.803501 -0.375973 0.135953 -0.635522 0.274872 0.0244651 -0.680296 -1.30906 -0.186048 -0.369242 -0.625345 -0.215359 -0.966672 -0.0267078 -0.589435 -1.23161 -0.221345 0.769942 -1.55465 1.19991 0.506582 1.41216 -0.976678 1.20597 -0.00866863 -0.764096 0.50953 -0.962186 -1.12446 0.254629 -0.457185 -0.751564 -1.29915 0.796816 -0.464095 -1.04077 0.0173379 0.574286 1.65031 1.05056 0.412561 -0.274713 -0.458279 0.765784 0.32631 0.766205 -0.598162 0.0146703 -0.0139723 -0.580994 0.11876 0.807591 -0.048431 0.54283 0.136573 -1.16689 0.0690121 -0.0912453 -0.583087 -0.577671 0.273323 -0.099656 0.224077 -0.701286 -0.0112239 -0.337437 0.0701343 0.0972345 -0.348552 0.219543 0.294245 0.216098 -0.0152391 -0.0885137 0.24458 -0.481247 -0.338982 0.206124 -0.0459865 -0.717358 0.438313 -0.459113 -0.138577 -0.654273 0.727771 -0.319397 0.493058 -0.868823 -0.0284326 -0.200034 0.229667 -0.262883 -0.349894 -0.804975 -0.92624 0.568576 -0.348556 0.600984 -0.622745 0.612083 0.575139 -0.494487 0.0571791 0.51323 -0.320135 -0.511118 -0.142513 0.212963 0.732211 -0.191317 0.30695 -0.00128068 -0.265251 -0.41302 -0.0698448 -0.361911 -0.00655144 -0.175968 0.351031 0.393045 0.547373 1.19308 0.142987 0.470175 0.510007 -0.770719 1.38244 1.07422 0.596082 -0.0452843 -1.40588 -0.655068 0.467734 0.396866 0.682499 -0.329211 -0.751813 0.00422694 -0.190261 -0.163163 -1.05758 0.0351086 -0.585705 0.628145 -0.178231 -0.364499 -0.410106 0.763398 0.600937 0.586458 0.453032 0.68843 0.603713 0.0146602 0.993193 0.842431 1.12905 -0.242627 0.951812 -0.154252 0.814692 0.366011 -0.22738 -1.13314 -0.219562 -0.706474 0.413605 0.0791822 0.262861 -1.33776 0.442617 -0.144487 0.545007 0.0428582 0.319623 -0.448263 -0.279212 0.766506 1.43801 0.821941 0.199742 0.112122 0.398376 -0.78206 0.193389 0.652817 0.165075 -1.18355 0.823552 0.74587 0.811754 -0.719835 -0.200472 -0.370156 -0.353976 0.333641 0.677725 1.00212 -0.328058 0.30242 0.207397 -0.214463 0.602748 -1.03128 0.497176 -0.227692 -0.267909 0.866876 0.00803497 -0.172036 -0.107912 -0.0798651 -0.534025 0.877965 -1.31238 2.03797 -0.331901 0.539782 -0.379987 -0.950731 0.404599 0.329721 -0.74131 -0.150627 -1.08897 -0.682232 0.319209 0.309421 -0.872699 0.684009 0.544882 1.29495 -1.55092 0.0368645 -0.816838 -1.34051 -0.668927 0.0964507 -1.06768 1.88999 0.61813 0.528153 0.155351 -0.184725 -0.179744 -0.47701 0.185653 -0.808188 -0.334107 -0.0442855 -0.134837 -0.56866 0.660427 -0.3728 0.800481 0.840309 -0.4992 0.80781 -0.158403 -1.2624 0.26459 -0.2396 0.859001 0.889563 -1.42654 -0.279711 -0.602022 0.232596 0.783214 -0.191422 0.082018 0.374492 0.137601 -1.0921 0.623331 -0.482851 0.375141 0.449907 0.981372 -0.643081 0.190947 -0.32426 0.425379 0.608619 -0.498845 0.863253 -0.509569 -0.242966 -1.69101 -0.664535 -0.0775734 -1.3561 -0.0561596 0.267881 0.320522 -0.491763 0.0631648 -1.94397 -1.0424 -0.0357347 0.268779 1.31638 0.247913 -1.37607 -0.228551 0.0847001 0.839045 0.170972 0.504224 0.178472 0.814318 -1.20703 0.345843 0.240385 -0.515728 -0.33475 -0.527325 -0.890634 -1.37574 0.575651 0.262174 0.75203 1.26919 0.801648 0.977033 0.296821 0.10601 -1.11228 0.88582 -0.202742 1.23176 -0.574959 0.337952 0.217047 0.125032 0.288068 0.258158 0.409582 0.263057 0.155515 -0.0778353 1.14191 -0.305111 -0.926044 -1.66368 -0.529319 -1.13742 1.04598 -0.235935 -0.453269 -0.418735 -0.450339 0.498527 -0.54019 -0.135223 0.440824 -1.19204 1.5211 -1.42446 0.224489 -0.0502764 0.668365 0.136304 -0.511758 0.105835 -0.539078 -0.0723194 -0.386536 1.31441 0.480465 -0.744239 -0.900808 -0.428899 0.433544 0.377754 1.63347 1.37791 -0.0685083 1.01384 -0.624769 -0.857352 -1.05286 1.51345 1.13034 -0.279714 0.363018 -0.238902 0.234553 0.11828 0.14062 2.21288 -0.311827 -0.263118 0.641239 -1.72356 0.112601 -0.503577 0.981349 -0.839469 -0.233452 0.523735 1.51908 -0.848453 0.0696213 0.454054 1.26799 -0.528828 -0.891137 0.905372 -0.939251 0.303359 -0.614797 -0.59045 -0.158156 1.62851 0.0562093 -0.945895 0.178992 0.809019 0.629734 0.594166 0.279012 0.178669 0.570528 0.473423 -0.604259 0.474445 -0.0836497 0.268628 -0.552976 -0.533604 0.696718 0.369529 -0.511254 0.085126 0.722872 0.71744 -0.371811 -0.881641 0.129632 -0.534579 -0.413905 -0.129642 -0.0583391 0.428738 0.466607 -0.0975633 -0.619073 -0.604851 0.392292 -0.362277 -1.36824 0.19847 -0.23831 0.167518 -0.23178 0.398671 -0.149192 0.0920442 0.0972573 0.352838 -0.00165716 0.356283 0.220594 -0.412019 0.146633 0.00858319 -0.905779 0.465216 0.774426 0.721065 0.266214 0.162353 0.0338429 0.045107 0.275088 -0.402581 0.407718 0.220172 0.0763615 0.604302 0.319337 0.340102 -0.444469 -0.0791749 -0.504402 0.833816 -0.160345 0.77326 -0.19429 0.661389 -0.226716 -0.0233506 0.125233 -0.0583522 -0.0370947 0.704413 0.317219 -0.489012 -0.0523454 -0.475413 -0.345902 0.162763 -0.111181 0.00730026 -0.560536 0.0372644 0.489029 -0.253324 -0.221299 -1.12416 -0.741741 1.12029 -0.321666 -0.152831 -0.0148379 -0.505425 0.183127 0.905713 -1.00796 -0.00438476 0.740368 1.87128 0.431191 -0.471213 0.660718 -2.03894 -0.714877 -0.212667 1.51263 -0.361052 1.94355 0.961128 0.428985 -1.04343 -0.0971068 -1.41486 -0.0121111 -1.29242 0.149749 -0.447015 0.636905 0.66836 -0.728037 -0.295541 0.760949 0.481085 -1.62329 0.985095 -0.631656 0.43361 -0.281494 0.453493 -2.5534 -0.0028573 -0.280093 0.626387 -0.766657 -1.48572 0.572966 0.0474779 0.0986096 -0.0042176 0.0398923 0.54173 1.63804 0.385173 -0.160892 -0.661857 0.466435 0.31327 -0.181798 -0.188713 -0.630588 0.446134 -0.981631 -0.823265 -0.226682 -0.797992 1.17604 0.143256 -0.489802 -1.72855 1.24475 0.216204 0.605774 -0.082711 -1.32334 0.682921 0.444451 0.307102 0.406652 0.444895 0.950707 -0.971546 0.188611 -0.187249 -0.510362 0.0739733 -1.24612 0.310627 0.651985 0.753129 -0.286551 0.311594 -0.624171 -0.385363 -0.251038 0.695442 0.787086 0.677506 0.727771 -0.730638 1.37723 -1.00157 0.23695 0.0834764 0.023739 -0.834448 -0.904466 0.0994772 0.567504 -0.286937 0.215875 1.0963 -0.437493 -1.36463 1.71366 0.431333 -0.0486797 -1.07171 0.0733707 0.0229571 0.0802525 0.0453745 0.829863 -0.664149 1.14511 0.575712 1.73969 0.419371 0.917233 0.271214 -0.32885 -0.224608 -0.750731 -1.16292 0.0329171 0.057153 0.796966 -1.30935 -1.68645 0.891092 0.292956 -0.819588 0.0581271 -0.238329 0.589752 0.691119 -0.178293 0.943333 0.493656 -0.712117 0.17308 1.02049 -0.235115 -0.73963 -0.34616 -0.478287 -0.118163 -0.602856 0.164543 0.646874 0.843769 -0.162423 0.703649 -0.182632 -1.67707 0.173739 0.467009 0.695694 -0.105861 -0.11645 0.890651 0.35616 0.27265 -0.0319845 0.231609 0.841098 -0.425901 0.0124038 -0.663247 0.0983176 0.188832 -0.868233 0.0264493 -0.747092 -0.00282134 -1.0338 -0.808045 0.979305 0.285125 1.13461 0.0820336 0.98527 0.484747 0.208036 0.0173823 -0.0240808 -0.273071 0.419587 -1.04859 -1.21558 -0.599628 -0.656468 0.897123 -0.218172 -1.25322 -0.656999 0.338761 -0.113628 -0.723843 -0.218085 0.501477 0.277344 -0.200116 0.516731 -1.0921 -0.694868 -0.572615 0.00683192 -0.101134 -0.285384 -0.0356447 -0.454277 -0.421565 -0.682472 -0.991852 -0.973636 0.193445 1.11975 -0.638836 -0.190618 0.0218792 0.170118 0.537842 0.572859 -0.324827 0.489245 0.382723 0.225149 -0.397745 0.641779 0.7917 -0.22359 0.227468 -0.780829 0.731057 0.647988 1.65013 -0.111137 -0.781727 1.5106 -0.134127 -0.501592 0.910076 0.882321 -0.34511 0.0920862 -0.577945 0.975499 -0.793478 -0.0357624 -0.546385 -0.0945595 0.271862 1.76858 0.0651297 -0.265651 -1.15163 0.314306 -0.183115 -0.780146 0.309948 -0.749475 0.873891 -0.0945367 0.292306 -1.12994 0.781876 -0.363573 -0.915725 -0.335674 -0.819225 1.40133 -0.643887 -0.00951255 -0.182355 0.550384 -1.11821 0.155666 -0.600703 -0.406262 0.403517 0.348856 0.167365 -0.317942 -0.496478 -0.269392 0.519418 0.135219 0.263869 0.474264 -0.536658 0.117635 -0.201305 0.175617 -0.0651779 1.04326 -0.566646 -0.727481 0.0330132 0.372203 0.258679 0.458924 -0.198037 -0.112477 0.79551 0.679162 -0.913138 0.92231 0.0453487 -0.132233 -0.0301589 -0.813371 0.38771 -0.862221 0.773252 0.556062 -0.292962 0.449157 -0.32849 0.873014 0.456511 0.121707 0.865579 0.556588 -0.48464 -1.00272 0.256321 0.202309 0.196314 -0.950244 0.387767 0.101624 -1.23237 0.774035 1.32668 0.366732 0.201763 0.866291 1.28093 0.614262 -0.0975144 0.887747 -0.932712 -0.860773 -0.769051 0.607467 0.274914 0.740057 -0.983184 -0.43296 -0.511013 -0.147805 0.57996 0.3189 -1.43204 1.12159 -0.9357 0.600625 0.510903 -0.503588 0.883629 -0.0451117 -1.45809 1.18116 -1.74512 -0.744003 -0.251053 -0.639151 0.421443 -0.0925197 -0.143183 -0.0829018 -0.144051 0.31525 -0.138761 -0.388792 -0.843153 0.00424805 0.737177 -0.128877 -2.5413 -0.450423 -1.20294 0.113688 0.0362182 0.505829 0.929979 -0.304976 0.71414 0.121392 2.54432 0.261736 -0.0388762 -0.481784 -0.163312 -0.692896 0.462951 -0.709763 0.873834 -0.73426 -0.550851 -1.52048 0.512139 -1.53521 -1.21744 0.279903 2.00649 -0.424461 -1.10451 0.384415 0.62892 0.932341 -0.566369 -0.586232 0.0890154 -0.485906 0.0685249 0.741625 -1.11079 -0.709633 0.813608 0.235894 0.0789698 0.208215 0.217047 0.468992 0.121152 1.27976 -0.212714 -0.488772 0.29479 0.280548 1.5718 1.6011 -0.550627 0.0900975 0.555884 -0.592362 0.332227 -1.47872 1.66455 1.18619 0.171984 -0.862847 -0.43797 0.274474 -1.15301 0.218174 1.69612 -0.0325748 -0.880188 1.70604 -1.12308 0.55198 -1.40214 -0.769727 0.183715 1.18248 0.583301 1.06116 -0.601649 0.00405934 -1.70782 0.205356 -0.230075 -1.77213 -0.286248 0.145992 -1.48547 -0.546909 -0.340901 0.215551 -1.29811 -0.382434 -0.331682 -0.542086 0.269427 -0.562557 0.0637397 1.78335 -1.28742 -0.257403 -1.76905 -0.711319 0.299454 -1.31496 -0.631125 -0.620735 -0.0393066 1.99005 -1.40415 0.734198 -0.858462 -1.74001 -0.341384 0.0247855 -1.05261 0.887107 -1.67844 -0.381284 -1.10884 -0.135531 0.41403 0.469997 0.963649 0.392141 -0.0117738 -0.453577 -0.046034 0.709436 -0.189935 -1.66814 1.43346 -0.624117 0.391327 -0.0916499 1.02708 -0.398189 0.692624 -0.367435 0.105592 1.0926 -0.838642 1.38341 0.165558 0.116815 -0.237887 0.211704 0.628869 -0.728073 -0.196146 -0.415379 -0.193727 0.434952 0.131686 -0.13549 -0.100836 -0.126753 -0.317563 0.327319 -0.0699327 -0.118628 0.502813 -0.0839958 0.426467 -0.478012 -0.747305 0.0732164 -0.493771 0.0520571 0.138459 -0.437442 -0.388564 -0.631759 -0.246282 0.646178 0.454884 -0.469445 0.0864862 -1.21274 -1.68768 -1.09232 -0.514966 -0.00958552 0.956115 -0.657451 -1.02815 -0.874028 -0.0250671 0.0449029 0.447758 0.0961186 0.782064 0.42588 1.77484 -0.0113133 0.98519 -0.641402 -1.16579 0.243104 -0.341614 -0.227437 -0.351407 -0.228338 0.0140165 0.49574 -0.382225 0.0829429 -1.26325 0.204709 -0.561911 0.259168 -0.379167 -0.494372 -0.945541 1.14882 -0.755401 1.60311 0.250103 1.12888 0.293805 0.0803041 -0.00917223 -0.0183843 0.847801 -0.246914 0.754515 -0.791283 1.08786 -0.535362 -0.269871 -0.369708 0.213501 -0.536022 -0.493919 0.101659 -0.46984 -0.340177 -0.968107 -0.0483006 -0.339975 0.733647 0.245754 1.41649 -0.242093 -0.536467 -0.120262 0.137362 0.030734 -0.0314003 -0.373558 -0.141178 0.0723875 0.302235 0.255429 0.306893 0.311454 0.193759 -0.692271 -0.170209 0.0103664 0.179529 -0.488417 -0.466272 0.771245 -0.0196339 0.386183 0.0619883 0.401687 -0.966325 -0.549959 0.222575 0.326645 -0.167181 -0.768583 -0.63585 0.136969 -0.545239 0.366848 -0.277885 1.10867 -0.00151202 -0.163669 -0.253085 0.177088 -0.7268 0.660529 0.162654 0.652877 -0.15321 -0.186018 0.00254815 -1.50639 0.636112 0.871395 -0.506713 0.693601 0.415498 0.0576837 0.296156 0.687256 0.741101 0.503906 0.320028 -0.79803 -0.428573 -1.22237 0.850683 -0.260474 -0.923394 0.537252 0.0136659 0.0490575 -0.816961 0.542403 -1.10368 -0.411596 0.305687 0.0448836 -0.00267483 -0.818889 0.307404 0.770705 -0.0643697 -0.827017 -0.0884603 0.151592 0.489725 0.484267 -0.614336 0.198778 -0.12768 -0.446143 -0.851276 1.06513 0.0688944 1.19531 -0.794409 -0.855069 0.461279 -0.233569 -0.53034 0.326468 -0.0573007 -0.433191 0.56765 -0.365768 0.380421 0.0916371 -0.082731 0.229127 -0.186717 0.268305 0.29426 -0.340821 -0.425188 0.589782 0.56618 -0.306483 -0.431446 0.03442 0.114571 0.213127 0.624694 0.591142 -0.391166 0.398493 -0.928912 -0.393993 -0.97605 0.617452 0.640127 0.149096 0.0830328 0.207068 -0.43007 0.74233 -0.193165 0.609724 0.529476 -0.0383316 -0.738276 -0.331522 -0.024424 -0.368985 0.420444 0.675835 0.364524 0.346898 0.157088 -0.139589 0.102629 0.500744 0.334179 -0.0628062 0.21244 0.230618 0.671184 -0.651941 0.578929 -0.322719 -0.801128 0.248941 -0.0600417 -0.0301401 0.105693 0.310844 0.138526 0.779684 0.0427977 1.59362 0.591594 0.74274 -0.755952 0.0168757 -0.0497287 -0.741654 -0.720152 0.933467 0.411018 -0.956618 0.435442 0.476207 0.528524 1.3901 -1.33153 -0.205918 -2.01319 0.485762 -0.31723 0.289853 0.0574635 -0.764009 0.517475 0.213124 0.162702 -0.339139 -0.270878 -0.72876 0.0112451 -0.772976 -1.21142 -0.0739592 0.172185 -0.281475 -0.12832 0.917604 0.00312622 -1.37357 1.41725 -0.117082 -0.162545 1.17978 -0.291902 -1.42163 -0.57017 0.601462 1.04092 -1.01855 0.891288 0.820885 0.369789 -0.789637 0.48259 0.470534 -0.813281 0.802489 0.95842 -0.251644 0.198726 -0.946316 0.375788 0.612853 -0.934422 -1.26876 0.88955 -0.257428 -0.111063 -0.355632 -0.0112666 0.588234 0.280563 -0.303841 0.0733829 -0.124971 -0.0806999 -0.320506 0.547169 -0.391755 0.0632685 -0.297188 0.192436 0.282661 -0.166266 -0.528824 0.235661 0.450625 -0.676602 -0.228032 -0.665727 -0.188493 0.867062 0.124058 -0.515815 -1.73056 0.996743 -0.175775 0.161302 0.179628 -0.702886 1.44158 -0.0400485 1.10826 -0.0428202 -1.09123 -0.342632 -0.307869 -0.489842 1.00409 -1.12826 -1.08509 -0.00534192 0.860108 -0.427422 -0.376398 -0.66378 -0.349912 -0.742883 0.554811 1.03433 0.010563 1.64614 0.312354 1.68323 -0.522729 0.889615 -0.0565815 1.02732 -0.0507299 0.851536 -0.0389343 0.29134 -0.981987 -0.222279 -0.807262 0.656508 0.288968 0.206239 0.688039 -0.157619 -0.788325 -0.81779 -0.370904 0.592954 0.579668 0.918684 1.04794 -0.150806 -0.48348 0.182775 0.087426 -1.02061 0.058553 -0.0101802 1.12273 0.86738 -0.564727 -0.144134 0.0100632 0.184925 0.682254 -0.530804 -0.635844 0.00283588 0.335661 -0.398027 0.379555 1.79201 0.077637 1.12671 -0.107472 -0.4077 -0.479815 -0.215206 -0.0953222 -0.72525 0.118043 1.97208 -0.0718129 0.612194 -0.776206 -2.11257 -1.53882 0.160893 -0.308776 0.669293 -0.314232 -0.75709 -0.430524 0.851581 0.0482313 0.411466 0.496466 0.343833 0.921353 -0.590388 0.314513 -0.0395113 0.872685 0.110016 -1.66001 0.647477 -0.411758 0.350233 -1.04403 -1.65451 -0.730487 -0.640913 -0.384642 0.200612 0.517269 -0.372876 -0.298822 0.613635 -0.122681 0.647405 -0.699361 0.255309 0.437333 -0.485181 -0.670961 0.210291 0.102482 0.560663 0.92104 -0.231397 0.544314 0.0773365 0.449026 -0.726614 0.101108 0.348047 0.659841 0.560317 1.51209 -0.5321 -0.545288 0.546301 -0.571561 -0.870258 -0.191736 0.0451482 -0.17262 1.08466 0.372266 -0.532732 0.978742 0.465225 0.307095 -0.151509 0.0351485 1.00557 -0.811662 1.13999 0.251295 -1.35132 0.823285 0.285774 0.843209 0.635888 0.129211 -0.403447 1.3291 0.492657 2.31182 0.406314 -0.294052 0.221978 0.0292621 0.879535 0.077751 -1.25659 0.42631 -0.146085 -0.314618 -0.387858 -0.0183524 -0.602211 0.709586 0.609724 -0.721214 1.0111 -0.307703 -0.857807 0.270263 -0.335523 1.04947 0.218474 0.426422 0.459013 -0.468801 -1.12294 -0.180546 0.499377 1.21576 -0.167191 0.167959 -0.326664 0.472704 -1.01426 0.712295 -0.503293 0.460579 0.37583 -0.261711 -1.28746 -0.838022 -0.248457 0.475279 0.161677 0.318058 -1.25311 0.286315 -0.350564 1.26445 0.547484 -0.106666 0.00852569 -1.11463 0.622831 0.169637 -0.565628 0.924589 0.161137 -0.553993 0.747855 0.562405 0.949693 0.331951 -0.699203 1.28154 -0.448263 1.13367 -0.976201 0.104778 -0.252809 1.57089 -0.132867 -1.05981 -0.0238768 -0.0873212 0.380708 0.32885 -0.987087 -2.02299 -0.0195811 0.340713 -1.40333 -0.403181 0.751927 -0.57451 -0.874058 -0.0633229 -0.363022 0.428732 -1.50167 -0.654944 -0.503968 -1.06942 0.174637 -0.628202 0.174074 -0.182008 -0.426979 -0.706652 -0.393316 0.82748 0.590993 1.07533 0.130666 -1.05006 -0.804656 -1.02539 -0.19119 0.153883 0.375695 -0.345133 0.969138 -0.243135 -0.0150315 0.38957 0.317368 -1.1608 -1.47616 0.678331 0.332521 1.12545 0.277032 -0.0311017 -0.224926 0.417498 0.192099 -0.200687 -0.744418 -0.548224 -0.288632 -0.264541 -1.1014 0.950232 0.866516 0.620875 -0.189843 -0.609936 -0.535175 -0.210078 0.713921 1.20601 1.66046 0.390737 -0.481498 0.232287 0.856714 -0.00186012 0.196495 -1.84633 -0.529433 -1.31062 1.35632 1.23396 -0.176939 -0.436655 -0.177371 -0.680878 -0.780004 1.91609 -1.10181 -1.04827 -0.81495 1.10299 -1.08814 -0.694318 -0.68307 0.595635 -0.589656 -1.11505 -0.690185 -0.802966 1.05959 0.348524 1.74058 -0.0503066 -0.944542 -0.720665 -0.272841 -0.755198 -0.820385 -0.121235 -0.00024067 -0.819056 0.784638 0.282701 0.236441 0.416471 1.53242 1.13576 0.331985 -0.441662 -0.651999 -0.0323739 0.902266 -0.538104 0.469987 0.838633 -0.7565 -0.400328 0.0988324 -0.0820716 0.28251 0.630678 -0.0931306 -0.0725463 0.672229 0.63216 0.261504 0.103885 0.00581867 -0.483925 -0.975177 -1.30076 0.231211 -0.0913321 0.246866 -1.41079 -0.11652 -0.375186 0.0288912 -0.328195 -0.835008 -0.712962 0.911933 0.231416 0.409552 0.979741 -0.628024 0.535285 -0.479209 -0.370901 -0.63197 1.16931 -0.636899 -0.614192 -0.734806 0.366347 1.20538 0.789256 0.84103 -1.19439 -0.782604 0.169193 -0.184228 -0.504294 -1.04164 0.652095 0.108494 -0.669218 0.850222 0.768382 -0.0830849 -0.336587 1.09241 0.547411 0.728579 -0.807094 0.260767 -0.459064 0.659271 -0.156741 0.145485 -0.434111 -0.3854 1.10855 -0.172623 0.987737 0.081463 -0.534751 -0.273621 0.147836 0.224501 -0.102775 -0.238203 0.694559 -0.118174 0.599104 0.161848 -1.03543 -0.477514 -0.270031 0.259018 0.0117922 -0.265759 -0.567289 -0.405707 0.628645 -0.29648 0.206572 0.354453 0.335665 0.453659 -0.443893 0.0738231 0.3382 -0.675143 1.09295 -0.241234 -0.62092 -0.865847 -0.647427 -0.58077 0.402218 0.859762 -1.0823 -0.211709 0.0718026 0.970481 1.19473 -1.31287 0.0793744 -0.671474 0.439956 -0.360797 -0.300577 0.235898 -0.137363 0.5128 -0.805598 0.0364634 -0.472358 0.0491451 0.351275 -0.691704 -0.0218283 0.729464 0.783641 -1.11454 0.61902 1.45819 -0.0921947 2.28979 -0.425611 1.18741 -0.0971554 -0.680597 2.4173 -0.450158 0.143109 0.898608 1.07861 0.0439931 0.224773 -0.409219 1.03849 -0.210665 -1.13741 0.0110467 -0.825982 1.0329 -1.03747 -0.25261 0.758082 0.619591 1.87263 0.467372 -1.98007 -0.52353 -0.620188 -0.578212 -0.396038 0.835589 0.0545541 0.666673 -0.621881 -0.690177 0.457086 -0.0949521 -0.464447 -0.151693 0.0786451 0.224664 -0.644768 1.89838 -0.366572 -1.3916 -0.837212 0.140253 -0.796511 -1.0331 -0.123084 0.396846 -0.137201 -0.482165 -0.842016 0.803369 -1.14288 -0.681048 -1.15786 0.376422 -0.0138151 -0.071484 -0.572199 2.19582 0.988077 -1.38324 -0.760563 0.446068 -0.0261147 0.0321713 -0.634854 0.0503718 -1.85497 0.586047 -0.0895729 0.441147 -0.636734 0.1012 -0.37998 0.0951294 -1.57782 -0.50641 -0.266011 0.0223087 -0.201966 -0.392131 -0.70919 -0.925362 -0.436547 -0.522957 -0.0222374 2.65996 0.247818 0.391951 0.651348 0.432948 -0.431556 1.08924 -0.176324 0.524518 -1.18932 0.314657 -0.764098 -0.347918 -0.313852 -0.549786 0.862112 -0.342828 -0.341939 -0.745692 -0.156131 -0.917572 0.453645 -0.29703 0.0652003 0.817117 0.671687 -0.0401157 -0.376963 -0.749859 -0.0720117 0.00558433 0.294835 0.977125 0.4691 -0.328389 -0.249823 -0.321492 0.132111 0.580883 0.405112 -0.316661 -0.445926 0.360052 -0.124144 -0.304647 -0.988527 0.176091 -1.18212 0.623208 0.195811 0.515932 0.326929 0.976661 0.208518 0.7159 -0.984858 -0.500421 -0.815351 -0.471286 0.128333 -0.306413 -0.207787 -1.04758 -0.664133 0.456163 0.550501 1.46821 0.465478 -0.822487 -0.145993 -0.441349 -0.155573 0.196652 0.51896 -0.231321 0.784685 -0.697296 -0.627514 -0.227375 -0.325019 0.0382362 -0.739293 0.459443 0.455263 -0.690935 -0.146051 -0.499393 0.0999978 -0.0074047 -0.403368 -0.167928 -0.71297 0.804975 1.77978 0.539933 -0.576436 -0.573564 0.390465 0.690149 0.117789 1.06688 -0.213219 1.1118 0.687335 0.441437 -0.642563 0.0223555 0.126469 -0.899491 0.436294 -1.49085 -1.08812 0.88521 -0.284772 0.0410382 0.553441 -0.326164 -1.10617 0.359691 -2.37752 -1.14041 0.741975 -0.655533 -0.908191 1.09764 0.0599635 -0.716484 -0.612821 0.788052 -0.137617 -0.748168 -0.0782156 -0.420973 1.29204 -0.0967907 -0.179531 1.3486 0.900291 0.340241 -0.651094 0.352847 -0.175754 -1.126 -1.36051 -0.188195 0.13473 -0.83122 1.03291 0.42395 0.547229 0.6059 0.390924 -0.265191 0.472748 -0.492308 -0.0806294 0.859575 0.181612 0.415688 0.380057 0.105328 -0.846352 -0.0540631 1.28014 0.00058559 0.798041 -0.00574547 -0.612469 -0.593112 -0.465909 -0.221827 0.0566873 -0.0052644 1.46446 -0.657525 -0.857247 -0.691264 0.165563 -0.976067 0.0242546 -1.24382 -1.59537 0.627803 1.50682 -0.0321619 -1.7011 1.45232 0.734061 0.256309 0.701033 -0.611943 1.22986 1.08673 0.494911 -1.11535 -0.475129 0.814246 -0.221773 -0.11821 -0.118376 -0.14934 -0.268323 2.28405 -0.716226 -0.022961 0.143652 -1.351 0.416259 1.28312 -0.150585 1.10318 -0.215175 1.90468 -0.687176 0.490306 -0.122165 0.267829 -0.591872 -1.14458 -0.411828 0.150624 -0.326958 -1.21262 0.824977 1.2252 0.402225 0.267032 0.97539 -0.218706 0.067427 1.08856 -0.712005 0.26994 0.992038 -0.309571 0.629094 1.12769 -0.625137 -0.759233 0.615993 -1.16861 -0.433494 -0.816015 0.27449 -0.917754 0.202648 0.694865 0.575824 -0.534181 -0.416051 0.605652 1.42753 -0.341981 1.61458 0.431002 -0.936723 1.02442 -0.151816 -0.707666 0.0527548 0.771051 -0.556133 1.13376 1.14344 -1.61262 0.575581 -0.289259 1.33889 0.970311 0.308316 0.173844 0.101078 -0.618074 0.0735659 -0.124238 0.545587 -0.875684 -0.0836435 0.18135 -0.627006 -1.13844 -0.165093 0.230949 1.49736 -0.884335 -0.0999019 -0.0392773 0.211247 -1.48512 -0.17783 -0.797195 0.179337 -0.318844 0.153741 0.885014 0.685086 -0.435106 0.767838 -0.807483 0.736793 -0.480837 1.22817 0.333422 0.690766 -0.0119631 0.517143 0.593103 -0.657831 0.503311 1.92232 0.227211 0.0641435 1.57674 0.276013 -0.793834 -1.20447 -0.586021 0.994973 -0.201339 0.443394 -0.679929 -0.755804 -0.200232 -0.345013 0.906686 -0.178805 -0.852011 0.282712 0.635124 0.788796 0.193002 -0.368362 1.2216 -0.415129 -0.691568 0.429528 -0.132051 0.723426 -0.173862 1.24172 -0.28792 1.2066 -1.00569 -0.169679 0.813463 -0.255133 -1.14656 -0.898836 -0.74288 0.559205 -0.04042 0.436281 0.0673311 -0.235767 0.00640463 -0.617861 0.203016 1.29204 0.686877 0.697524 -0.385376 -0.414765 0.570497 0.0621578 -1.87376 0.742906 1.30194 0.660653 0.878343 1.47978 -0.162856 -0.0150258 -0.187355 0.258789 -0.0774185 -0.465197 0.948873 0.907339 -1.46311 0.231253 -0.0629368 0.110842 -1.29911 0.751542 -0.114453 1.59223 -0.750289 -0.196993 0.623131 -0.763022 0.909011 0.966415 -0.749949 -0.535399 0.423721 0.243432 -0.455672 0.19558 1.14955 0.475942 -1.22131 -1.11538 0.574034 1.05105 1.24388 -0.393744 -0.64163 1.15479 0.387391 -0.469597 0.00731474 -0.755476 -0.0124298 1.28927 -1.24406 -0.733984 -1.68656 1.19821 -0.737204 0.311833 -0.726413 -1.55638 0.964178 -0.148983 1.01152 -0.41018 0.132019 0.666689 0.685828 -0.222268 0.944819 -0.702024 0.490545 -0.928691 0.220382 -0.374841 0.55047 -0.146575 0.329066 -0.886103 -0.351937 0.387309 0.151106 0.455809 -0.244362 -0.573193 0.157779 -0.335138 0.759132 -0.281393 0.216234 -0.2021 -0.489816 -0.372945 -1.08151 0.450028 1.07709 -0.101749 -0.012575 -0.0216404 -0.686391 0.919493 0.0570274 -0.66383 0.646735 1.60789 0.546079 -0.328403 0.613492 0.136018 0.80246 0.0707717 -0.726225 0.104217 -0.919689 0.162944 0.857129 -0.402702 1.01459 0.165467 0.278733 -0.531723 -0.0121454 0.49484 0.060765 0.483046 -0.131295 -0.428028 0.553635 0.290302 -0.257399 -0.157593 -0.851819 -0.133516 0.414565 0.353975 -0.811113 0.313586 0.787281 -0.151227 0.117515 -0.137084 -0.133287 -0.158116 -0.111777 -0.145316 0.136751 -0.236646 0.253565 0.184138 0.181917 -0.167919 0.156601 0.13213 -0.131892 0.175132 -0.170492 -0.147318 0.262843 -0.305026 -0.246111 0.146756 0.156647 0.154857 -0.125598 -0.174021 0.182131 0.195107 0.131308 0.212155 -0.191464 0.144594 0.128815 0.173654 0.116437 -0.136141 0.151716 -0.288616 0.18721 -0.18754 0.221248 -0.189283 0.189376 0.267002 0.22824 0.162967 -0.153147 0.18622 -0.142394 -0.211319 -0.181921 -0.173132 -0.170729 0.152406 0.14619 0.161685 0.143812 -0.13681 -0.150638 -0.169395 0.205264 0.242701 0.154894 0.123909 -0.157059 0.161356 -0.252312 -0.161069 0.194222 0.156799 0.168079 -0.146389 0.145376 -0.133767 -0.157175 0.113609 0.152873 0.133537 -0.136633 -0.180569 -0.208962</Parameters>
+        </MultilayerPerceptron>
+        <UnscalingLayer>
+            <UnscalingNeuronsNumber>1</UnscalingNeuronsNumber>
+            <Statistics Index="1">
+                <Minimum>4.15</Minimum>
+                <Maximum>7.56</Maximum>
+                <Mean>6.05269</Mean>
+                <StandardDeviation>0.637258</StandardDeviation>
+            </Statistics>
+            <UnscalingMethod>MinimumMaximum</UnscalingMethod>
+        </UnscalingLayer>
+        <BoundingLayer>
+            <BoundingNeuronsNumber>1</BoundingNeuronsNumber>
+            <Item Index="1">
+                <LowerBound>4.15</LowerBound>
+                <UpperBound>7.56</UpperBound>
+            </Item>
+            <UseBoundingLayer>0</UseBoundingLayer>
+        </BoundingLayer>
+        <Outputs>
+            <OutputsNumber>1</OutputsNumber>
+            <Item Index="1">
+                <Name>D-29-31</Name>
+                <Units></Units>
+                <Description></Description>
+            </Item>
+        </Outputs>
+    </NeuralNetwork>
+    <PerformanceFunctional>
+        <Objective Type="ROOT_MEAN_SQUARED_ERROR"/>
+        <Regularization Type="NEURAL_PARAMETERS_NORM">
+            <NeuralParametersNormWeight>0.001</NeuralParametersNormWeight>
+        </Regularization>
+    </PerformanceFunctional>
+    <TrainingStrategy>
+        <Main Type="QUASI_NEWTON_METHOD">
+            <InverseHessianApproximationMethod>BFGS</InverseHessianApproximationMethod>
+            <TrainingRateAlgorithm>
+                <TrainingRateMethod>BrentMethod</TrainingRateMethod>
+                <TrainingRateTolerance>0.01</TrainingRateTolerance>
+            </TrainingRateAlgorithm>
+            <ReturnMinimumSelectionErrorNN>0</ReturnMinimumSelectionErrorNN>
+            <MinimumParametersIncrementNorm>0.001</MinimumParametersIncrementNorm>
+            <MinimumPerformanceIncrease>1e-012</MinimumPerformanceIncrease>
+            <PerformanceGoal>1e-012</PerformanceGoal>
+            <GradientNormGoal>0.001</GradientNormGoal>
+            <MaximumSelectionLossDecreases>500</MaximumSelectionLossDecreases>
+            <MaximumIterationsNumber>10000</MaximumIterationsNumber>
+            <MaximumTime>36000</MaximumTime>
+            <ReserveParametersNormHistory>0</ReserveParametersNormHistory>
+            <ReservePerformanceHistory>1</ReservePerformanceHistory>
+            <ReserveSelectionLossHistory>1</ReserveSelectionLossHistory>
+            <ReserveGradientNormHistory>0</ReserveGradientNormHistory>
+        </Main>
+    </TrainingStrategy>
+    <ModelSelection>
+        <InputsSelection Type="GROWING_INPUTS">
+            <TrialsNumber>3</TrialsNumber>
+            <Tolerance>0.01</Tolerance>
+            <SelectionLossGoal>0</SelectionLossGoal>
+            <MaximumSelectionFailures>6</MaximumSelectionFailures>
+            <MaximumInputsNumber>32</MaximumInputsNumber>
+            <MinimumCorrelation>0</MinimumCorrelation>
+            <MaximumCorrelation>1</MaximumCorrelation>
+            <MaximumIterationsNumber>100</MaximumIterationsNumber>
+            <MaximumTime>3600</MaximumTime>
+            <ReservePerformanceHistory>1</ReservePerformanceHistory>
+            <ReserveSelectionLossHistory>1</ReserveSelectionLossHistory>
+        </InputsSelection>
+        <OrderSelection Type="INCREMENTAL_ORDER">
+            <MinimumOrder>1</MinimumOrder>
+            <MaximumOrder>10</MaximumOrder>
+            <Step>1</Step>
+            <TrialsNumber>3</TrialsNumber>
+            <Tolerance>0.01</Tolerance>
+            <SelectionLossGoal>0</SelectionLossGoal>
+            <MaximumSelectionFailures>5</MaximumSelectionFailures>
+            <MaximumTime>3600</MaximumTime>
+            <ReservePerformanceHistory>1</ReservePerformanceHistory>
+            <ReserveSelectionLossHistory>1</ReserveSelectionLossHistory>
+        </OrderSelection>
+        <ThresholdSelection Type="YOUDEN_INDEX">
+            <MinimumThreshold>0</MinimumThreshold>
+            <MaximumThreshold>1</MaximumThreshold>
+            <Step>0.01</Step>
+            <ReserveFunctionData>1</ReserveFunctionData>
+        </ThresholdSelection>
+    </ModelSelection>
+</NeuralDesignerProject>
