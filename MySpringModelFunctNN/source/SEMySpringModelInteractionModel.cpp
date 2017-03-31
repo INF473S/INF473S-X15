@@ -58,7 +58,13 @@ void SEMySpringModelInteractionModel::eraseImplementation() {
 
 void SEMySpringModelInteractionModel::initializeInteractions() {
 
+#ifdef SB_ELEMENT_VERSION
+	// 0.5.0
 	particleIndex = (*particleSystem)->getStructuralParticleIndex();
+#else
+	particleIndex = (*particleSystem)->getStructuralParticleIndexer();
+#endif
+
 	unsigned int nParticles = particleIndex->size();
 
 	//initialize vectors
@@ -146,7 +152,13 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 
 void SEMySpringModelInteractionModel::updateInteractions() {
 
+#ifdef SB_ELEMENT_VERSION
+	// 0.5.0
 	particleIndex = (*particleSystem)->getStructuralParticleIndex();
+#else
+	particleIndex = (*particleSystem)->getStructuralParticleIndexer();
+#endif
+
 	unsigned int nParticles = particleIndex->size();
 
 	//initialize energy and forces

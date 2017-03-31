@@ -55,7 +55,13 @@ void SEMySpringModelInteractionModel::eraseImplementation() {
 
 void SEMySpringModelInteractionModel::initializeInteractions() {
 
+#ifdef SB_ELEMENT_VERSION
+	// 0.5.0
 	particleIndex = (*particleSystem)->getStructuralParticleIndex();
+#else
+	particleIndex = (*particleSystem)->getStructuralParticleIndexer();
+#endif
+
 	unsigned int nParticles = particleIndex->size();
 
 	//initialize vectors
@@ -128,7 +134,7 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 
 					SBQuantity::length distance = SBQuantity::angstrom(image.pixelColor(QPoint(i, j)).red() + 0.1*image.pixelColor(QPoint(i, j)).green() + 0.01*image.pixelColor(QPoint(i, j)).blue());
 
-					//distance *= 1.0 + 1.9*(r.randDouble1() - 0.5); // add randomness to test robustness
+					distance *= 1.0 + 1.9*(r.randDouble1() - 0.5); // add randomness to test robustness
 
 					springAtomIVector->push_back(carbi);
 					springAtomJVector->push_back(carbj);
@@ -184,7 +190,13 @@ void SEMySpringModelInteractionModel::initializeInteractions() {
 
 void SEMySpringModelInteractionModel::updateInteractions() {
 
+#ifdef SB_ELEMENT_VERSION
+	// 0.5.0
 	particleIndex = (*particleSystem)->getStructuralParticleIndex();
+#else
+	particleIndex = (*particleSystem)->getStructuralParticleIndexer();
+#endif
+
 	unsigned int nParticles = particleIndex->size();
 
 	//initialize energy and forces
